@@ -25,9 +25,15 @@ Per le verifiche, esegui `./.venv/Scripts/python.exe -m pytest -q` e
 `node scripts/smoke.mjs` (richiede Edge). Per i prerequisiti nativi consulta
 la [guida Tauri](https://v2.tauri.app/start/prerequisites/).
 
+## Catalogo
+
+Apri Biblioteca e indica il percorso assoluto di una cartella su questo PC.
+La lettura è statica: script, celle e modelli non vengono eseguiti. Prove e limiti
+sono nel registro milestone.
+
 Stato corrente e aggiornamenti separati dagli originali:
 
 - [Verifica M0](docs/operativi/verifica-M0.md)
 - [Registro decisioni](docs/operativi/08-decisioni-validazione.md)
-- [Milestone e task M1](docs/operativi/06-milestone.md)
+- [Milestone](docs/operativi/06-milestone.md)
 - [Manifest e verifica integrità](docs/operativi/verifica-pacchetto.json)

@@ -72,7 +72,8 @@ def restore_profile(profile: Path, payload: bytes):
                 if len(names) != len(set(names)) or len(names) > 10000 or sum(e.file_size for e in entries) > MAX_ARCHIVE_BYTES:
                     raise ValueError("Archivio duplicato o troppo grande.")
                 manifest = json.loads(archive.read("manifest.json"))
-                if (manifest["format"], manifest["version"], manifest["schema_version"]) != ("deepstudy-backup", 1, SCHEMA_VERSION):
+                backup_schema = manifest.get("schema_version")
+                if manifest.get("format") != "deepstudy-backup" or manifest.get("version") != 1 or not isinstance(backup_schema, int) or not 1 <= backup_schema <= SCHEMA_VERSION:
                     raise ValueError("Formato o versione backup non supportata.")
                 expected = manifest["files"]
                 if set(names) != set(expected) | {"manifest.json"} or "deepstudy.db" not in expected:
@@ -94,6 +95,13 @@ def restore_profile(profile: Path, payload: bytes):
             candidate = staging / "deepstudy.db"
             expected_db = staging / "expected.db"
             migrate(expected_db)
+            with connect(candidate) as db:
+                db.execute("PRAGMA trusted_schema=OFF")
+                if db.execute("PRAGMA user_version").fetchone()[0] != backup_schema:
+                    raise ValueError("Schema backup non riconosciuto.")
+                if db.execute("PRAGMA integrity_check").fetchone()[0] != "ok" or db.execute("PRAGMA foreign_key_check").fetchall():
+                    raise ValueError("Database backup danneggiato.")
+            migrate(candidate)
             with connect(candidate) as db, connect(expected_db) as reference:
                 db.execute("PRAGMA trusted_schema=OFF")
                 if db.execute("PRAGMA user_version").fetchone()[0] != SCHEMA_VERSION or schema_signature(db) != schema_signature(reference):

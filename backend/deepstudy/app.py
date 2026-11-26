@@ -6,20 +6,23 @@ import secrets
 import threading
 import uuid
 
-from fastapi import FastAPI, Request
+from fastapi import FastAPI, Query, Request
 from fastapi.exceptions import RequestValidationError
 from fastapi.responses import JSONResponse, Response
 from fastapi.staticfiles import StaticFiles
 
 from .backup import MAX_ARCHIVE_BYTES, export_profile, restore_profile, is_empty_profile
+from .catalog import ALLOWLIST, CatalogError, create_import, engine_name, get_chunks, get_job, list_materials, recover_interrupted_jobs, request_interrupt, resume_job
 from .database import SCHEMA_VERSION, migrate, read_settings, save_settings
-from .models import Settings
+from .models import ImportRequest, Settings
 
 
 def create_app(profile: Path, origin: str, bootstrap_token: str, static_dir: Path | None = None):
     profile.mkdir(parents=True, exist_ok=True)
     db = profile / "deepstudy.db"
+    repo_root = Path(__file__).resolve().parents[2]
     migrate(db)
+    recover_interrupted_jobs(db)
     lock = threading.RLock()
     session = secrets.token_urlsafe(32)
     bootstrap_available = True
@@ -61,7 +64,7 @@ def create_app(profile: Path, origin: str, bootstrap_token: str, static_dir: Pat
 
     @app.exception_handler(RequestValidationError)
     async def validation_error(request, _exc):
-        return error(422, "invalid_input", "Valori non validi. Controlla nome, tema e fuso orario.", request.state.request_id)
+        return error(422, "invalid_input", "Valori non validi. Controlla i campi inseriti.", request.state.request_id)
 
     @app.post("/api/session")
     def authenticate(request: Request):
@@ -79,8 +82,9 @@ def create_app(profile: Path, origin: str, bootstrap_token: str, static_dir: Pat
     @app.get("/api/status")
     def status():
         with lock:
-            return {"milestone": "M1", "schema_version": SCHEMA_VERSION, "mode": "local", "ai_enabled": False,
-                    "sync_enabled": False, "profile": profile.name, "can_restore": is_empty_profile(profile)}
+            return {"milestone": "M2", "schema_version": SCHEMA_VERSION, "mode": "local", "ai_enabled": False,
+                    "sync_enabled": False, "profile": profile.name, "can_restore": is_empty_profile(profile),
+                    "import_formats": sorted(ALLOWLIST), "ocr_engine": engine_name()}
 
     @app.get("/api/settings")
     def settings():
@@ -94,6 +98,48 @@ def create_app(profile: Path, origin: str, bootstrap_token: str, static_dir: Pat
                 return save_settings(db, value.model_dump(exclude={"revision"}), value.revision)
             except ValueError as exc:
                 return error(409, "revision_conflict", str(exc), request.state.request_id)
+
+    def catalog_error(exc: CatalogError, request: Request):
+        return error(exc.status, exc.code, str(exc), request.state.request_id)
+
+    @app.post("/api/imports")
+    def start_import(body: ImportRequest, request: Request):
+        try:
+            return create_import(profile, repo_root, body.locator, body.idempotency_key)
+        except CatalogError as exc:
+            return catalog_error(exc, request)
+
+    @app.get("/api/jobs/{job_id}")
+    def job(job_id: str, request: Request):
+        try:
+            return get_job(db, job_id)
+        except CatalogError as exc:
+            return catalog_error(exc, request)
+
+    @app.post("/api/jobs/{job_id}/interrupt")
+    def interrupt(job_id: str, request: Request):
+        try:
+            return request_interrupt(db, job_id)
+        except CatalogError as exc:
+            return catalog_error(exc, request)
+
+    @app.post("/api/jobs/{job_id}/resume")
+    def resume(job_id: str, request: Request):
+        try:
+            return resume_job(profile, job_id)
+        except CatalogError as exc:
+            return catalog_error(exc, request)
+
+    @app.get("/api/materials")
+    def materials(kind: str | None = None, state: str | None = None, limit: int = Query(default=50, ge=1, le=200), offset: int = Query(default=0, ge=0)):
+        return list_materials(db, kind=kind, state=state, limit=limit, offset=offset)
+
+    @app.get("/api/materials/{material_id}/versions/{version_id}/chunks")
+    def chunks(material_id: str, version_id: str, request: Request):
+        try:
+            return get_chunks(db, material_id, version_id)
+        except CatalogError as exc:
+            return catalog_error(exc, request)
 
     @app.post("/api/exports")
     def export(request: Request):

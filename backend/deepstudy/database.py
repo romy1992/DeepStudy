@@ -5,10 +5,10 @@ import sqlite3
 from pathlib import Path
 from datetime import datetime, timezone
 
-SCHEMA_VERSION = 2
+SCHEMA_VERSION = 3
 DEFAULT_SETTINGS = {"display_name": "", "theme": "system", "timezone": "Europe/Rome", "ai_mode": "off"}
 
-# M1 owns persistence contracts; catalog, study and AI operations arrive later.
+# M1 owns the foundation tables. M2 adds import jobs without rewriting those contracts.
 MIGRATIONS = {
     1: [
         "CREATE TABLE settings (id INTEGER PRIMARY KEY CHECK(id=1), value TEXT NOT NULL CHECK(json_valid(value)))",
@@ -31,6 +31,44 @@ MIGRATIONS = {
     ] + [f"CREATE TRIGGER {table}_no_{op.lower()} BEFORE {op} ON {table} BEGIN SELECT RAISE(ABORT,'immutable record'); END"
          for table in ("material_versions", "question_versions", "attempts", "note_versions") for op in ("UPDATE", "DELETE")],
     2: ["ALTER TABLE settings ADD COLUMN revision INTEGER NOT NULL DEFAULT 0"],
+    3: [
+        """CREATE TABLE import_jobs (
+            id TEXT PRIMARY KEY,
+            source_id TEXT NOT NULL REFERENCES sources(id),
+            idempotency_key TEXT NOT NULL,
+            phase TEXT NOT NULL,
+            state TEXT NOT NULL CHECK(state IN ('running','interrupted','completed','failed')),
+            progress_done INTEGER NOT NULL DEFAULT 0 CHECK(progress_done >= 0),
+            progress_total INTEGER NOT NULL DEFAULT 0 CHECK(progress_total >= 0),
+            interrupt_requested INTEGER NOT NULL DEFAULT 0 CHECK(interrupt_requested IN (0,1)),
+            error_code TEXT,
+            error_message TEXT,
+            report TEXT,
+            snapshot TEXT,
+            created_at TEXT NOT NULL,
+            updated_at TEXT NOT NULL,
+            UNIQUE(source_id, idempotency_key)
+        )""",
+        """CREATE TABLE import_job_items (
+            id TEXT PRIMARY KEY,
+            job_id TEXT NOT NULL REFERENCES import_jobs(id),
+            relative_path TEXT NOT NULL,
+            state TEXT NOT NULL CHECK(state IN ('pending','done','error','excluded')),
+            sha256 TEXT CHECK(sha256 IS NULL OR length(sha256)=64),
+            material_id TEXT REFERENCES materials(id),
+            version_id TEXT REFERENCES material_versions(id),
+            error_code TEXT,
+            error_message TEXT,
+            byte_length INTEGER,
+            outcome TEXT,
+            retryable INTEGER NOT NULL DEFAULT 0 CHECK(retryable IN (0,1)),
+            detail TEXT,
+            UNIQUE(job_id, relative_path)
+        )""",
+        "CREATE UNIQUE INDEX materials_source_locator ON materials(source_id, locator)",
+        "CREATE INDEX material_versions_sha ON material_versions(sha256)",
+        "CREATE INDEX import_items_job_state ON import_job_items(job_id, state)",
+    ],
 }
 
 

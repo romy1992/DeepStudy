@@ -39,3 +39,4 @@ Nessuna spesa o invio di materiali a provider AI è autorizzato da questo regist
 - 2026-11-26: validazione esplicita: «si 1,2,3 e 4 autorizzo m1 e m0 rinviando». Autorizzata M1; M0 resta parziale con deroga al gate. Confermate scadenze L01–L04; nessuna approvazione estesa alle proposte escluse.
 
 - 2026-11-26: completata M1 su Windows 11 x64. Sessione locale temporanea con cookie HttpOnly e token monouso, profili Windows separati dagli originali e ripristino su profilo vuoto con limite ZIP di 64 MiB. Esiti in 06-milestone.md. M0 resta parziale.
+- 2026-11-26: avviata M2 sul catalogo locale. Schema SQLite 3, con ripristino dei backup M1 di schema 2. Importazione read-only verificata su fixture Linux; OCR non eseguito perché il motore è assente; corpus studyIA e Drive non importati. Originali v0.1 non modificati. L01–L04 restano aperte. Esiti in 06-milestone.md.

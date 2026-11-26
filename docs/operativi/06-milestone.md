@@ -1,4 +1,4 @@
-# Stato milestone e piano M1
+# Stato milestone
 
 26 novembre 2026. Piano operativo approvato: Q1–Q4 validate dall’utente.
 
@@ -6,7 +6,7 @@
 |---|---|---|
 | M0 | Nessuna | Parziale; rinvio L01–L04 autorizzato, deroga gate M1 |
 | M1 | M0 | Completata e verificata su Windows 11 x64 |
-| M2 | M1 | Non avviata |
+| M2 | M1 | Verificata su fixture il 26 novembre 2026, con limiti aperti |
 | M3 | M2 | Non avviata |
 | M4 | M3 | Non avviata |
 | M5 | M2, M3 | Non avviata |
@@ -51,3 +51,26 @@ di test Starlette/httpx, con esito positivo di tutta la suite.
 I controlli documentali effettuati sono nel manifest e nella verifica M0.
 M1 si considera completata solo con accettazione comportamentale, non con la sola build.
 Il packaging distributivo finale resta M9; l'avvio verificato sul target è già M1.
+
+## Task M2
+
+Schema SQLite portato alla versione 3 con le tabelle dei job. Le tabelle M1 restano immutabili dove già lo erano. Un backup M1 di schema 2 si ripristina e viene migrato a 3. L01–L04 restano aperte: i materiali importati non sono una revisione didattica e nessuna certificazione è stata scelta.
+
+| ID | Dipende da | Risultato | Prova di accettazione | Stato |
+|---|---|---|---|---|
+| M2.1 | M1 | Importazione read-only di Python e notebook da una cartella autorizzata, con hash, versioni, job e rapporto | Reimport invariato senza nuova versione; contenuto modificato con nuova versione; notebook non valido e file illeggibile con errore visibile; due file identici in percorsi diversi; hash degli originali invariati | Verificato su fixture |
+| M2.2 | M2.1 | Parser statici per testo, CSV/TSV e PDF testuale; esclusione di cache, log, pickle e collegamenti | Celle notebook lette senza output eseguiti; script Python non eseguito; PDF di prova con locator di pagina; pickle e symlink esclusi | Verificato, con i limiti sotto |
+| M2.3 | M2.1 | Fase OCR senza promozione a testo revisionato | Immagine PNG con motore assente: errore visibile, nessuna versione e nessun testo inventato | Parziale |
+| M2.4 | M2.1 | Deduplica per hash e job riprendibile | Stesso hash su percorsi distinti; interruzione dopo il primo file e ripresa; processo interrotto e recupero al riavvio del servizio, senza versioni duplicate | Verificato su fixture |
+
+## Verifica M2 — 26 novembre 2026
+
+Ambiente di questa sessione: Linux, Python 3.12.3, Chrome headless. Non è una nuova verifica sul desktop Windows 11 x64 di M1. Il corpus studyIA e i libri Drive non erano montati né autorizzati: le prove usano fixture locali. I 18 file v0.1 non sono stati modificati.
+
+`python -m pytest -q`: 11 test superati, fra cui gli 8 di M1. Resta l'avviso di deprecazione Starlette/httpx già registrato in M1; l'esito della suite è positivo.
+
+Coperti da test: reimport senza duplicare le versioni; modifica che crea una seconda versione e conserva la prima; notebook non valido e file illeggibile con errore; due Python identici in percorsi diversi; hash degli originali invariati prima e dopo; script e celle non eseguiti; output di cella non copiato; interruzione, ripresa e recupero dopo crash del worker; rifiuto della cartella che contiene profilo o documentazione originale; ripristino di un backup schema 2 sullo schema 3.
+
+Chrome headless, stessa macchina del servizio, viewport 1280×800 e 375×780: apertura della Biblioteca, lettura di una cartella di prova, errore visibile sul notebook non valido, duplicato segnalato, dicitura «Originali invariati: sì», reimport con zero versioni nuove, salvataggio delle impostazioni e ritorno alla panoramica. Non rieseguito in Edge né nella finestra Tauri.
+
+Limiti aperti: file oltre 32 MiB e cartelle oltre 20.000 file sono rifiutati; l'interruzione è osservata tra un file e l'altro; solo UTF-8; il PDF legge le stringhe testuali, non il layout né le formule; senza `tesseract` le immagini restano in errore `ocr_unavailable` e non diventano testo. Una versione già registrata per lo stesso hash non viene riestratta. L01 resta il vincolo prima dell'uso didattico. L03 resta il vincolo prima dell'accettazione M6.

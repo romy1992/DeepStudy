@@ -10,7 +10,7 @@ from fastapi.testclient import TestClient
 
 from deepstudy.app import create_app
 from deepstudy.backup import export_profile, restore_profile, digest
-from deepstudy.database import connect, migrate, read_settings, save_settings, MIGRATIONS, DEFAULT_SETTINGS
+from deepstudy.database import SCHEMA_VERSION, connect, migrate, read_settings, save_settings, MIGRATIONS, DEFAULT_SETTINGS
 
 ORIGIN = 'http://127.0.0.1:43123'
 TOKEN = 'test-only-bootstrap-never-a-production-secret'
@@ -80,11 +80,11 @@ def test_migrations_keep_data_backup_and_rollback(tmp_path, monkeypatch):
     with connect(backup) as db:
         assert db.execute('PRAGMA user_version').fetchone()[0] == 1
         assert 'Before' in db.execute('SELECT value FROM settings').fetchone()[0]
-    monkeypatch.setitem(MIGRATIONS, 3, ['ALTER TABLE settings ADD COLUMN temporary TEXT', 'INVALID SQL'])
+    monkeypatch.setitem(MIGRATIONS, SCHEMA_VERSION + 1, ['ALTER TABLE settings ADD COLUMN temporary TEXT', 'INVALID SQL'])
     with pytest.raises(sqlite3.Error):
-        migrate(path, target=3)
+        migrate(path, target=SCHEMA_VERSION + 1)
     with connect(path) as db:
-        assert db.execute('PRAGMA user_version').fetchone()[0] == 2
+        assert db.execute('PRAGMA user_version').fetchone()[0] == SCHEMA_VERSION
         assert 'temporary' not in [row[1] for row in db.execute('PRAGMA table_info(settings)')]
     assert read_settings(path)['display_name'] == 'Before'
     # Recovery of the pre-migration snapshot into a clean location, followed by upgrade.
