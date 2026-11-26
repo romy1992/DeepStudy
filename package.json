@@ -1,0 +1,25 @@
+{
+  "name": "deepstudy",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "tsc -p frontend && vite build --config frontend/vite.config.ts",
+    "desktop:build": "npm run build && cargo build --manifest-path src-tauri/Cargo.toml --locked",
+    "start": "powershell -NoProfile -File scripts/start.ps1",
+    "desktop": "powershell -NoProfile -File scripts/start.ps1 -Desktop"
+  },
+  "dependencies": {
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.65.1",
+    "@types/node": "26.6.11",
+    "@types/react": "19.3.3",
+    "@types/react-dom": "19.3.0",
+    "@vitejs/plugin-react": "6.3.0",
+    "typescript": "7.0.2",
+    "vite": "8.4.0"
+  },
+  "type": "module"
+}

@@ -1,0 +1,577 @@
+## Cheatsheet_6-1
+LIFECYCLE OF A
+
+DATA SCIENCE PROJECT
+
+Identify The Problem
+
+Ever heard the phrase “Here's some data, can you find some insights?” Right? Too
+often stakeholders approach Data Scientists with vague or even undefined goals.
+Understanding the end goal is very important and sets up the rest of the project
+for success. This phase takes up about 10% of the time in the project’ lifecycle.
+
+Prepare the Data
+
+By far, everybody's least favourite stage, but perhaps the most important one.
+Data can come from many sources, be in the wrong format, have anomalies and
+a myriad of other problems. A single mistake in this stage can render the rest of
+the analysis useless. That's why typically, up to 70% of the time is spent here.
+
+Analyse the Data
+
+Creating models, performing data mining, running text analytics, setting up
+simulations — the list goes on! This is the most fun and exciting part and if the
+previous stages have been done correctly, analyzing the data and deriving
+insights will feel like a breeze. Time consumption: 10%
+
+Visualize Insights
+
+Visualizing comes hand-in-hand with analyzing. This is a very powerful technique
+as seeing the data in various forms and shapes can help uncover insights that are
+otherwise not evident. Also some projects such as BI dashboards don’t require
+much analysis but rely heavily on visualization instead. Time consumption: 10%
+
+Present Findings
+
+We've reached 100% the project is over! Actually, not yet. Presenting findings is
+a whole separate “Bonus” stage. You need to not only convey the insights in your
+audience's language but also get buy-in from them to take action based on
+those insights. This is an art in its own right. Time consumption: extra 80%
+
+Join The SuperDataScience Facebook Group And Improve Your Career
+
+© SuperDataScience. All Rights Reserved
+
+
+## Cheatsheet_3-2
+SOM
+
+Self Organizing Maps
+
+O Negative Class
+oO Positive Class
+
+8
+
+6
+
+a
+
+2
+
+oF I i
+o 2 4 6 8 10
+
+10
+09
+os
+07
+os
+
+—os
+
+Autoencoders
+
+SUPER
+DATASCIENCE
+
+~ ~e
+
+ENCODE
+
+Boltzman Machines
+
+RBM
+
+Restricted Boltzman Machines
+
+0
+
+DECODE
+
+For more information visit: superdatascience.com
+
+
+
+## Cheatsheet_1-1
+THE DOMINANT
+
+MACHINE LEARNING BRANCHES
+
+BRANCH #2
+
+oy
+
+Regression
+
+Regression models (both linear and non-linear) are used for predicting a real
+value, like salary for example. If your independent variable is time, then you are
+forecasting future values, otherwise — your model is predicting present but
+unknown values. Regression technique vary from MLR to SVR and Boosted Trees.
+
+Classification
+
+Unlike regression where you predict a continuous number, you use classification to
+predict a category. There is a wide variety of classification applications from
+medicine to marketing. Classification models include linear models like Logistic
+Regression, SVM, and nonlinear ones like K-NN, Kernel SVM and Random Forests.
+
+Clustering
+
+Clustering is similar to classification, but the basis is different — in Clustering you
+don’t know what you are looking for. When you use clustering algorithms on
+your dataset, unexpected things can suddenly pop up — like structures, clusters
+and groupings you would have never thought of otherwise.
+
+Reinforcement Learning
+
+Reinforcement learning algorithms include techniques like Thompson Sampling,
+Upper Confidence Bound and Q-Learning. These are used a lot when training
+machines to perform tasks such as walking. Desired outcomes provide the Al with
+reward, undesired — with punishment. Machines learn through trial and error.
+
+Natural Language Processing
+
+Teaching machines to understand what is said in spoken and written word is the
+focus of Natural Language Processing. Whenever you dictate something into
+your iPhone / Android device and it’s converted to text — that’s an NLP algorithm
+in action. Methods include decision trees, Markov processes, and more.
+
+>> Click Here To Join The SuperDataScience Community <<
+
+© SuperDataScience. All Rights Reserved
+
+
+## Cheatsheet_8-1
+7
+
+0.
+
+se
+1
+
+Mi
+
+THE TOP FIVE
+
+STATISTICS TOOLS
+
+Normal Distribution
+
+There are lots of distributions out there in the world. While countless time can be
+spent learning all of them, | feel the two most vital things to know are: 1. always
+remember that distributions are associated with data (not charts) and 2. know your
+Normal Distribution like the back of your hand and stats will be your friend.
+
+Central Limit Theorem
+
+Often called the most important theorem of mathematics, the CLT establishes a
+fundamental principle in statistics: a sampling distribution is always normal
+regardless of the distribution in the underlying population. This fact alone has
+allowed hundreds of thousands of scientific breakthroughs to happen.
+
+Hypothesis Testing / Statistical Significance
+
+Hypothesis testing along with Statistical Significance are the underlying
+principles propelling the majority of modern day research. But they aren't just
+important for research — both of these concepts have to be used in business
+analytics if we want to make business decisions based on valid insights.
+
+Confidence Intervals
+
+Another very important statistical method — estimating probable ranges for
+population parameters based on what we can observe from samples. This approach
+is also widely used in research and business alike. Seasoned executives expect to
+see important insights accompanied by confidence intervals.
+
+Law Of Large Numbers
+
+My favourite and, hands down, the most intuitive and at the same time useful law
+of mathematics. In layman terms, LLN states that the larger your sample, the closer
+will a statistic of your sample be to the expected value for that statistic. A very
+powerful principle and one which | apply in my daily life.
+
+Join The SuperDataScience Facebook Group And Improve Your Career
+
+© SuperDataScience. All Rights Reserved
+
+
+## Cheatsheet_7-1
+R vs Python
+
+NEED-TO-KNOW DISTINCTIONS
+WEE indexation From 1 (R) vs 0 (Python)
+
+First index Unlike in *most* programming languages, indexation in R
+| 123 4 starts from [1]. Python, on the other hand, starts indexation
+
+at [0]. You really have to shift your mentality when you jump
+between the two tools.
+
+Array le!
+
+Tabulation Matters In Python > kk
+Python is created to be visually appealing even in terms of #on-~ -2 ~--~
+
+. soe . answer = None
+reading the code. This is one of the *few* programming x = randn()
+languages where white spaces matter. Watch out where you a ace ae
+place indentations! This is not the case in R. else:
+
+answer = "Less
+
+TSK Negative Indexation [-1]
+
+i vectit a] my In both languages you can pass a negative index [-n] toa
+7 vector / list. However, the results will be drastically different.
+8 vect1[-2] E.g. in R [-4] excludes the 4" element from the subset, in
+
+Python [-4] returns only the 4" element from the right.
+
+Matrix Population Behaviour > kkk
+
+‘m-by-n matrix
+
+By default, in R the matrix() function populates matrices 4 ons TT
+column-by-column, whereas in Python np.reshape() does it lan an an
+row-by-row. This behaviour stems from the original design oe eee
+of the languages and can be adjusted via special parameters. :
+
+eee Vectorized vs OOP
+
+The fundamental underlying principles of the two languages
+Object are different: for R it’s vectorization and for Python it’s OOP.
+
+Go rientedl Very important to keep this distinction in mind when using
+
+| Programming either tool for Data Science. (More details in the course).
+
+>> Click Here To Join Our Python And R Programming Courses <<
+
+© SuperDataScience. All Rights Reserved
+
+
+## Cheatsheet_2-1
+THE ULTIMATE
+
+DEEP LEARNING ALGORITHMS
+
+BO—
+e=eo—~e
+e @ W 4
+
+Artificial Neural Networks
+
+Also sometimes called Vanilla Neural Nets, ANNs are the most basic type of Deep
+Learning algorithms. Designed to mimic processes in the human brain they create
+a facility for a machine to learn instead of being hard-coded what to do. Artificial
+Neural Networks are a type of Supervised Learning Algorithm.
+
+Convolutional Neural Networks
+
+ConvNets for short — they were originally invented in the 80s-90s for character
+recognition on handwritten checks and envelopes. They've come a long way since
+and are now used for processing of any kind of visual data: from facial recognition
+to self-driving cars. CNNs like ANNs fall into the branch of Supervised Learning.
+
+Recurrent Neural Networks
+
+RNNs are the heavy-artillery of Supervised Networks. The idea is for NNs to have
+memory allowing them to process time series data and solve complex problems
+such as translation and video captioning. This is mostly possible thanks to a
+particular type of RNN called the Long Short-Term Memory (LSTM) network.
+
+Self-Organizing Maps
+
+Invented in 1980s by Finnish professor Teuvo Kohonen this type of Neural Network
+is an example of Unsupervised Learning — SOMs are used to find patterns when the
+outcome is unknown. They can translate high-dimensional data onto 2d maps and
+therefore are a powerful tool for feature extraction and dimensionality reduction.
+
+Boltzmann Machines
+
+Boltzmann Machines (BMs) are a type of Unsupervised Neural Network. Extreme
+interconnectivity of neurons makes them powerful but computationally heavy.
+The simplified Restricted Boltzmann Machines (RBMs) are much faster and excel
+at feature detection making them a popular choice for recommender systems.
+
+Join The SuperDataScience Facebook Group And Accelerate Your Career
+
+© SuperDataScience. All Rights Reserved
+
+
+## Cheatsheet_10-1
+mus’
+
+SE
+
+SQL Server
+ITEM #4
+
+ITEM #5
+
+0 mongo
+
+THETOP 5
+
+DATABASE SYSTEMS
+
+Oracle
+
+Launching in 1979 Oracle was one of the first commercially available relational
+database management systems (RDBMS). The company is constantly innovating
+and has recently shifted it’s focus to Cloud-First. The only drawback is that the
+system is complex and doesn’t have an active community making it hard to learn.
+
+MySQL
+
+An open-source RDBMS, MySQL powers hundreds of thousands of commercial
+websites and is also used as the backend for a large number of internal enterprise
+applications. MySQL became part of the Oracle empire in 2009 and since then
+support from users and developers has declined even though it's still open-source.
+
+Microsoft SQL Server
+
+A popular choice for enterprises, especially for those that have already opted to
+
+use Microsoft products. SQL Server is very easy to use and it’s very quick to learn.
+The reason is Microsoft has created a huge user community with even their own
+experts chiming on forums all over the internet to help out if you ever get stuck.
+
+PostgreSQL
+
+Another open-source RDBMS, PostgreSQL (or simply Postgres) is becoming
+extremely popular, especially among early-stage startups. Why? Because it’s
+free, it's features are as good as Oracle's, and there is a huge community of users
+backing this tool and providing support. Postgres has a very, very bright future.
+
+MongoDB
+
+MongoDB is not an RDBMS — this is a non-relational database. Instead of storing
+data in tables, it stores data as JSON documents which can be faster and more
+versatile depending on the use case. Lots of companies are switching from
+RDBMS to non-relational databases and MongoDB is a popular choice.
+
+Join The SuperDataScience Facebook Group And Improve Your Career
+
+© SuperDataScience. All Rights Reserved
+
+
+## Cheatsheet_5-1
+THE TOP FIVE
+DATA SCIENCE DOMAINS
+
+Data Mining / Creating BI Tools
+
+Also known as ad-hoc analytics, data mining is the process of deriving new insights
+from data. Though different in essence, creating business intelligence (Bl) Tools is
+closely related, because often these insights need to be streamlined and integrated
+into the business. Check out Podcast #1 and Podcast #3 for case studies.
+
+Machine Learning / Modeling
+
+| often say “Machine Learning is the new Data Science’ This is not a joke — ML is
+popping up everywhere: recommender systems on Amazon & Netflix, speech-to-
+text, face recognition on your phone — the list goes on! Modeling is an ‘older’ term,
+but really it’s part of ML now. Check out Podcast #2 and Podcast #10.
+
+Advanced Analytics
+
+Have you ever played SimCity? In this game you would build a miniature city and
+watch it grow. Well, advanced analytics is just like that — you create simulations
+(supply chain, warehouses, mining, etc.) to help real-world businesses identify
+opportunities for improvement. Check out Podcast #7 for some cool examples.
+
+Computer Forensics
+
+A huge yet highly underestimated domain of Data Science. Computer Forensics /
+Fraud Analytics / Cyber Security all deal with slightly different things, however the
+overall objectives are extraction, analysis, protection and even (ethical) *hacking*
+of information for legal purposes. Check out Podcast #5 for more details.
+
+Big Data
+
+Big Data refers to dealing with large and complex data sets which traditional
+applications simply cannot cope with. Big Data can be characterized by the rule of
+“3Vs": volume, variety, velocity. There's lots of it and/or it has many sorts and/or
+it’s coming at you at a huge speed. Podcast is coming soon! Look out for it.
+
+Follow Me On Twitter To Get Fresh Data Science Content Every Week
+
+© SuperDataScience. All Rights Reserved
+
+
+
+## Cheatsheet_9-1
+ITEM #1
+ITEM #2
+
+o>
+
+s
+ITEM #3
+
+e
+
+tin
+
+“)
+
+THE ULTIMATE
+
+DATA SCIENCE SKILLS
+
+Tableau
+
+| get asked the question “where should | start in Data Science?” a lot. My answer
+is always: Tableau. Not only is this an ultra-powerful tool for seasoned analysts,
+but it's also so easy to learn that it’s a great entry point into the World of Data.
+Tableau is like a Data Science career hack. Seriously.
+
+R/ Python
+
+These two programming languages have become the two titans of Data Science.
+While very different in nature they both facilitate the same thing — statistical
+analysis of unlimited complexity. Knowing at least one is a must. Knowing both
+puts you miles ahead.
+
+SQL (or PostgreSQL)
+
+Knowing how to efficiently query databases is a crucial part of Data Scientist's
+job — to analyze the data you first need to get to it! SQL programming also
+develops a certain way of thinking about data which helps you see the big
+picture and workflow of your analysis. Hands down, a must-have skill.
+
+Statistics
+
+Needless to say that if you want to be successful as a Data Scientist you will need
+to develop a certain level of statistical acumen. Start with Logistic Regression,
+A/B testing and, my favourite, the Law of Large Numbers. With time you will add
+more stats techniques to your arsenal. For now it’s important to get started.
+
+Presentation
+
+Believe it or not, but preparing the data, building models, creating visualizations
+and deriving insights — are only half of the job. To be a successful Data Scientist
+you need to be able to communicate your insights to your audience. Get ahead
+the competition by honing in on your presentation skills!
+
+>> Click Here To Join The SuperDataScience Academy <<
+
+© SuperDataScience. All Rights Reserved
+
+
+## Cheatsheet_4-1
+i
+
+ ITEM#2 #2
+
+me
+
+tie te
+
+©
+LJ
+
+THE ULTIMATE
+
+Al ALGORITHMS
+
+Markov Decision Processes (MDP)
+
+A Markov Process is when future states depend only on the present state and not
+the past. An MDP is an optimization problem where the goal is to find the optimal
+action to take in any given state. This is done through maximization of cumulative
+rewards that may occur if optimal actions are taken in the future.
+
+Q-Learning
+
+Q-Learning is one of the simplest types of reinforcement learning algorithms. It
+invokes the Bellman equation to calculate the attractiveness of each possible action
+ina given state and then decides which action is the best to take. Q-Values are
+updated through an iterative process as the Al learns how to accomplish its goals.
+
+Deep Q-Learning
+
+Deep Q-Learning is the result of combining Q-Learning with an Artificial Neural
+Network. States are encoded by a vector which is passed into the Neural Network
+as input which in turn produces a Q-Value for each action as output. Overlaying a
+softmax function gives us the best possible action in the current state.
+
+Deep Convolutional Q-Learning
+
+Adding another layer of sophistication in Deep Convolutional Q-Learning — we no
+longer work with vectors of values to describe states — instead the inputs to the
+Neural Network are pixels. Meaning that the Al now actually sees exactly what a
+human sees and has to learn and make decisions based on visuals.
+
+Asynchronous Actor-Critic Agents (A3C)
+
+Google's A3C is like the random forest of Al: instead of having one neural network
+predict the best action, several neural networks (agents) are learning at the same
+time. This approach blows all other algorithms out of the water and as of today,
+A3Cis the most cutting-edge Al algorithm on the planet.
+
+Join The SuperDataScience Facebook Group And Accelerate Your Career
+
+© SuperDataScience. All Rights Reserved
+
+
+## Cheatsheet_3-1
+NEURAL N
+
+ETWORK
+ARCHITECTURES | @ tere
+
+Represents
+
+Represents Represents
+the output. hidden nodes.
+
+SUPER
+
+OK. Let’s start. DATASCIENCE
+
+PERCEPTRON.
+
+@
+\
+
+SaLO
+
+=O
+
+a
+C
+
+ONE LAYER ANN
+
+One Layer Artifical Neural Network
+
+5S
+
+—
+@
+
+ANN
+
+Artifical Neural Network
+
+CNN
+
+Convolutional Neural Network
+
+CONVOLUTION.
+
+- FLATTENING.
+
+_
+POOLING.
+[ —)
+
+RNN
+
+Recurent Neural Network
+
+For more information visit: superdatascience.com
+

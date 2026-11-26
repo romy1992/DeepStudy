@@ -1,0 +1,2862 @@
+[
+  {
+    "path": "Data Science & Machine Learning CheatSheets/Cheatsheet_1.pdf",
+    "tipo": ".pdf",
+    "bytes": 307460,
+    "sha256": "8382884097700e2a06d20b6edfe8b52d74a4fde7e7f727fb0f7bee7e40650303",
+    "stato_analisi": "testo estratto; layout non verificato",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": "1 pagine; 0 caratteri"
+  },
+  {
+    "path": "Data Science & Machine Learning CheatSheets/Cheatsheet_10.pdf",
+    "tipo": ".pdf",
+    "bytes": 285546,
+    "sha256": "ce60977e726fe1c1790ca9398a26ea261d3cb36684e3ad185e6b3ebff3bd06b2",
+    "stato_analisi": "testo estratto; layout non verificato",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": "1 pagine; 0 caratteri"
+  },
+  {
+    "path": "Data Science & Machine Learning CheatSheets/Cheatsheet_2.pdf",
+    "tipo": ".pdf",
+    "bytes": 367793,
+    "sha256": "7cfb01e441e061d0163032b6f0eaeb50eb317008557ffc91df9d3c41ea0f722a",
+    "stato_analisi": "testo estratto; layout non verificato",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": "1 pagine; 0 caratteri"
+  },
+  {
+    "path": "Data Science & Machine Learning CheatSheets/Cheatsheet_3.pdf",
+    "tipo": ".pdf",
+    "bytes": 1780137,
+    "sha256": "40a7b2c1f83facbed982142e2d6f505573f4665356bc8dc618ccf1efb9b64004",
+    "stato_analisi": "testo estratto; layout non verificato",
+    "argomenti": "computer vision",
+    "celle": 0,
+    "dettagli": "2 pagine; 1104 caratteri"
+  },
+  {
+    "path": "Data Science & Machine Learning CheatSheets/Cheatsheet_4.pdf",
+    "tipo": ".pdf",
+    "bytes": 316466,
+    "sha256": "a9bb8b28621b51c569a4753998bcdfb3815a2b7466aa6e74572640caa3936c42",
+    "stato_analisi": "testo estratto; layout non verificato",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": "1 pagine; 0 caratteri"
+  },
+  {
+    "path": "Data Science & Machine Learning CheatSheets/Cheatsheet_5.pdf",
+    "tipo": ".pdf",
+    "bytes": 439011,
+    "sha256": "7ddc2899aa69623e2abd91d25e3585084c90201b44d22a24906736e3796a47a5",
+    "stato_analisi": "testo estratto; layout non verificato",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": "1 pagine; 0 caratteri"
+  },
+  {
+    "path": "Data Science & Machine Learning CheatSheets/Cheatsheet_6.pdf",
+    "tipo": ".pdf",
+    "bytes": 372848,
+    "sha256": "7a12d7202fefc67082a4b95a8d8acc1471dc32249a5327bbeebd27bde34e318f",
+    "stato_analisi": "testo estratto; layout non verificato",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": "1 pagine; 0 caratteri"
+  },
+  {
+    "path": "Data Science & Machine Learning CheatSheets/Cheatsheet_7.pdf",
+    "tipo": ".pdf",
+    "bytes": 349088,
+    "sha256": "fb54c8f87ea0d97380095d98215deef9d4358f2fc4c5076d395bd64d1734a01d",
+    "stato_analisi": "testo estratto; layout non verificato",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": "1 pagine; 1439 caratteri"
+  },
+  {
+    "path": "Data Science & Machine Learning CheatSheets/Cheatsheet_8.pdf",
+    "tipo": ".pdf",
+    "bytes": 390256,
+    "sha256": "ade4b5183b51d782462d09833dd21c6050c0d1833e7b9996d31479a93153a8fe",
+    "stato_analisi": "testo estratto; layout non verificato",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": "1 pagine; 18 caratteri"
+  },
+  {
+    "path": "Data Science & Machine Learning CheatSheets/Cheatsheet_9.pdf",
+    "tipo": ".pdf",
+    "bytes": 270829,
+    "sha256": "5b4b966ddbe05c62603dffe33e1da984d51e91812159ca34e0ccc4850b997ab4",
+    "stato_analisi": "testo estratto; layout non verificato",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": "1 pagine; 0 caratteri"
+  },
+  {
+    "path": "Hands On Machine Learning with Scikit Learn Keras and TensorFlow/__init__.py",
+    "tipo": ".py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "Hands On Machine Learning with Scikit Learn Keras and TensorFlow/capitolo_10/ex_test.py",
+    "tipo": ".py",
+    "bytes": 13379,
+    "sha256": "a7a247f0c21ac5ceaaff5c22e62ceb0e003c37c28984aa11289438a5153d0263",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "preprocessing; regressione; classificazione; validazione; reti neurali; computer vision; sequenze",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "Hands On Machine Learning with Scikit Learn Keras and TensorFlow/capitolo_11/ex_test.py",
+    "tipo": ".py",
+    "bytes": 6220,
+    "sha256": "9c4d15e87f2e929270649b5c6d02d4e55a47917ec77cb89f54c5e24b646c46e0",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "reti neurali; computer vision; sequenze",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "Hands On Machine Learning with Scikit Learn Keras and TensorFlow/capitolo_11/exercise_8.py",
+    "tipo": ".py",
+    "bytes": 6201,
+    "sha256": "d4394ca6cfd55644ccf9c5296a425dfba369dbd734ca19091218caa3c1d11542",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "reti neurali; computer vision",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "Hands On Machine Learning with Scikit Learn Keras and TensorFlow/capitolo_12/exercise_12.py",
+    "tipo": ".py",
+    "bytes": 2354,
+    "sha256": "018ec061374ea1c41b71386c6baa37a76d2e136cfb3761c6d12589ad1f1593ba",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "reti neurali",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "Hands On Machine Learning with Scikit Learn Keras and TensorFlow/capitolo_12/exercise_13.py",
+    "tipo": ".py",
+    "bytes": 609,
+    "sha256": "7daf23edf55ce26203d84aec64958326a6289bd24fc33ce56f5a68e749e16ce9",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "reti neurali; computer vision",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "Hands On Machine Learning with Scikit Learn Keras and TensorFlow/capitolo_13/ex_test.py",
+    "tipo": ".py",
+    "bytes": 5060,
+    "sha256": "8f608b38659be886cb394f957fa5b44b3a1068d0b949431fae0c30fbf82a8c4b",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "reti neurali",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "Hands On Machine Learning with Scikit Learn Keras and TensorFlow/capitolo_13/exercise_10.py",
+    "tipo": ".py",
+    "bytes": 2115,
+    "sha256": "35a9534885897659176b06516f1e2dc6bcc3edbbc51003c61ba3d8ff0b0599c2",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "classificazione",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "Hands On Machine Learning with Scikit Learn Keras and TensorFlow/capitolo_13/exercise_9.py",
+    "tipo": ".py",
+    "bytes": 2174,
+    "sha256": "22032a9166c109afa46e69086a8d20497bd968b1b13fea6f0fb2a2621dcdda90",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "reti neurali; computer vision",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "Hands On Machine Learning with Scikit Learn Keras and TensorFlow/capitolo_14/ex_test.py",
+    "tipo": ".py",
+    "bytes": 2706,
+    "sha256": "eba3dc6b920975dc95a3ccaf2ee87cbdb8294e6db2d065aa02024a24f2c0d637",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "reti neurali; computer vision",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "Hands On Machine Learning with Scikit Learn Keras and TensorFlow/capitolo_15/ex_test.py",
+    "tipo": ".py",
+    "bytes": 8089,
+    "sha256": "3b7b26abca2a0692b5c048860bee1bf4ab15958fb7c39493dabf33541ef37a75",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "regressione; reti neurali; sequenze",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "Hands On Machine Learning with Scikit Learn Keras and TensorFlow/capitolo_15/exercise_9.py",
+    "tipo": ".py",
+    "bytes": 965,
+    "sha256": "7f699d8ff72a6b9173979dea6be6c1c7351156605244bd51f20f34a214635b34",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "classificazione; reti neurali",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "Hands On Machine Learning with Scikit Learn Keras and TensorFlow/capitolo_2/__init__.py",
+    "tipo": ".py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "Hands On Machine Learning with Scikit Learn Keras and TensorFlow/capitolo_2/esercizi/__init__.py",
+    "tipo": ".py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "Hands On Machine Learning with Scikit Learn Keras and TensorFlow/capitolo_2/esercizi/progetto_machine_learning.py",
+    "tipo": ".py",
+    "bytes": 2187,
+    "sha256": "e8e385754e91d53589c7ef1e11c8f663e5291501ccc8f272bb2f425a472daf77",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "preprocessing; regressione; validazione",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "Hands On Machine Learning with Scikit Learn Keras and TensorFlow/capitolo_2/ex_test.py",
+    "tipo": ".py",
+    "bytes": 430,
+    "sha256": "e83e1d132b1230e6e8387280b3a85b9d729e16dde1b3327ec344de484733ad5f",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "Hands On Machine Learning with Scikit Learn Keras and TensorFlow/capitolo_2/housing/housing.csv",
+    "tipo": ".csv",
+    "bytes": 1423529,
+    "sha256": "8a3727f4cf54ac1a327f69b1d5b4db54c5834ea81c6e4efc0d163300022a685e",
+    "stato_analisi": "profilo strutturale; prima riga non sempre header",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": "{\"righe_dopo_prima\": 20640, \"prima_riga\": [\"longitude\", \"latitude\", \"housing_median_age\", \"total_rooms\", \"total_bedrooms\", \"population\", \"households\", \"median_income\", \"median_house_value\", \"ocean_proximity\"]}"
+  },
+  {
+    "path": "Hands On Machine Learning with Scikit Learn Keras and TensorFlow/capitolo_3/__init__.py",
+    "tipo": ".py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "Hands On Machine Learning with Scikit Learn Keras and TensorFlow/capitolo_3/ex_test.py",
+    "tipo": ".py",
+    "bytes": 4670,
+    "sha256": "414426259a79951b36d2e14b0b5167d88f4c6cad9645af0800a1d9b827501204",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "classificazione; validazione; computer vision",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "Hands On Machine Learning with Scikit Learn Keras and TensorFlow/capitolo_3/exercise_1.py",
+    "tipo": ".py",
+    "bytes": 1140,
+    "sha256": "0c5d8c2991aa0de7e78bcbb5d98e11bc07a3cd9f3d596c04646842fa9a4a6f65",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "classificazione; validazione; computer vision",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "Hands On Machine Learning with Scikit Learn Keras and TensorFlow/capitolo_3/exercise_2.py",
+    "tipo": ".py",
+    "bytes": 2728,
+    "sha256": "245fb35ef542d22f1d99e11f76e0f493570a4102b00b0fcc84d2669aebeca2ea",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "classificazione; validazione; computer vision",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "Hands On Machine Learning with Scikit Learn Keras and TensorFlow/capitolo_3/exercise_3.py",
+    "tipo": ".py",
+    "bytes": 166,
+    "sha256": "d701269c1dc7b142b55b8f6e5d14358d5cd77f755834d09133d4058ba9badeed",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "Hands On Machine Learning with Scikit Learn Keras and TensorFlow/capitolo_3/exercise_4.py",
+    "tipo": ".py",
+    "bytes": 2391,
+    "sha256": "e8f920a809d80c6375c79519985ab2f6f2ad8e6e3742ad53dafb55760b3daf71",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "Hands On Machine Learning with Scikit Learn Keras and TensorFlow/capitolo_3/setup.py",
+    "tipo": ".py",
+    "bytes": 1308,
+    "sha256": "240d234578acb425d2caa5ddd7991b8aefdeab4aaae5027a2846741859ed0835",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "classificazione; reti neurali",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "Hands On Machine Learning with Scikit Learn Keras and TensorFlow/capitolo_4/exercise_12.py",
+    "tipo": ".py",
+    "bytes": 329,
+    "sha256": "46ceb09ffa0b4fe615c6bebf00bbce83519c6e34dbd08d584337b340347b5f0b",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "regressione",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "Hands On Machine Learning with Scikit Learn Keras and TensorFlow/capitolo_5/ex_test.py",
+    "tipo": ".py",
+    "bytes": 8962,
+    "sha256": "31b9ab43c3ba1936558d6f2d8016cb97dc1ae434451960d5c8f2d4eb6d18fe42",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "preprocessing; regressione; classificazione; sequenze",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "Hands On Machine Learning with Scikit Learn Keras and TensorFlow/capitolo_5/exercise_10.py",
+    "tipo": ".py",
+    "bytes": 1304,
+    "sha256": "35378d5831d7d65ccad7204ef882d18c46f89c4f7e18a21e1373a7c5ae889867",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "preprocessing; regressione; validazione",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "Hands On Machine Learning with Scikit Learn Keras and TensorFlow/capitolo_5/exercise_8.py",
+    "tipo": ".py",
+    "bytes": 1237,
+    "sha256": "2beefa1727a55624f49c349219cef1585096c773e9b5b010de157c4fe6b109b0",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "preprocessing; classificazione",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "Hands On Machine Learning with Scikit Learn Keras and TensorFlow/capitolo_5/exercise_9.py",
+    "tipo": ".py",
+    "bytes": 1814,
+    "sha256": "be67237f7d799cdf12368a259fe9bd672bf97e3150e5f7f6e5fcadaea62d511e",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "preprocessing; computer vision",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "Hands On Machine Learning with Scikit Learn Keras and TensorFlow/capitolo_6/exercise_7_8.py",
+    "tipo": ".py",
+    "bytes": 4490,
+    "sha256": "d84383e08679cc75fb5c3f3b4f2f08d9bee8e7d43d817311795c8a0e70dd93e3",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "classificazione; validazione",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "Hands On Machine Learning with Scikit Learn Keras and TensorFlow/capitolo_7/ex_test.py",
+    "tipo": ".py",
+    "bytes": 8022,
+    "sha256": "bf68706a1c1d3681f566171f0df18ebd4f2f4ef595973c94bd46f2d5097e8763",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "regressione; classificazione; validazione; ensemble",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "Hands On Machine Learning with Scikit Learn Keras and TensorFlow/capitolo_7/exercise_8_9.py",
+    "tipo": ".py",
+    "bytes": 5517,
+    "sha256": "1ec97d277427782b962e0bea1e7ab67802ebadc572b0c2d62d19b59ac1ecb08f",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "regressione; classificazione; validazione; ensemble; computer vision",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "Hands On Machine Learning with Scikit Learn Keras and TensorFlow/capitolo_8/ex_test.py",
+    "tipo": ".py",
+    "bytes": 696,
+    "sha256": "6a0cb748074f1137b0aa5deac6b81637405446a22c4dfe3074d9acd6989adbe3",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "riduzione dimensionalità",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "Hands On Machine Learning with Scikit Learn Keras and TensorFlow/capitolo_8/exercise_10.py",
+    "tipo": ".py",
+    "bytes": 1496,
+    "sha256": "f17a6af892c9b79a799e607b40fe835f32a0c011e3f6153984d6011942fc42d8",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "riduzione dimensionalità; computer vision; sequenze",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "Hands On Machine Learning with Scikit Learn Keras and TensorFlow/capitolo_8/exercise_9.py",
+    "tipo": ".py",
+    "bytes": 1980,
+    "sha256": "9e6f3ad9793749cd8a946fedce429dcb4b8ee10078a9bef10fd0340aae07f8b5",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "classificazione; validazione; riduzione dimensionalità; ensemble; computer vision",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "Hands On Machine Learning with Scikit Learn Keras and TensorFlow/capitolo_9/ex_test.py",
+    "tipo": ".py",
+    "bytes": 4558,
+    "sha256": "efdca8e9767f2c302e1be12b5eb5f02292e0969bdcb8ffa923d663c86a42f548",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "clustering; sequenze",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "__init__.py",
+    "tipo": ".py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "apogeo/__init__.py",
+    "tipo": ".py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "apogeo/manning-master/Chapter_03_Linear_Regression/Coding_linear_regression.ipynb",
+    "tipo": ".ipynb",
+    "bytes": 94792,
+    "sha256": "4dbc260290adcd9287d6d9a990541baaedecec3e97ee1b0cf0366c505b695e69",
+    "stato_analisi": "tutte le celle sorgente analizzate; nessuna esecuzione",
+    "argomenti": "regressione",
+    "celle": 23,
+    "dettagli": ""
+  },
+  {
+    "path": "apogeo/manning-master/Chapter_03_Linear_Regression/House_price_predictions.ipynb",
+    "tipo": ".ipynb",
+    "bytes": 115573,
+    "sha256": "21225f138b79aa520dde6c71245bb16eaa0a286492e1ffd6994d83e68679d1af",
+    "stato_analisi": "tutte le celle sorgente analizzate; nessuna esecuzione",
+    "argomenti": "regressione",
+    "celle": 17,
+    "dettagli": ""
+  },
+  {
+    "path": "apogeo/manning-master/Chapter_03_Linear_Regression/Hyderabad.csv",
+    "tipo": ".csv",
+    "bytes": 250549,
+    "sha256": "7a3608473565f59374f6b9dfb77864773d32ecf882c7cc1ffbad419cf55b4275",
+    "stato_analisi": "profilo strutturale; prima riga non sempre header",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": "{\"righe_dopo_prima\": 2518, \"prima_riga\": [\"Price\", \"Area\", \"Location\", \"No. of Bedrooms\", \"Resale\", \"MaintenanceStaff\", \"Gymnasium\", \"SwimmingPool\", \"LandscapedGardens\", \"JoggingTrack\", \"RainWaterHarvesting\", \"IndoorGames\", \"ShoppingMall\", \"Intercom\", \"SportsFacility\", \"ATM\", \"ClubHouse\", \"School\", \"24X7Security\", \"PowerBackup\", \"CarParking\", \"StaffQuarter\", \"Cafeteria\", \"MultipurposeRoom\", \"Hospital\", \"WashingMachine\", \"Gasconnection\", \"AC\", \"Wifi\", \"Children'splayarea\"]}"
+  },
+  {
+    "path": "apogeo/manning-master/Chapter_03_Linear_Regression/__init__.py",
+    "tipo": ".py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "apogeo/manning-master/Chapter_03_Linear_Regression/refactored/Coding_linear_regression.ipynb",
+    "tipo": ".ipynb",
+    "bytes": 9834,
+    "sha256": "d330ef3aaf44d33fdd1d0947c131f28a977b3b1554fa2328f19ad91e0d4b1070",
+    "stato_analisi": "tutte le celle sorgente analizzate; nessuna esecuzione",
+    "argomenti": "regressione",
+    "celle": 12,
+    "dettagli": ""
+  },
+  {
+    "path": "apogeo/manning-master/Chapter_03_Linear_Regression/refactored/House_price_predictions.ipynb",
+    "tipo": ".ipynb",
+    "bytes": 215239,
+    "sha256": "74071b7322bef94d84b79cd4043e173b00dcfd0310cb1712e146322254f90147",
+    "stato_analisi": "tutte le celle sorgente analizzate; nessuna esecuzione",
+    "argomenti": "regressione",
+    "celle": 27,
+    "dettagli": ""
+  },
+  {
+    "path": "apogeo/manning-master/Chapter_03_Linear_Regression/refactored/House_price_predictions_toy.ipynb",
+    "tipo": ".ipynb",
+    "bytes": 181436,
+    "sha256": "1b635c2457cc3943cb57760b17f44ca2a2cf05933a0bca278426e91e920f9983",
+    "stato_analisi": "tutte le celle sorgente analizzate; nessuna esecuzione",
+    "argomenti": "regressione",
+    "celle": 19,
+    "dettagli": ""
+  },
+  {
+    "path": "apogeo/manning-master/Chapter_03_Linear_Regression/refactored/Hyderabad.csv",
+    "tipo": ".csv",
+    "bytes": 250549,
+    "sha256": "7a3608473565f59374f6b9dfb77864773d32ecf882c7cc1ffbad419cf55b4275",
+    "stato_analisi": "profilo strutturale; prima riga non sempre header",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": "{\"righe_dopo_prima\": 2518, \"prima_riga\": [\"Price\", \"Area\", \"Location\", \"No. of Bedrooms\", \"Resale\", \"MaintenanceStaff\", \"Gymnasium\", \"SwimmingPool\", \"LandscapedGardens\", \"JoggingTrack\", \"RainWaterHarvesting\", \"IndoorGames\", \"ShoppingMall\", \"Intercom\", \"SportsFacility\", \"ATM\", \"ClubHouse\", \"School\", \"24X7Security\", \"PowerBackup\", \"CarParking\", \"StaffQuarter\", \"Cafeteria\", \"MultipurposeRoom\", \"Hospital\", \"WashingMachine\", \"Gasconnection\", \"AC\", \"Wifi\", \"Children'splayarea\"]}"
+  },
+  {
+    "path": "apogeo/manning-master/Chapter_03_Linear_Regression/utils.py",
+    "tipo": ".py",
+    "bytes": 467,
+    "sha256": "580b009e5df6d6474b03058055ea70c549c4f7c2d56b28dfd94290fddf0eecbf",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "apogeo/manning-master/Chapter_04_Testing_Overfitting_Underfitting/Polynomial_regression_regularization.ipynb",
+    "tipo": ".ipynb",
+    "bytes": 168074,
+    "sha256": "3055627bdbae66eafaaeabfff56bdd48c6c8cc185159b08f6e7b7c6d9e718e13",
+    "stato_analisi": "tutte le celle sorgente analizzate; nessuna esecuzione",
+    "argomenti": "regressione",
+    "celle": 27,
+    "dettagli": ""
+  },
+  {
+    "path": "apogeo/manning-master/Chapter_04_Testing_Overfitting_Underfitting/__init__.py",
+    "tipo": ".py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "apogeo/manning-master/Chapter_04_Testing_Overfitting_Underfitting/test_personali/__init__.py",
+    "tipo": ".py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "apogeo/manning-master/Chapter_04_Testing_Overfitting_Underfitting/test_personali/under_over.py",
+    "tipo": ".py",
+    "bytes": 3783,
+    "sha256": "4a450ed05d30de136542b9e03c04a677574b6f630c03262795fac4d3ecefcf25",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "regressione; classificazione; validazione",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "apogeo/manning-master/Chapter_05_Perceptron_Algorithm/Coding_perceptron_algorithm.ipynb",
+    "tipo": ".ipynb",
+    "bytes": 92830,
+    "sha256": "94e971076d6ca5e16e74a19926172604062ca1d398179ad5155a304f9911c0e3",
+    "stato_analisi": "tutte le celle sorgente analizzate; nessuna esecuzione",
+    "argomenti": "classificazione; NLP classico",
+    "celle": 20,
+    "dettagli": ""
+  },
+  {
+    "path": "apogeo/manning-master/Chapter_05_Perceptron_Algorithm/__init__.py",
+    "tipo": ".py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "apogeo/manning-master/Chapter_05_Perceptron_Algorithm/refactoring/Coding_perceptron_algorithm.ipynb",
+    "tipo": ".ipynb",
+    "bytes": 9160,
+    "sha256": "7d01023493b980dceaabc615d50e8797719a8ea126bc74c6e7253b07432699a4",
+    "stato_analisi": "tutte le celle sorgente analizzate; nessuna esecuzione",
+    "argomenti": "NLP classico",
+    "celle": 10,
+    "dettagli": ""
+  },
+  {
+    "path": "apogeo/manning-master/Chapter_05_Perceptron_Algorithm/refactoring/Sentiment_analysis_toy.ipynb",
+    "tipo": ".ipynb",
+    "bytes": 77411,
+    "sha256": "406e5e18e5f95fe3331d31eaa4bd12f3845da4d11b6960dc89547e5ad5b44fd2",
+    "stato_analisi": "tutte le celle sorgente analizzate; nessuna esecuzione",
+    "argomenti": "regressione; NLP classico",
+    "celle": 27,
+    "dettagli": ""
+  },
+  {
+    "path": "apogeo/manning-master/Chapter_05_Perceptron_Algorithm/utils.py",
+    "tipo": ".py",
+    "bytes": 982,
+    "sha256": "37fc1697adaddedbeef0aa03e3bd19c797d52b8abaf89e09ef531624994cbf40",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "apogeo/manning-master/Chapter_06_Logistic_Regression/Coding_logistic_regression.ipynb",
+    "tipo": ".ipynb",
+    "bytes": 107518,
+    "sha256": "e6fe064e58f3b0188347acda4884fa442a9ca8fdbe9443af7a3fd02b5c07fb3a",
+    "stato_analisi": "tutte le celle sorgente analizzate; nessuna esecuzione",
+    "argomenti": "regressione; classificazione; NLP classico",
+    "celle": 16,
+    "dettagli": ""
+  },
+  {
+    "path": "apogeo/manning-master/Chapter_06_Logistic_Regression/IMDB_Dataset.csv",
+    "tipo": ".csv",
+    "bytes": 66212309,
+    "sha256": "dfc447764f82be365fa9c2beef4e8df89d3919e3da95f5088004797d79695aa2",
+    "stato_analisi": "profilo strutturale; prima riga non sempre header",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": "{\"righe_dopo_prima\": 50000, \"prima_riga\": [\"review\", \"sentiment\"]}"
+  },
+  {
+    "path": "apogeo/manning-master/Chapter_06_Logistic_Regression/Sentiment_analysis_IMDB.ipynb",
+    "tipo": ".ipynb",
+    "bytes": 93270,
+    "sha256": "620167ec083600ba6d45946ab40e44fa1a9ddfe0fdd5527a305427ec35e4ea84",
+    "stato_analisi": "tutte le celle sorgente analizzate; nessuna esecuzione",
+    "argomenti": "classificazione; NLP classico",
+    "celle": 17,
+    "dettagli": ""
+  },
+  {
+    "path": "apogeo/manning-master/Chapter_06_Logistic_Regression/__init__.py",
+    "tipo": ".py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "apogeo/manning-master/Chapter_06_Logistic_Regression/utils.py",
+    "tipo": ".py",
+    "bytes": 1066,
+    "sha256": "922ffb37cd4fab37f6a37147de79f653738ebf2535f61ae95680b3c0bb0220cd",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "apogeo/manning-master/Chapter_08_Naive_Bayes/Coding_naive_Bayes.ipynb",
+    "tipo": ".ipynb",
+    "bytes": 17302,
+    "sha256": "a4ed971ad3f1f76e32af0c1a28618e1315d4fa4f14f1a1f84c5a2888052f608b",
+    "stato_analisi": "tutte le celle sorgente analizzate; nessuna esecuzione",
+    "argomenti": "classificazione",
+    "celle": 25,
+    "dettagli": ""
+  },
+  {
+    "path": "apogeo/manning-master/Chapter_08_Naive_Bayes/emails.csv",
+    "tipo": ".csv",
+    "bytes": 8954755,
+    "sha256": "a5d0d75d15d370ef2dd3229b30204b18deab6d3fd249206e89a2c58f901bcc77",
+    "stato_analisi": "profilo strutturale; prima riga non sempre header",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": "{\"righe_dopo_prima\": 5728, \"prima_riga\": [\"text\", \"spam\"]}"
+  },
+  {
+    "path": "apogeo/manning-master/Chapter_08_Naive_Bayes/refactored/Coding_naive_Bayes.ipynb",
+    "tipo": ".ipynb",
+    "bytes": 9680,
+    "sha256": "dfeb849a8eb8cebd4cbe452291d96b3f71405982a450116b6c62a9b6691b3e1f",
+    "stato_analisi": "tutte le celle sorgente analizzate; nessuna esecuzione",
+    "argomenti": "classificazione",
+    "celle": 10,
+    "dettagli": ""
+  },
+  {
+    "path": "apogeo/manning-master/Chapter_08_Naive_Bayes/refactored/Spam_email_predictions.ipynb",
+    "tipo": ".ipynb",
+    "bytes": 18396,
+    "sha256": "4a14e0f7d0ef3cda9edd2d88508a00205eac6fabe68755d8bc89196a5cd1a501",
+    "stato_analisi": "tutte le celle sorgente analizzate; nessuna esecuzione",
+    "argomenti": "classificazione",
+    "celle": 18,
+    "dettagli": ""
+  },
+  {
+    "path": "apogeo/manning-master/Chapter_09_Decision_Trees/Admission_Predict.csv",
+    "tipo": ".csv",
+    "bytes": 12501,
+    "sha256": "c23ed53d783c0cf3a9579677bed26e13b2ba1399bbbea326e1968a8bf9cdf3ab",
+    "stato_analisi": "profilo strutturale; prima riga non sempre header",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": "{\"righe_dopo_prima\": 400, \"prima_riga\": [\"Serial No.\", \"GRE Score\", \"TOEFL Score\", \"University Rating\", \"SOP\", \"LOR\", \"CGPA\", \"Research\", \"Chance of Admit\"]}"
+  },
+  {
+    "path": "apogeo/manning-master/Chapter_09_Decision_Trees/App_recommendations.ipynb",
+    "tipo": ".ipynb",
+    "bytes": 62422,
+    "sha256": "8f0de56a6bc1995b3a013ba5bc7e1f061248a4a1deaa09871b82659de025a7a1",
+    "stato_analisi": "tutte le celle sorgente analizzate; nessuna esecuzione",
+    "argomenti": "classificazione",
+    "celle": 15,
+    "dettagli": ""
+  },
+  {
+    "path": "apogeo/manning-master/Chapter_09_Decision_Trees/Gini_entropy_calculations.ipynb",
+    "tipo": ".ipynb",
+    "bytes": 4173,
+    "sha256": "5608d3e880a3177c2a9bbfffcea28679461fce17e24496383d50e5fc201ca157",
+    "stato_analisi": "tutte le celle sorgente analizzate; nessuna esecuzione",
+    "argomenti": "",
+    "celle": 7,
+    "dettagli": ""
+  },
+  {
+    "path": "apogeo/manning-master/Chapter_09_Decision_Trees/Graphical_example.ipynb",
+    "tipo": ".ipynb",
+    "bytes": 196731,
+    "sha256": "d0e03da55cc574d65b52c25a7765eca991d8437fab17dfbbae3fe5c231b2294d",
+    "stato_analisi": "tutte le celle sorgente analizzate; nessuna esecuzione",
+    "argomenti": "classificazione",
+    "celle": 16,
+    "dettagli": ""
+  },
+  {
+    "path": "apogeo/manning-master/Chapter_09_Decision_Trees/Regression_decision_tree.ipynb",
+    "tipo": ".ipynb",
+    "bytes": 106723,
+    "sha256": "daaf8df0bb11eba24e8ab6815c492cbfc3e1e30086ea8e027c8e8049a5b604a6",
+    "stato_analisi": "tutte le celle sorgente analizzate; nessuna esecuzione",
+    "argomenti": "regressione",
+    "celle": 12,
+    "dettagli": ""
+  },
+  {
+    "path": "apogeo/manning-master/Chapter_09_Decision_Trees/University_Admissions.ipynb",
+    "tipo": ".ipynb",
+    "bytes": 3219961,
+    "sha256": "c3342a85f1e49125744608c14f3af249a561e0af202619b617c0804781279a0a",
+    "stato_analisi": "tutte le celle sorgente analizzate; nessuna esecuzione",
+    "argomenti": "classificazione",
+    "celle": 40,
+    "dettagli": ""
+  },
+  {
+    "path": "apogeo/manning-master/Chapter_09_Decision_Trees/__init__.py",
+    "tipo": ".py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "apogeo/manning-master/Chapter_09_Decision_Trees/utils.py",
+    "tipo": ".py",
+    "bytes": 2123,
+    "sha256": "4e8192ecdf2bc654ca2beb0fd301770a7584edffcfa0be510b4f137a550677da",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "apogeo/manning-master/Chapter_10_Neural_Networks/Graphical_example.ipynb",
+    "tipo": ".ipynb",
+    "bytes": 56111,
+    "sha256": "8ac38a088cbaab8290135e9807eef00f9ce59fb5965943415141ec8a6a989795",
+    "stato_analisi": "tutte le celle sorgente analizzate; nessuna esecuzione",
+    "argomenti": "reti neurali",
+    "celle": 18,
+    "dettagli": ""
+  },
+  {
+    "path": "apogeo/manning-master/Chapter_10_Neural_Networks/House_price_predictions_neural_network.ipynb",
+    "tipo": ".ipynb",
+    "bytes": 35739,
+    "sha256": "6bb7fe6794115385dc77dfb522661c5e54a92b3df5a68ff65890ad2e82b8306c",
+    "stato_analisi": "tutte le celle sorgente analizzate; nessuna esecuzione",
+    "argomenti": "regressione; reti neurali",
+    "celle": 14,
+    "dettagli": ""
+  },
+  {
+    "path": "apogeo/manning-master/Chapter_10_Neural_Networks/Hyderabad.csv",
+    "tipo": ".csv",
+    "bytes": 250549,
+    "sha256": "7a3608473565f59374f6b9dfb77864773d32ecf882c7cc1ffbad419cf55b4275",
+    "stato_analisi": "profilo strutturale; prima riga non sempre header",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": "{\"righe_dopo_prima\": 2518, \"prima_riga\": [\"Price\", \"Area\", \"Location\", \"No. of Bedrooms\", \"Resale\", \"MaintenanceStaff\", \"Gymnasium\", \"SwimmingPool\", \"LandscapedGardens\", \"JoggingTrack\", \"RainWaterHarvesting\", \"IndoorGames\", \"ShoppingMall\", \"Intercom\", \"SportsFacility\", \"ATM\", \"ClubHouse\", \"School\", \"24X7Security\", \"PowerBackup\", \"CarParking\", \"StaffQuarter\", \"Cafeteria\", \"MultipurposeRoom\", \"Hospital\", \"WashingMachine\", \"Gasconnection\", \"AC\", \"Wifi\", \"Children'splayarea\"]}"
+  },
+  {
+    "path": "apogeo/manning-master/Chapter_10_Neural_Networks/Image_recognition.ipynb",
+    "tipo": ".ipynb",
+    "bytes": 30073,
+    "sha256": "ef0e552f04296da8513e22f35031a9374fa242bf204d631056cda27323c43659",
+    "stato_analisi": "tutte le celle sorgente analizzate; nessuna esecuzione",
+    "argomenti": "reti neurali; computer vision",
+    "celle": 24,
+    "dettagli": ""
+  },
+  {
+    "path": "apogeo/manning-master/Chapter_10_Neural_Networks/Plotting_Boundaries.ipynb",
+    "tipo": ".ipynb",
+    "bytes": 72230,
+    "sha256": "8b2df1f8577325b728552b4d1cff26698ff09017e970b1c3a838b61d6b3fcf71",
+    "stato_analisi": "tutte le celle sorgente analizzate; nessuna esecuzione",
+    "argomenti": "classificazione",
+    "celle": 13,
+    "dettagli": ""
+  },
+  {
+    "path": "apogeo/manning-master/Chapter_10_Neural_Networks/__init__.py",
+    "tipo": ".py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "apogeo/manning-master/Chapter_10_Neural_Networks/one_circle.csv",
+    "tipo": ".csv",
+    "bytes": 4820,
+    "sha256": "715359354bc043eee94b4f63b4fa19111e5cb1b2653bef10fcd189b02ee0dabe",
+    "stato_analisi": "profilo strutturale; prima riga non sempre header",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": "{\"righe_dopo_prima\": 110, \"prima_riga\": [\"\", \"x_1\", \"x_2\", \"y\"]}"
+  },
+  {
+    "path": "apogeo/manning-master/Chapter_10_Neural_Networks/refactored/Graphical_Example.ipynb",
+    "tipo": ".ipynb",
+    "bytes": 42814,
+    "sha256": "c98cc851c37e88fd0de525564cbfdbaef649efb5d4f904c247d5f1d2db14993a",
+    "stato_analisi": "tutte le celle sorgente analizzate; nessuna esecuzione",
+    "argomenti": "reti neurali",
+    "celle": 12,
+    "dettagli": ""
+  },
+  {
+    "path": "apogeo/manning-master/Chapter_10_Neural_Networks/refactored/Hyderabad.csv",
+    "tipo": ".csv",
+    "bytes": 250549,
+    "sha256": "7a3608473565f59374f6b9dfb77864773d32ecf882c7cc1ffbad419cf55b4275",
+    "stato_analisi": "profilo strutturale; prima riga non sempre header",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": "{\"righe_dopo_prima\": 2518, \"prima_riga\": [\"Price\", \"Area\", \"Location\", \"No. of Bedrooms\", \"Resale\", \"MaintenanceStaff\", \"Gymnasium\", \"SwimmingPool\", \"LandscapedGardens\", \"JoggingTrack\", \"RainWaterHarvesting\", \"IndoorGames\", \"ShoppingMall\", \"Intercom\", \"SportsFacility\", \"ATM\", \"ClubHouse\", \"School\", \"24X7Security\", \"PowerBackup\", \"CarParking\", \"StaffQuarter\", \"Cafeteria\", \"MultipurposeRoom\", \"Hospital\", \"WashingMachine\", \"Gasconnection\", \"AC\", \"Wifi\", \"Children'splayarea\"]}"
+  },
+  {
+    "path": "apogeo/manning-master/Chapter_10_Neural_Networks/refactored/Image_Recognition.ipynb",
+    "tipo": ".ipynb",
+    "bytes": 34722,
+    "sha256": "fd37536cd10fc9d297ed08ebc7f5ce242fc64332412c17993ab832e40b7ad773",
+    "stato_analisi": "tutte le celle sorgente analizzate; nessuna esecuzione",
+    "argomenti": "validazione; reti neurali; computer vision",
+    "celle": 21,
+    "dettagli": ""
+  },
+  {
+    "path": "apogeo/manning-master/Chapter_10_Neural_Networks/refactored/Plotting_Boundaries.ipynb",
+    "tipo": ".ipynb",
+    "bytes": 75589,
+    "sha256": "74b4ecedab14c956f951173f56ba20250aa212d6de1b8579508b510d5f2406b7",
+    "stato_analisi": "tutte le celle sorgente analizzate; nessuna esecuzione",
+    "argomenti": "classificazione",
+    "celle": 12,
+    "dettagli": ""
+  },
+  {
+    "path": "apogeo/manning-master/Chapter_10_Neural_Networks/refactored/Predict_Price_Housing_via_NN.ipynb",
+    "tipo": ".ipynb",
+    "bytes": 152953,
+    "sha256": "6baea9b05dec66925d12eec5659a57ebc2ddfb1c82b22fca0a44c9a25822adc6",
+    "stato_analisi": "tutte le celle sorgente analizzate; nessuna esecuzione",
+    "argomenti": "regressione; reti neurali",
+    "celle": 20,
+    "dettagli": ""
+  },
+  {
+    "path": "apogeo/manning-master/Chapter_10_Neural_Networks/refactored/__init__.py",
+    "tipo": ".py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "apogeo/manning-master/Chapter_10_Neural_Networks/refactored/_plotting.py",
+    "tipo": ".py",
+    "bytes": 2902,
+    "sha256": "706406571d7cbacfca648ca9f217be9ad0c208c84e5501b146d465b072648e3d",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "apogeo/manning-master/Chapter_10_Neural_Networks/refactored/one_circle.csv",
+    "tipo": ".csv",
+    "bytes": 4820,
+    "sha256": "715359354bc043eee94b4f63b4fa19111e5cb1b2653bef10fcd189b02ee0dabe",
+    "stato_analisi": "profilo strutturale; prima riga non sempre header",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": "{\"righe_dopo_prima\": 110, \"prima_riga\": [\"\", \"x_1\", \"x_2\", \"y\"]}"
+  },
+  {
+    "path": "apogeo/manning-master/Chapter_10_Neural_Networks/utils.py",
+    "tipo": ".py",
+    "bytes": 1739,
+    "sha256": "ed8be33b3d089965b22dbfdde05454b88549071e7177ba2c197db1536a51d847",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "apogeo/manning-master/Chapter_11_Support_Vector_Machines/Building the datasets.ipynb",
+    "tipo": ".ipynb",
+    "bytes": 45909,
+    "sha256": "63a100de4f93d12000b29d8673a851c9634e6303db567b0db46e99567fda0273",
+    "stato_analisi": "tutte le celle sorgente analizzate; nessuna esecuzione",
+    "argomenti": "",
+    "celle": 10,
+    "dettagli": ""
+  },
+  {
+    "path": "apogeo/manning-master/Chapter_11_Support_Vector_Machines/Calculating_similarities.ipynb",
+    "tipo": ".ipynb",
+    "bytes": 87614,
+    "sha256": "aad465a84e7a9c3fd4e53be06de750f790428cd8aeca4ff348c759b1955e2892",
+    "stato_analisi": "tutte le celle sorgente analizzate; nessuna esecuzione",
+    "argomenti": "classificazione",
+    "celle": 18,
+    "dettagli": ""
+  },
+  {
+    "path": "apogeo/manning-master/Chapter_11_Support_Vector_Machines/SVM_graphical_example.ipynb",
+    "tipo": ".ipynb",
+    "bytes": 213906,
+    "sha256": "12cd3e58da2edae15833183dfdab8d7490e723902a726308f51167459f52f844",
+    "stato_analisi": "tutte le celle sorgente analizzate; nessuna esecuzione",
+    "argomenti": "",
+    "celle": 12,
+    "dettagli": ""
+  },
+  {
+    "path": "apogeo/manning-master/Chapter_11_Support_Vector_Machines/__init__.py",
+    "tipo": ".py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "apogeo/manning-master/Chapter_11_Support_Vector_Machines/linear.csv",
+    "tipo": ".csv",
+    "bytes": 2617,
+    "sha256": "6c2d193698f006b0bba011cc510a544517f9100de1da4c8402c6cde1cacb0781",
+    "stato_analisi": "profilo strutturale; prima riga non sempre header",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": "{\"righe_dopo_prima\": 60, \"prima_riga\": [\"\", \"x_1\", \"x_2\", \"y\"]}"
+  },
+  {
+    "path": "apogeo/manning-master/Chapter_11_Support_Vector_Machines/one_circle.csv",
+    "tipo": ".csv",
+    "bytes": 4820,
+    "sha256": "715359354bc043eee94b4f63b4fa19111e5cb1b2653bef10fcd189b02ee0dabe",
+    "stato_analisi": "profilo strutturale; prima riga non sempre header",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": "{\"righe_dopo_prima\": 110, \"prima_riga\": [\"\", \"x_1\", \"x_2\", \"y\"]}"
+  },
+  {
+    "path": "apogeo/manning-master/Chapter_11_Support_Vector_Machines/two_circles.csv",
+    "tipo": ".csv",
+    "bytes": 9726,
+    "sha256": "399dadafa0ddb1f025e33a10103139264f45da727b5c69b64afb665587c0da2a",
+    "stato_analisi": "profilo strutturale; prima riga non sempre header",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": "{\"righe_dopo_prima\": 220, \"prima_riga\": [\"\", \"x_1\", \"x_2\", \"y\"]}"
+  },
+  {
+    "path": "apogeo/manning-master/Chapter_11_Support_Vector_Machines/utils.py",
+    "tipo": ".py",
+    "bytes": 1390,
+    "sha256": "a5c6bb4171a7bd8f53beeb5e80273a10941a49c817a4d0e16a444fd18f72ae01",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "apogeo/manning-master/Chapter_12_Ensemble_Methods/Gradient_boosting_and_XGBoost.ipynb",
+    "tipo": ".ipynb",
+    "bytes": 571905,
+    "sha256": "1fd0a0798bca57c8d0e3057519815244834b36aa59d2ea2118d923c207b3a8f1",
+    "stato_analisi": "tutte le celle sorgente analizzate; nessuna esecuzione",
+    "argomenti": "ensemble",
+    "celle": 36,
+    "dettagli": ""
+  },
+  {
+    "path": "apogeo/manning-master/Chapter_12_Ensemble_Methods/Random_forests_and_AdaBoost.ipynb",
+    "tipo": ".ipynb",
+    "bytes": 786450,
+    "sha256": "b1e83369f13f34a153e44eba56348f2623b7e3a267f516516762b36234926e6b",
+    "stato_analisi": "tutte le celle sorgente analizzate; nessuna esecuzione",
+    "argomenti": "classificazione; ensemble",
+    "celle": 35,
+    "dettagli": ""
+  },
+  {
+    "path": "apogeo/manning-master/Chapter_12_Ensemble_Methods/__init__.py",
+    "tipo": ".py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "apogeo/manning-master/Chapter_12_Ensemble_Methods/utils.py",
+    "tipo": ".py",
+    "bytes": 2465,
+    "sha256": "e76601b254b4e212b15c91eef82a7fb568c0972c14579a08179f92f3b4da6b16",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "apogeo/manning-master/Chapter_13_End_to_end_example/End_to_end_example.ipynb",
+    "tipo": ".ipynb",
+    "bytes": 130889,
+    "sha256": "08ec73d4ddfb708672082fc87e9dc14d3de4b14245fb48ac9101a16594cee860",
+    "stato_analisi": "tutte le celle sorgente analizzate; nessuna esecuzione",
+    "argomenti": "preprocessing; regressione; classificazione; validazione; ensemble",
+    "celle": 92,
+    "dettagli": ""
+  },
+  {
+    "path": "apogeo/manning-master/Chapter_13_End_to_end_example/clean_titanic_data.csv",
+    "tipo": ".csv",
+    "bytes": 61083,
+    "sha256": "4b1c9664e4aa2974ee8ce980bfd297e91c9f9eea48681e066766c35957e41fad",
+    "stato_analisi": "profilo strutturale; prima riga non sempre header",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": "{\"righe_dopo_prima\": 891, \"prima_riga\": [\"PassengerId\", \"Survived\", \"Pclass\", \"Name\", \"Sex\", \"Age\", \"SibSp\", \"Parch\", \"Ticket\", \"Fare\", \"Embarked\"]}"
+  },
+  {
+    "path": "apogeo/manning-master/Chapter_13_End_to_end_example/preprocessed_titanic_data.csv",
+    "tipo": ".csv",
+    "bytes": 41413,
+    "sha256": "dc8ae0af0c967f1dc9a3500883ab9ad7bbe7deb841a98fe105b0cd55be4616c6",
+    "stato_analisi": "profilo strutturale; prima riga non sempre header",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": "{\"righe_dopo_prima\": 891, \"prima_riga\": [\"Survived\", \"SibSp\", \"Parch\", \"Fare\", \"Sex_female\", \"Sex_male\", \"Pclass_C\", \"Pclass_Q\", \"Pclass_S\", \"Pclass_U\", \"Pclass_1\", \"Pclass_2\", \"Pclass_3\", \"Categorized_age_(0, 10]\", \"Categorized_age_(10, 20]\", \"Categorized_age_(20, 30]\", \"Categorized_age_(30, 40]\", \"Categorized_age_(40, 50]\", \"Categorized_age_(50, 60]\", \"Categorized_age_(60, 70]\", \"Categorized_age_(70, 80]\"]}"
+  },
+  {
+    "path": "apogeo/manning-master/Chapter_13_End_to_end_example/test.csv",
+    "tipo": ".csv",
+    "bytes": 28210,
+    "sha256": "5c78320a80dc159b35c408363be46a5d93f078183d539db75ee42a796d6a4e95",
+    "stato_analisi": "profilo strutturale; prima riga non sempre header",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": "{\"righe_dopo_prima\": 418, \"prima_riga\": [\"PassengerId\", \"Pclass\", \"Name\", \"Sex\", \"Age\", \"SibSp\", \"Parch\", \"Ticket\", \"Fare\", \"Cabin\", \"Embarked\"]}"
+  },
+  {
+    "path": "apogeo/manning-master/Chapter_13_End_to_end_example/titanic.csv",
+    "tipo": ".csv",
+    "bytes": 60302,
+    "sha256": "4a437fde05fe5264e1701a7387ac6fb75393772ba38bb2c9c566405af5af4bd7",
+    "stato_analisi": "profilo strutturale; prima riga non sempre header",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": "{\"righe_dopo_prima\": 891, \"prima_riga\": [\"PassengerId\", \"Survived\", \"Pclass\", \"Name\", \"Sex\", \"Age\", \"SibSp\", \"Parch\", \"Ticket\", \"Fare\", \"Cabin\", \"Embarked\"]}"
+  },
+  {
+    "path": "apogeo/manning-master/Chapter_9_Decision_Trees/__init__.py",
+    "tipo": ".py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "apogeo/manning-master/Chapter_9_Decision_Trees/refactored/App_Recommendations.ipynb",
+    "tipo": ".ipynb",
+    "bytes": 67970,
+    "sha256": "91ef29e04d9901896c8b03df77ed2cc8c1110ca3f6a3500fa0940efd27a9a735",
+    "stato_analisi": "tutte le celle sorgente analizzate; nessuna esecuzione",
+    "argomenti": "classificazione",
+    "celle": 12,
+    "dettagli": ""
+  },
+  {
+    "path": "apogeo/manning-master/Chapter_9_Decision_Trees/refactored/Coding_Gini_Entropy_MSE.ipynb",
+    "tipo": ".ipynb",
+    "bytes": 5840,
+    "sha256": "f45b0717b221653ba0b480bc1094ad70422ebfc36755302ab94e7a43cb3e4944",
+    "stato_analisi": "tutte le celle sorgente analizzate; nessuna esecuzione",
+    "argomenti": "",
+    "celle": 5,
+    "dettagli": ""
+  },
+  {
+    "path": "apogeo/manning-master/Chapter_9_Decision_Trees/refactored/Graphing_Decision_Trees.ipynb",
+    "tipo": ".ipynb",
+    "bytes": 129154,
+    "sha256": "33641c4dae21c6ef82c72bbb661c2bcc64f4fd8f49e2fbc698e50baadb166b8a",
+    "stato_analisi": "tutte le celle sorgente analizzate; nessuna esecuzione",
+    "argomenti": "classificazione",
+    "celle": 15,
+    "dettagli": ""
+  },
+  {
+    "path": "apogeo/manning-master/Chapter_9_Decision_Trees/refactored/Splitting_on_Scores.ipynb",
+    "tipo": ".ipynb",
+    "bytes": 54278,
+    "sha256": "17f20c056f480dee9005b0b3d6b42d5d5d9811526e864d8e8d28f06804a82893",
+    "stato_analisi": "tutte le celle sorgente analizzate; nessuna esecuzione",
+    "argomenti": "regressione",
+    "celle": 15,
+    "dettagli": ""
+  },
+  {
+    "path": "apogeo/manning-master/Chapter_9_Decision_Trees/refactored/University_Admissions.ipynb",
+    "tipo": ".ipynb",
+    "bytes": 950500,
+    "sha256": "76ad9d34a2f7ffecf492ed78d6eef5d6b2a8271bcb644c09480c4bf79526c05c",
+    "stato_analisi": "tutte le celle sorgente analizzate; nessuna esecuzione",
+    "argomenti": "classificazione",
+    "celle": 28,
+    "dettagli": ""
+  },
+  {
+    "path": "apogeo/manning-master/Chapter_9_Decision_Trees/refactored/__init__.py",
+    "tipo": ".py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "apogeo/manning-master/Chapter_9_Decision_Trees/refactored/_plotting.py",
+    "tipo": ".py",
+    "bytes": 2279,
+    "sha256": "a9e4f875bb979295d75ae476a6b82a35f75224f0376120eccbfb88d04407a486",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "apogeo/manning-master/__init__.py",
+    "tipo": ".py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "lesson-1-Preprocessing/__init__.py",
+    "tipo": ".py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "lesson-1-Preprocessing/esercizio_1/exercise_1.py",
+    "tipo": ".py",
+    "bytes": 416,
+    "sha256": "15f9d29688bbf98650dc24bce66d02f0446b95078e4b72a2a1e3c5b19dd37471",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "preprocessing",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "lesson-1-Preprocessing/esercizio_1/pima-indians-diabets.csv",
+    "tipo": ".csv",
+    "bytes": 23105,
+    "sha256": "b78029447fae2743b3218bb2b76ef0d04afe8d7e55ce2faf4d1ec82d8f8ae8ac",
+    "stato_analisi": "profilo strutturale; prima riga non sempre header",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": "{\"righe_dopo_prima\": 768, \"prima_riga\": [\"Pregnancies\", \"Glucose\", \"BloodPressure\", \"SkinThickness\", \"Insulin\", \"BMI\", \"DiabetesPedigreeFunction\", \"Age\", \"Outcome\"]}"
+  },
+  {
+    "path": "lesson-1-Preprocessing/esercizio_2/exercise_2.py",
+    "tipo": ".py",
+    "bytes": 621,
+    "sha256": "92460ca57c38d4fa279948415d265e2471e2b7b084533787a578c0047aa6b659",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "preprocessing; LLM e RAG",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "lesson-1-Preprocessing/esercizio_2/titanic.csv",
+    "tipo": ".csv",
+    "bytes": 14165,
+    "sha256": "23345c58252056b69d9aadcd214a6fbfcd7d932ecc0042e8eeb2989188a04b1f",
+    "stato_analisi": "profilo strutturale; prima riga non sempre header",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": "{\"righe_dopo_prima\": 183, \"prima_riga\": [\"PassengerId\", \"Survived\", \"Pclass\", \"Name\", \"Sex\", \"Age\", \"SibSp\", \"Parch\", \"Ticket\", \"Fare\", \"Cabin\", \"Embarked\"]}"
+  },
+  {
+    "path": "lesson-1-Preprocessing/esercizio_3/exercise_3.py",
+    "tipo": ".py",
+    "bytes": 709,
+    "sha256": "f3e7d1d001fd0dc59aa0d886aa640f0963c9a530c25e636f0800457f07a0874a",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "preprocessing; validazione",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "lesson-1-Preprocessing/esercizio_3/iris.csv",
+    "tipo": ".csv",
+    "bytes": 2776,
+    "sha256": "c2598980d28c9eb7121fdbd98e406c6142da9e67493efb2062c145c0669edd69",
+    "stato_analisi": "profilo strutturale; prima riga non sempre header",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": "{\"righe_dopo_prima\": 150, \"prima_riga\": [\"sepal length (cm)\", \"sepal width (cm)\", \"petal length (cm)\", \"petal width (cm)\", \"target\"]}"
+  },
+  {
+    "path": "lesson-1-Preprocessing/esercizio_4/exercise_4.py",
+    "tipo": ".py",
+    "bytes": 1059,
+    "sha256": "dac9c46a38cf15587795651fa4828b8cccee21cc58f7cc5165780f979cbee429",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "preprocessing; validazione",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "lesson-1-Preprocessing/esercizio_4/winequality-red.csv",
+    "tipo": ".csv",
+    "bytes": 84198,
+    "sha256": "6b2911cfa622198d63f62c9d49825de3804d58ac90ab48eba0c5be0087599394",
+    "stato_analisi": "profilo strutturale; prima riga non sempre header",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": "{\"righe_dopo_prima\": 1599, \"prima_riga\": [\"fixed acidity;\\\"volatile acidity\\\";\\\"citric acid\\\";\\\"residual sugar\\\";\\\"chlorides\\\";\\\"free sulfur dioxide\\\";\\\"total sulfur dioxide\\\";\\\"density\\\";\\\"pH\\\";\\\"sulphates\\\";\\\"alcohol\\\";\\\"quality\\\"\"]}"
+  },
+  {
+    "path": "lesson-10-Model Selection/Social_Network_Ads.csv",
+    "tipo": ".csv",
+    "bytes": 4503,
+    "sha256": "39c7f6bebe4fd6d88af25d6f6273607bc7806f4bcf56fa1979fa5c4485e7e959",
+    "stato_analisi": "profilo strutturale; prima riga non sempre header",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": "{\"righe_dopo_prima\": 400, \"prima_riga\": [\"Age\", \"EstimatedSalary\", \"Purchased\"]}"
+  },
+  {
+    "path": "lesson-10-Model Selection/__init__.py",
+    "tipo": ".py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "lesson-10-Model Selection/grid_search/grid-search.py",
+    "tipo": ".py",
+    "bytes": 1633,
+    "sha256": "7fcc4eb428075a3fad837d178ba75bd337969aabd2c78c56176ecffbaae2cfcb",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "preprocessing; classificazione; validazione",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "lesson-10-Model Selection/k_fold/k-fold.py",
+    "tipo": ".py",
+    "bytes": 2070,
+    "sha256": "e9863103c3f563a5a78da7e52633a39d538ac63a4c3c2bfdc4c67765c493b5a4",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "preprocessing; classificazione; validazione",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "lesson-10-Model Selection/xgboots/Data.csv",
+    "tipo": ".csv",
+    "bytes": 19635,
+    "sha256": "4affe1c9a76a78ff530265581cba7e2779f887ec5add1cdfffaf68ff59f3cee2",
+    "stato_analisi": "profilo strutturale; prima riga non sempre header",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": "{\"righe_dopo_prima\": 683, \"prima_riga\": [\"Sample code number\", \"Clump Thickness\", \"Uniformity of Cell Size\", \"Uniformity of Cell Shape\", \"Marginal Adhesion\", \"Single Epithelial Cell Size\", \"Bare Nuclei\", \"Bland Chromatin\", \"Normal Nucleoli\", \"Mitoses\", \"Class\"]}"
+  },
+  {
+    "path": "lesson-10-Model Selection/xgboots/xg-boost.py",
+    "tipo": ".py",
+    "bytes": 1864,
+    "sha256": "b0ea832737332e48916356a2fcde7fc637d152f5f650c2080d0d6edd3d3bbbbd",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "preprocessing; regressione; classificazione; validazione; ensemble",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "lesson-2-Regression/__init__.py",
+    "tipo": ".py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "lesson-2-Regression/decision_regression/Position_Salaries.csv",
+    "tipo": ".csv",
+    "bytes": 236,
+    "sha256": "8aed6112c1c75f01f85cf4ab8663753ee6c9252548d8a15edcefa08c794bce9c",
+    "stato_analisi": "profilo strutturale; prima riga non sempre header",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": "{\"righe_dopo_prima\": 10, \"prima_riga\": [\"Position\", \"Level\", \"Salary\"]}"
+  },
+  {
+    "path": "lesson-2-Regression/decision_regression/tree_regression.py",
+    "tipo": ".py",
+    "bytes": 1836,
+    "sha256": "a36d501e0758db43ce3cb54c32f59127e8fd3ccb786c77c15cab2833567bad2a",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "regressione; validazione",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "lesson-2-Regression/linear_regression/Salary_Data.csv",
+    "tipo": ".csv",
+    "bytes": 423,
+    "sha256": "c03c04aa11b4f86e3d0cf9d71966ea64b29b4f598a4d37c486f7b237fe221220",
+    "stato_analisi": "profilo strutturale; prima riga non sempre header",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": "{\"righe_dopo_prima\": 30, \"prima_riga\": [\"YearsExperience\", \"Salary\"]}"
+  },
+  {
+    "path": "lesson-2-Regression/linear_regression/linear_regression.py",
+    "tipo": ".py",
+    "bytes": 3810,
+    "sha256": "441f7678c643341b7f4a61fecbb5ebff2d0c14d8632f978b40bef7661e909045",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "preprocessing; regressione; validazione",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "lesson-2-Regression/multiple_linear_regression/50_Startups.csv",
+    "tipo": ".csv",
+    "bytes": 2386,
+    "sha256": "722e650044afa9b7c2c54fe690245b6cd64b684c6c6e2ac3e1b7201fb52416c8",
+    "stato_analisi": "profilo strutturale; prima riga non sempre header",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": "{\"righe_dopo_prima\": 50, \"prima_riga\": [\"R&D Spend\", \"Administration\", \"Marketing Spend\", \"State\", \"Profit\"]}"
+  },
+  {
+    "path": "lesson-2-Regression/multiple_linear_regression/multiple_regression.py",
+    "tipo": ".py",
+    "bytes": 2582,
+    "sha256": "72c34b18795a16732851301b0ec6ea9744bd8fd20f9f00006a6fb502e04ee032",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "preprocessing; regressione; validazione; LLM e RAG",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "lesson-2-Regression/polynomial_regression/Position_Salaries.csv",
+    "tipo": ".csv",
+    "bytes": 236,
+    "sha256": "8aed6112c1c75f01f85cf4ab8663753ee6c9252548d8a15edcefa08c794bce9c",
+    "stato_analisi": "profilo strutturale; prima riga non sempre header",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": "{\"righe_dopo_prima\": 10, \"prima_riga\": [\"Position\", \"Level\", \"Salary\"]}"
+  },
+  {
+    "path": "lesson-2-Regression/polynomial_regression/poly_regression.py",
+    "tipo": ".py",
+    "bytes": 3736,
+    "sha256": "77aab175dbf6669d66d253910208de172e87dc08d1c5c2e0010a97e2c4d0c93c",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "regressione",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "lesson-2-Regression/random_regression/Position_Salaries.csv",
+    "tipo": ".csv",
+    "bytes": 236,
+    "sha256": "8aed6112c1c75f01f85cf4ab8663753ee6c9252548d8a15edcefa08c794bce9c",
+    "stato_analisi": "profilo strutturale; prima riga non sempre header",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": "{\"righe_dopo_prima\": 10, \"prima_riga\": [\"Position\", \"Level\", \"Salary\"]}"
+  },
+  {
+    "path": "lesson-2-Regression/random_regression/random_regression.py",
+    "tipo": ".py",
+    "bytes": 2520,
+    "sha256": "fcf3e0dbcf7ea61ad4014f64964e551e3cda27014bb845b624f4711086dc2e9a",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "regressione; ensemble",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "lesson-2-Regression/support_vector_regression_(SVR)/Position_Salaries.csv",
+    "tipo": ".csv",
+    "bytes": 236,
+    "sha256": "8aed6112c1c75f01f85cf4ab8663753ee6c9252548d8a15edcefa08c794bce9c",
+    "stato_analisi": "profilo strutturale; prima riga non sempre header",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": "{\"righe_dopo_prima\": 10, \"prima_riga\": [\"Position\", \"Level\", \"Salary\"]}"
+  },
+  {
+    "path": "lesson-2-Regression/support_vector_regression_(SVR)/vector_regression.py",
+    "tipo": ".py",
+    "bytes": 4338,
+    "sha256": "958bd40dfc69e51978d2b1ed5d94b9d5d4e4cfb7ef04b17d0052f2cb06ad09ff",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "preprocessing; regressione",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "lesson-2-Regression/test_corso/Data.csv",
+    "tipo": ".csv",
+    "bytes": 308693,
+    "sha256": "d71b7a0f31bbf640536a43159e803eeac0bb264957e6c66658f68cb1926e74ef",
+    "stato_analisi": "profilo strutturale; prima riga non sempre header",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": "{\"righe_dopo_prima\": 9568, \"prima_riga\": [\"AT\", \"V\", \"AP\", \"RH\", \"PE\"]}"
+  },
+  {
+    "path": "lesson-2-Regression/test_corso/decision_regression.py",
+    "tipo": ".py",
+    "bytes": 655,
+    "sha256": "ed74388f174c746f0c2d2d3564e1453d5cef08c816812d92bd6a5ee569bc8262",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "regressione; validazione",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "lesson-2-Regression/test_corso/polynomial_regression.py",
+    "tipo": ".py",
+    "bytes": 914,
+    "sha256": "43ec8205446ee78c7c8e4e38f3123e9e14073f2baf07bf5d57dc149153115d60",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "regressione; validazione",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "lesson-2-Regression/test_corso/random_forest_regression.py",
+    "tipo": ".py",
+    "bytes": 673,
+    "sha256": "fcb2f9c39efd9f3af96ee1b14eca9cffd9d7ade3c9c83a3b67592d411faa5c21",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "validazione; ensemble",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "lesson-2-Regression/test_corso/regression_multi_linear.py",
+    "tipo": ".py",
+    "bytes": 942,
+    "sha256": "9f55be97066f9506151163f28238fcf52f62329bfeb86ce5c415bae734873da9",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "regressione; validazione",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "lesson-2-Regression/test_corso/support_vector_regression.py",
+    "tipo": ".py",
+    "bytes": 975,
+    "sha256": "d07e60419cf52c2043cfb3e87e344694258fee443374bea193e25e9947d10079",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "preprocessing; regressione; validazione",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "lesson-2-Regression/test_personali/consumi_energetici/check_best_model_eng.py",
+    "tipo": ".py",
+    "bytes": 3587,
+    "sha256": "0bc8ffd546b8a06f64197e11be8d9ce1d75f6e57f1c75201434a16a5fea407c0",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "preprocessing; regressione; validazione; ensemble",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "lesson-2-Regression/test_personali/consumi_energetici/nuovo_dataset_prezzi_energia.csv",
+    "tipo": ".csv",
+    "bytes": 572,
+    "sha256": "e7e7540e78258882bcd4c09bb4220ba4250c1f79c34acd91c44b4a72bdb6df22",
+    "stato_analisi": "profilo strutturale; prima riga non sempre header",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": "{\"righe_dopo_prima\": 15, \"prima_riga\": [\"Piani\", \"Anno Costruzione\", \"Consumo Energetico (kWh/m2)\", \"Materiale_Cemento\", \"Materiale_Legno\", \"Materiale_Mattoni\"]}"
+  },
+  {
+    "path": "lesson-2-Regression/test_personali/consumi_energetici/preprocessing_eng.py",
+    "tipo": ".py",
+    "bytes": 380,
+    "sha256": "2b202d2ed73a985856db6445a81e32c088aa1ae69871080d92c57085fd175b16",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "lesson-2-Regression/test_personali/consumi_energetici/prezzi_energia.csv",
+    "tipo": ".csv",
+    "bytes": 19134,
+    "sha256": "6d3f3ec40204b1075661caa3af352a8a2575e76aa983c8002763ade4df61f5af",
+    "stato_analisi": "profilo strutturale; prima riga non sempre header",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": "{\"righe_dopo_prima\": 600, \"prima_riga\": [\"Piani\", \"Anno Costruzione\", \"Consumo Energetico (kWh/m2)\", \"Materiale_Cemento\", \"Materiale_Legno\", \"Materiale_Mattoni\"]}"
+  },
+  {
+    "path": "lesson-2-Regression/test_personali/consumi_energetici/process_eng.py",
+    "tipo": ".py",
+    "bytes": 718,
+    "sha256": "37139dff61cda6dd026bac8db9e05b25990c5c234bc0561f7f5111e2ff40588a",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "lesson-2-Regression/test_personali/consumi_energetici/tema_dataset_2.csv",
+    "tipo": ".csv",
+    "bytes": 19954,
+    "sha256": "6cc9f9b70e8be5475c351caa49b1d20616b366d88b1bcfa99bf29a28006010c4",
+    "stato_analisi": "profilo strutturale; prima riga non sempre header",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": "{\"righe_dopo_prima\": 600, \"prima_riga\": [\"Piani\", \"Anno Costruzione\", \"Materiale\", \"Consumo Energetico (kWh/m2)\"]}"
+  },
+  {
+    "path": "lesson-2-Regression/test_personali/prezzi_case/check_best_model_home.py",
+    "tipo": ".py",
+    "bytes": 4051,
+    "sha256": "9af8651b27c128d1771adb2c47891ba6f1581ee77af174eba116b5047e29c6bc",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "preprocessing; regressione; validazione; ensemble",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "lesson-2-Regression/test_personali/prezzi_case/preprocessing_home.py",
+    "tipo": ".py",
+    "bytes": 385,
+    "sha256": "e8ad9b6efe83ea304319a1592b26926137fd629832af55b0e80354322f7e6d58",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "preprocessing",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "lesson-2-Regression/test_personali/prezzi_case/prezzi_case.csv",
+    "tipo": ".csv",
+    "bytes": 22326,
+    "sha256": "5ab8c818b18321311ac2632c90d520d6935c846e8a2d363da3a70981dd7334e1",
+    "stato_analisi": "profilo strutturale; prima riga non sempre header",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": "{\"righe_dopo_prima\": 500, \"prima_riga\": [\"\", \"Superficie\", \"Numero Camere\", \"Posizione\", \"Prezzo\"]}"
+  },
+  {
+    "path": "lesson-2-Regression/test_personali/prezzi_case/process_home.py",
+    "tipo": ".py",
+    "bytes": 916,
+    "sha256": "9cf9b9ce9c0c5394a55a78a803da4ac82044da0bb62cfec8e6e355a35d757a80",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "validazione",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "lesson-2-Regression/test_personali/prezzi_case/tema_dataset_1.csv",
+    "tipo": ".csv",
+    "bytes": 23747,
+    "sha256": "f1e2709f4268f26ce897ff805067447d434d3d26253837055181f50b902857f5",
+    "stato_analisi": "profilo strutturale; prima riga non sempre header",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": "{\"righe_dopo_prima\": 500, \"prima_riga\": [\"Superficie\", \"Numero Camere\", \"Posizione\", \"Prezzo\"]}"
+  },
+  {
+    "path": "lesson-2-Regression/test_personali/produzione/best_model_prod.py",
+    "tipo": ".py",
+    "bytes": 3239,
+    "sha256": "a425011bc51905292d11107fc4363b395a883848615be45095f9b9adca1a8aa7",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "preprocessing; regressione; validazione; ensemble",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "lesson-2-Regression/test_personali/produzione/preprocessing_prod.py",
+    "tipo": ".py",
+    "bytes": 137,
+    "sha256": "b7ba774e401f411036ba2c1c1bf3ab33520fddf7ba4d9d2c3125a624dfa96c63",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "lesson-2-Regression/test_personali/produzione/process_prod.py",
+    "tipo": ".py",
+    "bytes": 429,
+    "sha256": "50483c8209c3ef153c54a82b90b95453ca25b98f444f883b6cccbfa80933d331",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "lesson-2-Regression/test_personali/produzione/produzione.csv",
+    "tipo": ".csv",
+    "bytes": 58683,
+    "sha256": "52f2c6e177d429ced934c291ddcd90cd55d6e9eda002078c76c23dfdc802b37d",
+    "stato_analisi": "profilo strutturale; prima riga non sempre header",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": "{\"righe_dopo_prima\": 800, \"prima_riga\": [\"Pioggia (mm)\", \"Temperatura (°C)\", \"Fertilizzante (kg/ha)\", \"Produzione (tonnellate)\"]}"
+  },
+  {
+    "path": "lesson-2-Regression/test_personali/produzione/produzione_test.csv",
+    "tipo": ".csv",
+    "bytes": 3150,
+    "sha256": "3ae35314ae1c39af70fe3358e6ab94cf24790e03ff9050dfb600dba1023fcdcb",
+    "stato_analisi": "profilo strutturale; prima riga non sempre header",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": "{\"righe_dopo_prima\": 42, \"prima_riga\": [\"Pioggia (mm)\", \"Temperatura (°C)\", \"Fertilizzante (kg/ha)\", \"Produzione (tonnellate)\"]}"
+  },
+  {
+    "path": "lesson-2-Regression/test_personali/produzione/tema_dataset_4.csv",
+    "tipo": ".csv",
+    "bytes": 58952,
+    "sha256": "83b5affc7ba61e43fe9cce86b146cbef8d3a20b1da2dcf4c05544bc0336ec720",
+    "stato_analisi": "profilo strutturale; prima riga non sempre header",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": "{\"righe_dopo_prima\": 800, \"prima_riga\": [\"Pioggia (mm)\", \"Temperatura (°C)\", \"Fertilizzante (kg/ha)\", \"Produzione (tonnellate)\"]}"
+  },
+  {
+    "path": "lesson-2-Regression/test_personali/vendite/preprocessing_vendite.py",
+    "tipo": ".py",
+    "bytes": 304,
+    "sha256": "2a8327eafa503b022dd610329ec1e224ef4386848acf6c179da3518dd88c4043",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "preprocessing",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "lesson-2-Regression/test_personali/vendite/process_vendite.py",
+    "tipo": ".py",
+    "bytes": 431,
+    "sha256": "7248af8a53e1121844c0ff4973a3b013ee7282a2239ec2e792a3ffc7bfcbf093",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "lesson-2-Regression/test_personali/vendite/search_best_model_vendite.py",
+    "tipo": ".py",
+    "bytes": 3423,
+    "sha256": "b7f26334a4d407ce58af63b33ed877d69d05ef17b12e9c0616e65949c9cae476",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "preprocessing; regressione; classificazione; validazione; ensemble",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "lesson-2-Regression/test_personali/vendite/tema_dataset_3.csv",
+    "tipo": ".csv",
+    "bytes": 40209,
+    "sha256": "655b352576e779821c5aae9f5cd215548d08eb6534bcb1ea539f8f495af015df",
+    "stato_analisi": "profilo strutturale; prima riga non sempre header",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": "{\"righe_dopo_prima\": 700, \"prima_riga\": [\"Giorni Promozione\", \"Spesa Marketing (Euro)\", \"Posizione\", \"Vendite Totali (Euro)\"]}"
+  },
+  {
+    "path": "lesson-2-Regression/test_personali/vendite/utils.py",
+    "tipo": ".py",
+    "bytes": 2340,
+    "sha256": "86167e7da3210154bc6802d85c550d0702fac41a666cb9f2ea4b37766f864d71",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "preprocessing; regressione; classificazione; validazione; ensemble",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "lesson-2-Regression/test_personali/vendite/vendite.csv",
+    "tipo": ".csv",
+    "bytes": 28858,
+    "sha256": "0554141c1a06e6bf0abe1c8fd3bcc52e8eb4dbccec5df421fb18d1d98a45539c",
+    "stato_analisi": "profilo strutturale; prima riga non sempre header",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": "{\"righe_dopo_prima\": 700, \"prima_riga\": [\"Giorni Promozione\", \"Spesa Marketing (Euro)\", \"Posizione\", \"Vendite Totali (Euro)\"]}"
+  },
+  {
+    "path": "lesson-2-Regression/test_personali/vendite/vendite_test.csv",
+    "tipo": ".csv",
+    "bytes": 978,
+    "sha256": "28d0c34cfcc15dada1a6965d5c288e771b1f8951454195d1cacaea5677a39a42",
+    "stato_analisi": "profilo strutturale; prima riga non sempre header",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": "{\"righe_dopo_prima\": 22, \"prima_riga\": [\"Giorni Promozione\", \"Spesa Marketing (Euro)\", \"Posizione\", \"Vendite Totali (Euro)\"]}"
+  },
+  {
+    "path": "lesson-2-Regression/test_personali/vendite_auto/best_model_auto.py",
+    "tipo": ".py",
+    "bytes": 3258,
+    "sha256": "20f261de72a808418b5c7f61ad55158c60db2f65f6eac32073fca454a6092b7b",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "preprocessing; regressione; validazione; ensemble",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "lesson-2-Regression/test_personali/vendite_auto/preprocessing_auto.py",
+    "tipo": ".py",
+    "bytes": 208,
+    "sha256": "7d9b8921255873fc7c71194b80f7c5a98c6a14f423b3fff5ff082b0ade8d9e44",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "lesson-2-Regression/test_personali/vendite_auto/process_auto.py",
+    "tipo": ".py",
+    "bytes": 480,
+    "sha256": "9fd50b4902bd95fceeaa01f82e43446ad6a2799ebdced8831b0b488c1d4d8b92",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "lesson-2-Regression/test_personali/vendite_auto/tema_dataset_5.csv",
+    "tipo": ".csv",
+    "bytes": 47267,
+    "sha256": "7f24ce7b35d4fce78aefb9e4946a57a0ab3755cbbd9b924d5c7b4d72920773dd",
+    "stato_analisi": "profilo strutturale; prima riga non sempre header",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": "{\"righe_dopo_prima\": 1000, \"prima_riga\": [\"Km Percorsi\", \"Anno\", \"Marca\", \"Prezzo (Euro)\"]}"
+  },
+  {
+    "path": "lesson-2-Regression/test_personali/vendite_auto/vendite_auto.csv",
+    "tipo": ".csv",
+    "bytes": 49840,
+    "sha256": "8b79ca52d60ec7691a5d55c6765e3b87666ef1ff2f1c48441d6540eda3074ab3",
+    "stato_analisi": "profilo strutturale; prima riga non sempre header",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": "{\"righe_dopo_prima\": 1000, \"prima_riga\": [\"Km Percorsi\", \"Anno\", \"Prezzo (Euro)\", \"Marca_BMW\", \"Marca_Fiat\", \"Marca_Ford\", \"Marca_Toyota\"]}"
+  },
+  {
+    "path": "lesson-2-Regression/test_personali/vendite_auto/vendite_auto_test.csv",
+    "tipo": ".csv",
+    "bytes": 5366,
+    "sha256": "09c28122e317bf84a07275a154adde1211a1c624a1975784c5baf246d68f89a9",
+    "stato_analisi": "profilo strutturale; prima riga non sempre header",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": "{\"righe_dopo_prima\": 106, \"prima_riga\": [\"Km Percorsi\", \"Anno\", \"Prezzo (Euro)\", \"Marca_BMW\", \"Marca_Fiat\", \"Marca_Ford\", \"Marca_Toyota\"]}"
+  },
+  {
+    "path": "lesson-3-Classification/Social_Network_Ads.csv",
+    "tipo": ".csv",
+    "bytes": 4503,
+    "sha256": "39c7f6bebe4fd6d88af25d6f6273607bc7806f4bcf56fa1979fa5c4485e7e959",
+    "stato_analisi": "profilo strutturale; prima riga non sempre header",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": "{\"righe_dopo_prima\": 400, \"prima_riga\": [\"Age\", \"EstimatedSalary\", \"Purchased\"]}"
+  },
+  {
+    "path": "lesson-3-Classification/__init__.py",
+    "tipo": ".py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "lesson-3-Classification/decision-tree/decision_tree_classification.py",
+    "tipo": ".py",
+    "bytes": 1260,
+    "sha256": "5c22f298aee7008215bf4ed3722a4b15a040f776b8aedd3550f33f27644873cd",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "preprocessing; classificazione; validazione",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "lesson-3-Classification/kernel-svm/kernel_svm.py",
+    "tipo": ".py",
+    "bytes": 1630,
+    "sha256": "577b9473ebe17c873f2791d7c8f6947c0ab665a69b960cff9236d8a82325e598",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "preprocessing; classificazione; validazione",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "lesson-3-Classification/logistic-regression/logistic_regression.py",
+    "tipo": ".py",
+    "bytes": 1485,
+    "sha256": "c06cbfbbf399d708da0d3b191910007c6f9578618135b81587f78c7ae1f910a2",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "preprocessing; regressione; classificazione; validazione",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "lesson-3-Classification/naive_bayes/naive_bayse.py",
+    "tipo": ".py",
+    "bytes": 1289,
+    "sha256": "7c8c2b44b2efbdd31181866d7502e29e996a0ef1f32d64ef887f52c1a5dda208",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "preprocessing; classificazione; validazione",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "lesson-3-Classification/neighbors/k_nearest_neighbors.py",
+    "tipo": ".py",
+    "bytes": 1128,
+    "sha256": "a757b030d19d7a2f2fad13e0b4a9dfc9f44ab26a2b4b22f34e31b0d54afe1acd",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "preprocessing; classificazione; validazione",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "lesson-3-Classification/random-forest/random_forest.py",
+    "tipo": ".py",
+    "bytes": 1398,
+    "sha256": "0cb33bc916fd4ee5c536370f6a28fc6aed9eb52f05ffd489a0248a576b958129",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "preprocessing; classificazione; validazione; ensemble",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "lesson-3-Classification/test_personali/email/best_params_model_email.py",
+    "tipo": ".py",
+    "bytes": 4696,
+    "sha256": "5c2a9b7d95070330119b6c030f99d893fac1b38889d8747e0b8ac2e32f83e6dc",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "preprocessing; regressione; classificazione; validazione; ensemble",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "lesson-3-Classification/test_personali/email/classificazione_dataset_2.csv",
+    "tipo": ".csv",
+    "bytes": 13394,
+    "sha256": "31ade74adba5337c8dbe8028d49db48cb92ab698cfe191b9e3d44aeee1cff70b",
+    "stato_analisi": "profilo strutturale; prima riga non sempre header",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": "{\"righe_dopo_prima\": 1000, \"prima_riga\": [\"Lunghezza Testo\", \"Numero di Link\", \"Ha Allegato\", \"Spam\"]}"
+  },
+  {
+    "path": "lesson-3-Classification/test_personali/email/email.csv",
+    "tipo": ".csv",
+    "bytes": 9944,
+    "sha256": "e83a72b310c6a30ac11da4955d0895f80589969fc97029cc7251f9e250c571c5",
+    "stato_analisi": "profilo strutturale; prima riga non sempre header",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": "{\"righe_dopo_prima\": 1000, \"prima_riga\": [\"Lunghezza Testo\", \"Numero di Link\", \"Ha Allegato\", \"Spam\"]}"
+  },
+  {
+    "path": "lesson-3-Classification/test_personali/email/email_test.csv",
+    "tipo": ".csv",
+    "bytes": 213,
+    "sha256": "929ccece131580a85178d0f26137dd4c7ffbdae74e65e677fc630767355cf9e6",
+    "stato_analisi": "profilo strutturale; prima riga non sempre header",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": "{\"righe_dopo_prima\": 17, \"prima_riga\": [\"Lunghezza Testo\", \"Numero di Link\", \"Ha Allegato\", \"Spam\"]}"
+  },
+  {
+    "path": "lesson-3-Classification/test_personali/email/preprocessing_email.py",
+    "tipo": ".py",
+    "bytes": 262,
+    "sha256": "3a72ac6fdada51c03c1bef3efd7074d1eea70e6deca3b5d15f33d7e862eb6c79",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "preprocessing; classificazione",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "lesson-3-Classification/test_personali/email/process_email.py",
+    "tipo": ".py",
+    "bytes": 442,
+    "sha256": "7ece5ed205ecc004cd85ad6dc878933b10a93560d65b867ce806c4e2e07dd4bb",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "classificazione",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "lesson-3-Classification/test_personali/film/best_pipeline.py",
+    "tipo": ".py",
+    "bytes": 4660,
+    "sha256": "475a25634866fd2841be55aa25fa76529a142e8f192f5acb6851e5a25417f062",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "preprocessing; regressione; classificazione; validazione; ensemble",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "lesson-3-Classification/test_personali/film/classificazione_dataset_4.csv",
+    "tipo": ".csv",
+    "bytes": 35029,
+    "sha256": "04ba360d8062a7b46eeb9c6c8495eebcf826be892d595da68f6215c7b70e0f35",
+    "stato_analisi": "profilo strutturale; prima riga non sempre header",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": "{\"righe_dopo_prima\": 700, \"prima_riga\": [\"Budget (milioni)\", \"Stelle Recensione\", \"Genere\", \"Esito\"]}"
+  },
+  {
+    "path": "lesson-3-Classification/test_personali/film/film.csv",
+    "tipo": ".csv",
+    "bytes": 28317,
+    "sha256": "77878b372af46ac351b32c9ce320a1f1f0aad701c1372e46fbd8ce48f2c056bc",
+    "stato_analisi": "profilo strutturale; prima riga non sempre header",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": "{\"righe_dopo_prima\": 700, \"prima_riga\": [\"Budget (milioni)\", \"Stelle Recensione\", \"Genere\", \"Esito\"]}"
+  },
+  {
+    "path": "lesson-3-Classification/test_personali/film/film_test.csv",
+    "tipo": ".csv",
+    "bytes": 2459,
+    "sha256": "cc6b32f96d3a34d7de2c9f9a79004739478bd092fb0d31b7bec9d5f0f5ec785c",
+    "stato_analisi": "profilo strutturale; prima riga non sempre header",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": "{\"righe_dopo_prima\": 60, \"prima_riga\": [\"Budget (milioni)\", \"Stelle Recensione\", \"Genere\", \"Esito\"]}"
+  },
+  {
+    "path": "lesson-3-Classification/test_personali/film/preprocessing_film.py",
+    "tipo": ".py",
+    "bytes": 332,
+    "sha256": "8968ba5a23492c0ad206f3462943565aa3ce530e77275cccb910ab8a6f9498ad",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "preprocessing; classificazione",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "lesson-3-Classification/test_personali/film/processing.py",
+    "tipo": ".py",
+    "bytes": 434,
+    "sha256": "e498d7c414f7c771a48c558b25a916c0170b619a46cd703c3d027008b1c56c49",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "classificazione",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "lesson-3-Classification/test_personali/macchina/best_pipeline.py",
+    "tipo": ".py",
+    "bytes": 4658,
+    "sha256": "ca155a7840fb9e8860e3dc34a0b8be4d7de4acd313cc02ce8b15723195a37343",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "preprocessing; regressione; classificazione; validazione; ensemble",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "lesson-3-Classification/test_personali/macchina/classificazione_dataset_5.csv",
+    "tipo": ".csv",
+    "bytes": 27930,
+    "sha256": "a6a376a181ed28fcdcc22a9581ba7d02739523cf0a9c6efc1798037e37d9453c",
+    "stato_analisi": "profilo strutturale; prima riga non sempre header",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": "{\"righe_dopo_prima\": 600, \"prima_riga\": [\"Cilindrata (L)\", \"Peso (kg)\", \"Numero di Porte\", \"Tipo di Veicolo\"]}"
+  },
+  {
+    "path": "lesson-3-Classification/test_personali/macchina/macchine.csv",
+    "tipo": ".csv",
+    "bytes": 24624,
+    "sha256": "fd586b8b100af489525504286c0ad2cf391e2d7aeb6e74eedc417d82c4c97c36",
+    "stato_analisi": "profilo strutturale; prima riga non sempre header",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": "{\"righe_dopo_prima\": 600, \"prima_riga\": [\"Cilindrata (L)\", \"Peso (kg)\", \"Numero di Porte\", \"Tipo di Veicolo\"]}"
+  },
+  {
+    "path": "lesson-3-Classification/test_personali/macchina/macchine_test.csv",
+    "tipo": ".csv",
+    "bytes": 707,
+    "sha256": "dd5f0152ae42acc1bfc8726ea7a72d883ebb0012c718d96ebadfc555822931a3",
+    "stato_analisi": "profilo strutturale; prima riga non sempre header",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": "{\"righe_dopo_prima\": 16, \"prima_riga\": [\"Cilindrata (L)\", \"Peso (kg)\", \"Numero di Porte\", \"Tipo di Veicolo\"]}"
+  },
+  {
+    "path": "lesson-3-Classification/test_personali/macchina/preprocessing_machine.py",
+    "tipo": ".py",
+    "bytes": 299,
+    "sha256": "88f59e699605764ffda01a062dbf58023a9fc4bfe073024edf77b8ed44f5edd1",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "preprocessing; classificazione",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "lesson-3-Classification/test_personali/macchina/processing.py",
+    "tipo": ".py",
+    "bytes": 442,
+    "sha256": "6b8fe7839f233a2ddb378babc23b26aa54f610b552de11fcd6f20da724e2f412",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "classificazione",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "lesson-3-Classification/test_personali/medical/best_params_model_medical.py",
+    "tipo": ".py",
+    "bytes": 4701,
+    "sha256": "3ad8cb520d9c4e33d9b5d939adc40e1cf220dfe03a4ef3a48f4efcd97b53aa56",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "preprocessing; regressione; classificazione; validazione; ensemble",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "lesson-3-Classification/test_personali/medical/classificazione_dataset_3.csv",
+    "tipo": ".csv",
+    "bytes": 41781,
+    "sha256": "d8c05b1910c39607c791c683c2dce2657253d08d7ad9dc5bdc3ba68fd88c3864",
+    "stato_analisi": "profilo strutturale; prima riga non sempre header",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": "{\"righe_dopo_prima\": 900, \"prima_riga\": [\"Età\", \"Pressione Sanguigna (mmHg)\", \"Colesterolo (mg/dl)\", \"Stato di Salute\"]}"
+  },
+  {
+    "path": "lesson-3-Classification/test_personali/medical/medical.csv",
+    "tipo": ".csv",
+    "bytes": 37834,
+    "sha256": "4ebdcc308e67faf8baca98e4c92d574fe56195fc8aff2042a3a59d64a1c85918",
+    "stato_analisi": "profilo strutturale; prima riga non sempre header",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": "{\"righe_dopo_prima\": 900, \"prima_riga\": [\"Età\", \"Pressione Sanguigna (mmHg)\", \"Colesterolo (mg/dl)\", \"Stato di Salute\"]}"
+  },
+  {
+    "path": "lesson-3-Classification/test_personali/medical/medical_test.csv",
+    "tipo": ".csv",
+    "bytes": 1708,
+    "sha256": "a0a15fe06a8a56290d2c187c25696a24d85a2d81c85daec207e8f7cf1b4f5c0b",
+    "stato_analisi": "profilo strutturale; prima riga non sempre header",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": "{\"righe_dopo_prima\": 39, \"prima_riga\": [\"Età\", \"Pressione Sanguigna (mmHg)\", \"Colesterolo (mg/dl)\", \"Stato di Salute\"]}"
+  },
+  {
+    "path": "lesson-3-Classification/test_personali/medical/preprocessing_medical.py",
+    "tipo": ".py",
+    "bytes": 298,
+    "sha256": "b167ee03f5aa23c0ad95addbfe9fd4e399bed4de11fd64c8bab9984eaaffca05",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "preprocessing; classificazione",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "lesson-3-Classification/test_personali/medical/process_medical.py",
+    "tipo": ".py",
+    "bytes": 445,
+    "sha256": "9b1a0d1655b5e1106bde50983baaf5c1c16621be081564144997a1473e2677b6",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "classificazione",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "lesson-3-Classification/test_personali/type_frutta/best_model_fruit.py",
+    "tipo": ".py",
+    "bytes": 5147,
+    "sha256": "e980c34f54f5117298b9358ac01a4821096ae4e062d4bde3fe22393f13a1cfd2",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "preprocessing; regressione; classificazione; validazione; ensemble",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "lesson-3-Classification/test_personali/type_frutta/classificazione_dataset_1.csv",
+    "tipo": ".csv",
+    "bytes": 31915,
+    "sha256": "5c024f81965f83514860485f042d8ca175bc4fc715bfd379bdbfd3329778647a",
+    "stato_analisi": "profilo strutturale; prima riga non sempre header",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": "{\"righe_dopo_prima\": 800, \"prima_riga\": [\"Peso\", \"Colore\", \"Forma\", \"Tipo di Frutta\"]}"
+  },
+  {
+    "path": "lesson-3-Classification/test_personali/type_frutta/fruit.csv",
+    "tipo": ".csv",
+    "bytes": 19569,
+    "sha256": "115303ba2f985707c2fb89fde398f502ac4964b04b6fbc079810b9657abffa2d",
+    "stato_analisi": "profilo strutturale; prima riga non sempre header",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": "{\"righe_dopo_prima\": 800, \"prima_riga\": [\"Peso\", \"Colore\", \"Forma\", \"Tipo di Frutta\"]}"
+  },
+  {
+    "path": "lesson-3-Classification/test_personali/type_frutta/fruit_test.csv",
+    "tipo": ".csv",
+    "bytes": 327,
+    "sha256": "c48fc40908441e5aca34fb1da94fbdfd0f649f1fc999e470e513de8e422c9a2f",
+    "stato_analisi": "profilo strutturale; prima riga non sempre header",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": "{\"righe_dopo_prima\": 12, \"prima_riga\": [\"Peso\", \"Colore\", \"Forma\", \"Tipo di Frutta\"]}"
+  },
+  {
+    "path": "lesson-3-Classification/test_personali/type_frutta/preprocessing_fruit.py",
+    "tipo": ".py",
+    "bytes": 403,
+    "sha256": "1d3c7c3b6a7bc354ad75010738d6168ba48e721170f16fe0bb31a4ac0f92c4ef",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "preprocessing; classificazione",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "lesson-3-Classification/test_personali/type_frutta/process_fruit.py",
+    "tipo": ".py",
+    "bytes": 446,
+    "sha256": "498d1c4ca813fe0f1673273b96026b290f3211d5795c960a841932327a7a1f6a",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "classificazione",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "lesson-3-Classification/vector_machine/support_vector_machine.py",
+    "tipo": ".py",
+    "bytes": 1081,
+    "sha256": "fa13e3eec88cb40d4a06ff2bb857a35dc19a6d3dd3e4efc3afcb9abbbab2109f",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "preprocessing; classificazione; validazione",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "lesson-4-Clustering/Mall_Customers.csv",
+    "tipo": ".csv",
+    "bytes": 4086,
+    "sha256": "3cff17f7cbe2b12dc1780b316e9e3b50c4c9c528d758ac40d6a52e7bb1898544",
+    "stato_analisi": "profilo strutturale; prima riga non sempre header",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": "{\"righe_dopo_prima\": 200, \"prima_riga\": [\"CustomerID\", \"Genre\", \"Age\", \"Annual Income (k$)\", \"Spending Score (1-100)\"]}"
+  },
+  {
+    "path": "lesson-4-Clustering/__init__.py",
+    "tipo": ".py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "lesson-4-Clustering/hierarchical/hierarchical_clustering.py",
+    "tipo": ".py",
+    "bytes": 2142,
+    "sha256": "d026e5309f83ec653bf5b6761e95b8c993ee43fc194773e103372eb3374764b0",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "clustering; sequenze",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "lesson-4-Clustering/k-means/k_means.py",
+    "tipo": ".py",
+    "bytes": 3907,
+    "sha256": "cbbd7972855aca99f1aafb4f7fe2641a4e79d95bb1b2a9a815185a70792f8fb9",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "clustering; sequenze",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "lesson-5-Association Rule Learning/Market_Basket_Optimisation.csv",
+    "tipo": ".csv",
+    "bytes": 302908,
+    "sha256": "f1e604358349a4f76e1cd9e7d7a8b13cc6d376a6e8cf16b91a8ee862c57a0ec0",
+    "stato_analisi": "profilo strutturale; prima riga non sempre header",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": "{\"righe_dopo_prima\": 7500, \"prima_riga\": [\"shrimp\", \"almonds\", \"avocado\", \"vegetables mix\", \"green grapes\", \"whole weat flour\", \"yams\", \"cottage cheese\", \"energy drink\", \"tomato juice\", \"low fat yogurt\", \"green tea\", \"honey\", \"salad\", \"mineral water\", \"salmon\", \"antioxydant juice\", \"frozen smoothie\", \"spinach\", \"olive oil\"]}"
+  },
+  {
+    "path": "lesson-5-Association Rule Learning/__init__.py",
+    "tipo": ".py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "lesson-5-Association Rule Learning/apriori/apriori.py",
+    "tipo": ".py",
+    "bytes": 3790,
+    "sha256": "fc0bd3afc37c49382555fc6b673ca1187fa1851d20516ad2e46b3e86bdb210cd",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "lesson-5-Association Rule Learning/eclat/eclat.py",
+    "tipo": ".py",
+    "bytes": 3751,
+    "sha256": "07750492047658bb02d1bf384dd1948dd2646167f307ae18ce3dfaf896fd5457",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "lesson-6-Reinforcement Learning/Ads_CTR_Optimisation.csv",
+    "tipo": ".csv",
+    "bytes": 200050,
+    "sha256": "a47837720956929eee10d9b8ea957101405d08c5f5778d8eb298c1cfe4b96968",
+    "stato_analisi": "profilo strutturale; prima riga non sempre header",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": "{\"righe_dopo_prima\": 10000, \"prima_riga\": [\"Ad 1\", \"Ad 2\", \"Ad 3\", \"Ad 4\", \"Ad 5\", \"Ad 6\", \"Ad 7\", \"Ad 8\", \"Ad 9\", \"Ad 10\"]}"
+  },
+  {
+    "path": "lesson-6-Reinforcement Learning/__init__.py",
+    "tipo": ".py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "lesson-6-Reinforcement Learning/thompson-sampling/thompson_sampling.py",
+    "tipo": ".py",
+    "bytes": 1841,
+    "sha256": "b9d04b59f65650573d247cc947fd34969d9ba3993e9f1c776610f5da8288866f",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "reinforcement learning",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "lesson-6-Reinforcement Learning/upper-confidence/test-personali/Promotions_Offers_Simulation.csv",
+    "tipo": ".csv",
+    "bytes": 5060,
+    "sha256": "e9329943a51aff8fa589156da122e1571028b590f65c56bbccdb0cc921a7febd",
+    "stato_analisi": "profilo strutturale; prima riga non sempre header",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": "{\"righe_dopo_prima\": 500, \"prima_riga\": [\"Promotion_1\", \"Promotion_2\", \"Promotion_3\", \"Promotion_4\", \"Promotion_5\"]}"
+  },
+  {
+    "path": "lesson-6-Reinforcement Learning/upper-confidence/test-personali/upper_confidence_test.py",
+    "tipo": ".py",
+    "bytes": 1015,
+    "sha256": "499ee3eeeb7343e656c7758b525563b91f501abc8f33fbbf6361f5900c172036",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "reinforcement learning",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "lesson-6-Reinforcement Learning/upper-confidence/upper_confidence.py",
+    "tipo": ".py",
+    "bytes": 2991,
+    "sha256": "61e8fcb9960ba3fe46c0e9f15df9e1bd11708de23582d6ed89aaca77b4ad8d67",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "reinforcement learning",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "lesson-7-Natural Language Processing/NLP.py",
+    "tipo": ".py",
+    "bytes": 3040,
+    "sha256": "57fcb726e3c9deba2f079574feadfc0370b4d13087673f2a38f7a3b3c69d514b",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "classificazione; validazione; NLP classico",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "lesson-7-Natural Language Processing/Restaurant_Reviews.tsv",
+    "tipo": ".tsv",
+    "bytes": 61332,
+    "sha256": "2b432f36bc7c7ed77312187a9afd6531dfa3d16be48b9738131dd5141195b469",
+    "stato_analisi": "profilo strutturale; prima riga non sempre header",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": "{\"righe_dopo_prima\": 1000, \"prima_riga\": [\"Review\", \"Liked\"]}"
+  },
+  {
+    "path": "lesson-7-Natural Language Processing/__init__.py",
+    "tipo": ".py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "lesson-8-Deep Learning/1 - ANN/Churn_Modelling.csv",
+    "tipo": ".csv",
+    "bytes": 674857,
+    "sha256": "ee2a5c9d8daf3aed0d91c4d883a84ebb77d271447bebc0f0c80aafb0f288ceab",
+    "stato_analisi": "profilo strutturale; prima riga non sempre header",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": "{\"righe_dopo_prima\": 10000, \"prima_riga\": [\"RowNumber\", \"CustomerId\", \"Surname\", \"CreditScore\", \"Geography\", \"Gender\", \"Age\", \"Tenure\", \"Balance\", \"NumOfProducts\", \"HasCrCard\", \"IsActiveMember\", \"EstimatedSalary\", \"Exited\"]}"
+  },
+  {
+    "path": "lesson-8-Deep Learning/1 - ANN/ann.py",
+    "tipo": ".py",
+    "bytes": 6489,
+    "sha256": "871615c922c7beda271d001c093ff89b6e1f0debad1ff9f8626362c09920d3ec",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "preprocessing; regressione; classificazione; validazione; reti neurali; sequenze; LLM e RAG",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "lesson-8-Deep Learning/2 - CNN/cnn.py",
+    "tipo": ".py",
+    "bytes": 4416,
+    "sha256": "defa2a8b07b9ff2634277071e7440f82e53f94d7ed8ee41d83edfc622add2331",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "classificazione; reti neurali; computer vision",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "lesson-8-Deep Learning/3 - RNN/Google_Stock_Price_Test.csv",
+    "tipo": ".csv",
+    "bytes": 1009,
+    "sha256": "84b6b68d3bfa180dfc4d9b6e4587ccae4cc65bc1bee57989f75f7f6efc741ec8",
+    "stato_analisi": "profilo strutturale; prima riga non sempre header",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": "{\"righe_dopo_prima\": 20, \"prima_riga\": [\"Date\", \"Open\", \"High\", \"Low\", \"Close\", \"Volume\"]}"
+  },
+  {
+    "path": "lesson-8-Deep Learning/3 - RNN/Google_Stock_Price_Train.csv",
+    "tipo": ".csv",
+    "bytes": 62230,
+    "sha256": "0406ee70bc5c7b26a44f8f0a2dc6354092e74f894d8cf2afc66007ec038ee3a5",
+    "stato_analisi": "profilo strutturale; prima riga non sempre header",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": "{\"righe_dopo_prima\": 1258, \"prima_riga\": [\"Date\", \"Open\", \"High\", \"Low\", \"Close\", \"Volume\"]}"
+  },
+  {
+    "path": "lesson-8-Deep Learning/3 - RNN/rnn.py",
+    "tipo": ".py",
+    "bytes": 6433,
+    "sha256": "6d1dbdb79f3e2d94096eac9d99e2dcdb974151cf929ccfa9c559cd01bfc53534",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "reti neurali; sequenze",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "lesson-8-Deep Learning/3 - RNN/test.csv",
+    "tipo": ".csv",
+    "bytes": 1391615,
+    "sha256": "9d7b10cefdd51ad62b63229e7526e93c7243723932f440a0c23a4065515f40c7",
+    "stato_analisi": "profilo strutturale; prima riga non sempre header",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": "{\"righe_dopo_prima\": 1198, \"prima_riga\": [\"\", \"0\", \"1\", \"2\", \"3\", \"4\", \"5\", \"6\", \"7\", \"8\", \"9\", \"10\", \"11\", \"12\", \"13\", \"14\", \"15\", \"16\", \"17\", \"18\", \"19\", \"20\", \"21\", \"22\", \"23\", \"24\", \"25\", \"26\", \"27\", \"28\"]}"
+  },
+  {
+    "path": "lesson-8-Deep Learning/4 - SOM/Credit_Card_Applications.csv",
+    "tipo": ".csv",
+    "bytes": 34951,
+    "sha256": "a736825474d3b02ae43c76a21fa3264a296c449a64fc6c0593c35ff77eb807ef",
+    "stato_analisi": "profilo strutturale; prima riga non sempre header",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": "{\"righe_dopo_prima\": 690, \"prima_riga\": [\"CustomerID\", \"A1\", \"A2\", \"A3\", \"A4\", \"A5\", \"A6\", \"A7\", \"A8\", \"A9\", \"A10\", \"A11\", \"A12\", \"A13\", \"A14\", \"Class\"]}"
+  },
+  {
+    "path": "lesson-8-Deep Learning/4 - SOM/som.py",
+    "tipo": ".py",
+    "bytes": 2490,
+    "sha256": "664819b04fbcf8422cd28bc9dd0378ed9048c5d96633548882c6dce9fb3b6b40",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "lesson-8-Deep Learning/__init__.py",
+    "tipo": ".py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "lesson-9-Dimensionality Reduction/Wine.csv",
+    "tipo": ".csv",
+    "bytes": 11284,
+    "sha256": "3c8a5eb8da469952c6b2c4f95a1eea2d96ba8c2ef2e27f99cad3821edd68be8f",
+    "stato_analisi": "profilo strutturale; prima riga non sempre header",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": "{\"righe_dopo_prima\": 178, \"prima_riga\": [\"Alcohol\", \"Malic_Acid\", \"Ash\", \"Ash_Alcanity\", \"Magnesium\", \"Total_Phenols\", \"Flavanoids\", \"Nonflavanoid_Phenols\", \"Proanthocyanins\", \"Color_Intensity\", \"Hue\", \"OD280\", \"Proline\", \"Customer_Segment\"]}"
+  },
+  {
+    "path": "lesson-9-Dimensionality Reduction/__init__.py",
+    "tipo": ".py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "lesson-9-Dimensionality Reduction/kernel-pca/kernel_pca.py",
+    "tipo": ".py",
+    "bytes": 3114,
+    "sha256": "88e8dc275237b422bebb23315bec84941c1ac895e4f78a8a4dfd83333fa8cdc2",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "preprocessing; regressione; classificazione; validazione; riduzione dimensionalità",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "lesson-9-Dimensionality Reduction/lda/linear_discriminant_analysis.py",
+    "tipo": ".py",
+    "bytes": 1933,
+    "sha256": "5aa752a144040d5d9f0d7bbc7eea328d245e06804152d40ad4788d7f5ff7c734",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "preprocessing; regressione; classificazione; validazione; riduzione dimensionalità; sequenze",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "lesson-9-Dimensionality Reduction/pca/principal_component_analysis.py",
+    "tipo": ".py",
+    "bytes": 1640,
+    "sha256": "298ce5ffcca93f00838fb002779b3b59219114b2118f320d1e4c8ea452814a38",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "preprocessing; regressione; classificazione; validazione; riduzione dimensionalità",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "mix-exercise/02_end_to_end_machine_learning_project/02_end_to_end_machine_learning_project.py",
+    "tipo": ".py",
+    "bytes": 9639,
+    "sha256": "d0258dbffcff900d11bbac1c4ce19f1b82bde12fb0d75c719e668c43fae300bb",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "preprocessing; regressione; validazione",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "mix-exercise/02_end_to_end_machine_learning_project/credit_card_fraud.py",
+    "tipo": ".py",
+    "bytes": 8525,
+    "sha256": "fcf7966244b3e1368f8c40b8869b803c4617c8b04c234f91aa3b9a2478fb2f92",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "preprocessing; regressione; classificazione; validazione; riduzione dimensionalità; ensemble",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "mix-exercise/02_end_to_end_machine_learning_project/dataset/house_prices/sample_submission.csv",
+    "tipo": ".csv",
+    "bytes": 31939,
+    "sha256": "f19e99699b925aa3085c8d2ae43c62f15fbcd35e4a953b98025f8392c3ffa807",
+    "stato_analisi": "profilo strutturale; prima riga non sempre header",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": "{\"righe_dopo_prima\": 1459, \"prima_riga\": [\"Id\", \"SalePrice\"]}"
+  },
+  {
+    "path": "mix-exercise/02_end_to_end_machine_learning_project/dataset/house_prices/test.csv",
+    "tipo": ".csv",
+    "bytes": 451405,
+    "sha256": "8fdd3d829d4d986b58f845c9553b225e67dd8383624d90fb6ca1d4bed5798c1e",
+    "stato_analisi": "profilo strutturale; prima riga non sempre header",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": "{\"righe_dopo_prima\": 1459, \"prima_riga\": [\"Id\", \"MSSubClass\", \"MSZoning\", \"LotFrontage\", \"LotArea\", \"Street\", \"Alley\", \"LotShape\", \"LandContour\", \"Utilities\", \"LotConfig\", \"LandSlope\", \"Neighborhood\", \"Condition1\", \"Condition2\", \"BldgType\", \"HouseStyle\", \"OverallQual\", \"OverallCond\", \"YearBuilt\", \"YearRemodAdd\", \"RoofStyle\", \"RoofMatl\", \"Exterior1st\", \"Exterior2nd\", \"MasVnrType\", \"MasVnrArea\", \"ExterQual\", \"ExterCond\", \"Foundation\"]}"
+  },
+  {
+    "path": "mix-exercise/02_end_to_end_machine_learning_project/dataset/house_prices/train.csv",
+    "tipo": ".csv",
+    "bytes": 460676,
+    "sha256": "1e18addf81e5e4d347cc17ee6075bbe4a42b7fa26b9e5b063e8f692a5f929d41",
+    "stato_analisi": "profilo strutturale; prima riga non sempre header",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": "{\"righe_dopo_prima\": 1460, \"prima_riga\": [\"Id\", \"MSSubClass\", \"MSZoning\", \"LotFrontage\", \"LotArea\", \"Street\", \"Alley\", \"LotShape\", \"LandContour\", \"Utilities\", \"LotConfig\", \"LandSlope\", \"Neighborhood\", \"Condition1\", \"Condition2\", \"BldgType\", \"HouseStyle\", \"OverallQual\", \"OverallCond\", \"YearBuilt\", \"YearRemodAdd\", \"RoofStyle\", \"RoofMatl\", \"Exterior1st\", \"Exterior2nd\", \"MasVnrType\", \"MasVnrArea\", \"ExterQual\", \"ExterCond\", \"Foundation\"]}"
+  },
+  {
+    "path": "mix-exercise/02_end_to_end_machine_learning_project/dataset/housing/housing.csv",
+    "tipo": ".csv",
+    "bytes": 1423529,
+    "sha256": "8a3727f4cf54ac1a327f69b1d5b4db54c5834ea81c6e4efc0d163300022a685e",
+    "stato_analisi": "profilo strutturale; prima riga non sempre header",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": "{\"righe_dopo_prima\": 20640, \"prima_riga\": [\"longitude\", \"latitude\", \"housing_median_age\", \"total_rooms\", \"total_bedrooms\", \"population\", \"households\", \"median_income\", \"median_house_value\", \"ocean_proximity\"]}"
+  },
+  {
+    "path": "mix-exercise/02_end_to_end_machine_learning_project/house_prices.py",
+    "tipo": ".py",
+    "bytes": 12021,
+    "sha256": "ec9e11b72b56e394a8990480283789510b0c9e03790e9b640bd9cfde4da497c4",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "preprocessing; validazione",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "mix-exercise/02_end_to_end_machine_learning_project/medical_cost.py",
+    "tipo": ".py",
+    "bytes": 2152,
+    "sha256": "93a73a5c26caa234b1986b2f6d367d11a8a18b1cfd19b222d5482ba60ebbcd20",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "preprocessing; validazione; ensemble",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "mix-exercise/02_end_to_end_machine_learning_project/telco_churn.py",
+    "tipo": ".py",
+    "bytes": 3683,
+    "sha256": "54efaca03a07b07f5b66ff2e4f95ad0c57b314e22cabe90477e93bd20c738065",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "preprocessing; classificazione; validazione; ensemble",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "mix-exercise/03_classification/03_classification.py",
+    "tipo": ".py",
+    "bytes": 85,
+    "sha256": "624e1f3902eb5f8051a3d487d212c453fabc769c076bdb1025048357400dddb9",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "mix-exercise/03_classification/adop_buddy.py",
+    "tipo": ".py",
+    "bytes": 4269,
+    "sha256": "b1cbc486514b95c387ff0711ad829d06f82ef3c51cb59b61d1974b6f25484465",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "preprocessing; classificazione; validazione; ensemble",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "mix-exercise/03_classification/bank.py",
+    "tipo": ".py",
+    "bytes": 6057,
+    "sha256": "e1a4c9ab5dafa239e2a124a07adcf83a82bbece7216e8fdad07214661e70a051",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "preprocessing; regressione; classificazione; validazione; ensemble",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "mix-exercise/03_classification/email.py",
+    "tipo": ".py",
+    "bytes": 4706,
+    "sha256": "03cd0307db09c6796edf5a888fd1ae45f59cb2bdaf0e22cc2aab0731230cfcde",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "preprocessing; regressione; classificazione; validazione; NLP classico",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "mix-exercise/03_classification/emotions.py",
+    "tipo": ".py",
+    "bytes": 4271,
+    "sha256": "9cbd64028a076f05e149117dd464cf0244730783430e51674de6740cc158704c",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "regressione; classificazione; NLP classico",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "mix-exercise/03_classification/ex_1.py",
+    "tipo": ".py",
+    "bytes": 1162,
+    "sha256": "5ac85b5fb07d81cf33338d35f58e300e57c2cd7c8ff982d64ed5002fb2de1b02",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "classificazione; validazione; computer vision",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "mix-exercise/03_classification/ex_2.py",
+    "tipo": ".py",
+    "bytes": 667,
+    "sha256": "ca058723dd30f776f06f953e4b80403e84a55a84f24d9f22ed8c872d2239965b",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "computer vision",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "mix-exercise/03_classification/ex_3.py",
+    "tipo": ".py",
+    "bytes": 3677,
+    "sha256": "762f68fa395780f4f23e15627ec6ac93297c8f0254c6e5d918d5f5adce2a74df",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "preprocessing; classificazione; validazione; ensemble",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "mix-exercise/03_classification/ex_4.py",
+    "tipo": ".py",
+    "bytes": 1728,
+    "sha256": "a30dce0d88a37750458167a18a1cef102ca91593c1c6bb859e256bbb23f58f17",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "mix-exercise/03_classification/heart_disease.py",
+    "tipo": ".py",
+    "bytes": 3863,
+    "sha256": "9042369062efc6a5e922f8d8160b41041412c5b4c51a797053b78eb0fd306a81",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "preprocessing; regressione; classificazione; validazione; ensemble",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "mix-exercise/03_classification/otto_group.py",
+    "tipo": ".py",
+    "bytes": 4974,
+    "sha256": "d072c9dc82ac93950d8aeec41bcbcd715211785e131bd8c26a421180b75a0674",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "preprocessing; regressione; classificazione; validazione; ensemble",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "mix-exercise/03_classification/some_credit.py",
+    "tipo": ".py",
+    "bytes": 6343,
+    "sha256": "1aa29dbe49b3bd9a894b43c6289634cbbd7d2dba16e5f19d3fd3c93cb92d20d8",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "preprocessing; regressione; classificazione; validazione; ensemble",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "mix-exercise/03_classification/toxic_comment.py",
+    "tipo": ".py",
+    "bytes": 13289,
+    "sha256": "bde38849ab004b13e4ab9f0f706baf0940e7b925033333574a1f73edcaf5009a",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "preprocessing; regressione; classificazione; validazione; NLP classico",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "mix-exercise/04_training_linear_model/adult.py",
+    "tipo": ".py",
+    "bytes": 1529,
+    "sha256": "d0ac17ffd2801bc4114f34c92e6ea2c66f542d9c5e3edb64a258e10c0663934e",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "preprocessing; validazione",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "mix-exercise/04_training_linear_model/bike_sharing.py",
+    "tipo": ".py",
+    "bytes": 4892,
+    "sha256": "3a84b003f4e2a44471505b341a052fd404dece7df15aab42368562fd93648ba1",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "preprocessing; regressione; validazione",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "mix-exercise/04_training_linear_model/wine_quality.py.py",
+    "tipo": ".py",
+    "bytes": 3593,
+    "sha256": "5a311d29b0f56d4e76358b174a0c64e1a9fd277210bf727b90eb1c769d14d17a",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "preprocessing; regressione; validazione",
+    "celle": 0,
+    "dettagli": ""
+  },
+  {
+    "path": "mix-exercise/tennis_analize/tennis_oracle_analize.py",
+    "tipo": ".py",
+    "bytes": 447,
+    "sha256": "e023049069eb4267211f9e1ef9900911c754bca202590b2c927c19666fbf83ab",
+    "stato_analisi": "testo analizzato staticamente",
+    "argomenti": "",
+    "celle": 0,
+    "dettagli": ""
+  }
+]

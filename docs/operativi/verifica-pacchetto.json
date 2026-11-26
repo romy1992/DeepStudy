@@ -1,0 +1,101 @@
+{
+  "archive_sha256": "8a474db691e5a6bec421dda596422a705fee181d040bb9345b61695009b9efa1",
+  "files": [
+    {
+      "path": "DeepStudy-docs/01-analisi-materiali.md",
+      "bytes": 5998,
+      "sha256": "b9c130d33783d64d250ee667d4c055fef7d4160c556d8f51a0be956c7fe220d5"
+    },
+    {
+      "path": "DeepStudy-docs/02-certificazioni-gap.md",
+      "bytes": 5656,
+      "sha256": "f9fc4ea48250d537eb31663ecb6c68446e10a5e0ee207206a04f62404637d952"
+    },
+    {
+      "path": "DeepStudy-docs/03-curriculum.md",
+      "bytes": 4620,
+      "sha256": "a7e443685f022e55e27009a6e187f9f83c4c27df4f9f40e7eabcceb61357cb7b"
+    },
+    {
+      "path": "DeepStudy-docs/04-requisiti-prodotto.md",
+      "bytes": 3846,
+      "sha256": "dee2ca0c7871fbd3485d2b5c625a6b7629e83b9f81426a2be99b914534069059"
+    },
+    {
+      "path": "DeepStudy-docs/05-architettura.md",
+      "bytes": 7016,
+      "sha256": "cd2ac9d50ac9a442cf0afde2d874a210ed76200f737672a76f7aecf4f57601eb"
+    },
+    {
+      "path": "DeepStudy-docs/06-milestone.md",
+      "bytes": 3770,
+      "sha256": "a63036888f97492adb9858273444ba89dc19ea5b8f91226bf0dc6029155431c3"
+    },
+    {
+      "path": "DeepStudy-docs/07-istruzioni-agenti.md",
+      "bytes": 3665,
+      "sha256": "424bcf72bc8114555fce6d2244320744acd082ac63517d50a717e3f91464cc03"
+    },
+    {
+      "path": "DeepStudy-docs/08-decisioni-validazione.md",
+      "bytes": 2431,
+      "sha256": "4c782a31d91c8000879b85c3fc0ce0d564ca26ac326ed4359ea0fbec752e00e3"
+    },
+    {
+      "path": "DeepStudy-docs/09-fonti.md",
+      "bytes": 2329,
+      "sha256": "35c91cb9203116c14d925e2ed17d1485760bb730d4ba21b45bdbf353e286e121"
+    },
+    {
+      "path": "DeepStudy-docs/README.md",
+      "bytes": 2779,
+      "sha256": "eb28ada4cf7a985b64cfd10fc36110cd6420535bac1eb25065cb7ae28080e76e"
+    },
+    {
+      "path": "DeepStudy-docs/evidenze/analisi-sorgenti.json",
+      "bytes": 112975,
+      "sha256": "c8a7fd9129bc96f998f80bade7136faa7d2276718dacacf51699e5496443de7b"
+    },
+    {
+      "path": "DeepStudy-docs/evidenze/drive-profili-testuali.json",
+      "bytes": 2154,
+      "sha256": "de79cbc7e377f776adaffd35c56202207d943fa601a53ed203b2e672a25f3363"
+    },
+    {
+      "path": "DeepStudy-docs/evidenze/inventario-completo.csv",
+      "bytes": 2406110,
+      "sha256": "c3507efe76013a40cb914553be7015daf3073ec05ef57a55b7322132a1976a17"
+    },
+    {
+      "path": "DeepStudy-docs/evidenze/inventario-drive.json",
+      "bytes": 15957,
+      "sha256": "867c9801ea63342de362adc6ba3ec050053b96afdc7c37027eb18e781cd6c481"
+    },
+    {
+      "path": "DeepStudy-docs/evidenze/note-estrazione.txt",
+      "bytes": 65976,
+      "sha256": "b78239efcc89a8fb504964f17f633ebaa68f769be022c1cda80bf8967712f5c9"
+    },
+    {
+      "path": "DeepStudy-docs/evidenze/pdf-ocr.txt",
+      "bytes": 17317,
+      "sha256": "8a3ad8d02ac8cb6b7b24c9842ca9b8f6946405b461748a2609457b773df564c3"
+    },
+    {
+      "path": "DeepStudy-docs/evidenze/riepilogo.json",
+      "bytes": 2375,
+      "sha256": "f2632f40cb969787ebaa3fc0fc051a2070a049992d6bbf3fa01bfd4d7e353c03"
+    },
+    {
+      "path": "DeepStudy-documentazione-v0.1.md",
+      "bytes": 42270,
+      "sha256": "ffbfed5f00d19b30d1ce1310e809fd8041cdca4c8ee3d19ae11f007a4ca3da51"
+    }
+  ],
+  "markdown_all_in_consolidated": true,
+  "inventory_rows": 13327,
+  "analysis_records": 286,
+  "duplicate_paths": 0,
+  "inconsistencies": [],
+  "read_only_files": 18
+}

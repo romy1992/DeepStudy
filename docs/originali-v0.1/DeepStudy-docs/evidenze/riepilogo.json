@@ -1,0 +1,89 @@
+{
+  "commit": "d9e53d872d536fa53a0efd1f194b03b2d1d84b67",
+  "file": 13327,
+  "tipi_principali": {
+    ".jpg": 10002,
+    ".py": 163,
+    ".csv": 74,
+    ".ipynb": 38,
+    ".pdf": 10,
+    ".pkl": 9,
+    ".txt": 8,
+    ".png": 6,
+    "(senza estensione)": 5,
+    ".v2": 4,
+    ".md": 3,
+    ".bz2": 2,
+    ".keras": 1,
+    ".7c53336b37003a9286aba55d2945844c": 1,
+    ".9c4069e25e1ef370c078db7ee85ff9ac": 1
+  },
+  "argomenti_sorgenti": {
+    "preprocessing": 63,
+    "regressione": 60,
+    "classificazione": 76,
+    "validazione": 67,
+    "clustering": 3,
+    "riduzione dimensionalità": 7,
+    "ensemble": 30,
+    "reti neurali": 20,
+    "computer vision": 18,
+    "sequenze": 11,
+    "NLP classico": 9,
+    "reinforcement learning": 3,
+    "MLOps": 0,
+    "LLM e RAG": 3
+  },
+  "pdf": [
+    {
+      "path": "Data Science & Machine Learning CheatSheets/Cheatsheet_1.pdf",
+      "dettagli": "1 pagine; 0 caratteri",
+      "argomenti": ""
+    },
+    {
+      "path": "Data Science & Machine Learning CheatSheets/Cheatsheet_10.pdf",
+      "dettagli": "1 pagine; 0 caratteri",
+      "argomenti": ""
+    },
+    {
+      "path": "Data Science & Machine Learning CheatSheets/Cheatsheet_2.pdf",
+      "dettagli": "1 pagine; 0 caratteri",
+      "argomenti": ""
+    },
+    {
+      "path": "Data Science & Machine Learning CheatSheets/Cheatsheet_3.pdf",
+      "dettagli": "2 pagine; 1104 caratteri",
+      "argomenti": "computer vision"
+    },
+    {
+      "path": "Data Science & Machine Learning CheatSheets/Cheatsheet_4.pdf",
+      "dettagli": "1 pagine; 0 caratteri",
+      "argomenti": ""
+    },
+    {
+      "path": "Data Science & Machine Learning CheatSheets/Cheatsheet_5.pdf",
+      "dettagli": "1 pagine; 0 caratteri",
+      "argomenti": ""
+    },
+    {
+      "path": "Data Science & Machine Learning CheatSheets/Cheatsheet_6.pdf",
+      "dettagli": "1 pagine; 0 caratteri",
+      "argomenti": ""
+    },
+    {
+      "path": "Data Science & Machine Learning CheatSheets/Cheatsheet_7.pdf",
+      "dettagli": "1 pagine; 1439 caratteri",
+      "argomenti": ""
+    },
+    {
+      "path": "Data Science & Machine Learning CheatSheets/Cheatsheet_8.pdf",
+      "dettagli": "1 pagine; 18 caratteri",
+      "argomenti": ""
+    },
+    {
+      "path": "Data Science & Machine Learning CheatSheets/Cheatsheet_9.pdf",
+      "dettagli": "1 pagine; 0 caratteri",
+      "argomenti": ""
+    }
+  ]
+}

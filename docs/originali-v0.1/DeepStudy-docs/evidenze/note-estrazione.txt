@@ -1,0 +1,2013 @@
+## Data Science & Machine Learning CheatSheets/Cheatsheet_1.pdf
+
+
+## Data Science & Machine Learning CheatSheets/Cheatsheet_10.pdf
+
+
+## Data Science & Machine Learning CheatSheets/Cheatsheet_2.pdf
+
+
+## Data Science & Machine Learning CheatSheets/Cheatsheet_3.pdf
+PERCEPTRON. ONE LAYER ANN ANN
+Artiﬁcal  Neural NetworkOne Layer Artiﬁcal  Neural Network
+NEURAL NETWORK
+ARCHITECTURES
+BEFORE YOU DIG IN.
+Represents
+the input.
+Represents 
+the output.
+Represents 
+hidden nodes.
+OK. Let’s start. 
+POOLING.
+FLATTENING.
+LOOP.
+CNN
+0 0 1 0 0 0 0
+0 0 0 0 1 0 0
+0 0 1 0 0 0 0
+0 0 0 0 0 1 0
+0 0 1 0 0 1 0
+0 0 1 0 0 0 0
+0 0 0 0 0 1 0
+CONVOLUTION.
+RNN
+Recurent Neural Network
+Convolutional Neural Network
+For more information visit: superdatascience.com
+Positive Class
+Negative ClassSOM
+Self Organizing Maps
+1 0 0 5 0 0 0 0 9 0 0 0 4 0 0 5 0 0 7 0 0 0 7 0
+0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 9 0 0 8
+0 5 0 0 0 0 4 0 0 0 0 0 0 0 0 0 0 8 0 0 0 0 0 0
+0 0 8 0 0 0 0 0 6 0 0 7 0 0 0 0 0 0 0 0 9 0 0 0
+5 0 0 0 0 0 0 0 0 7 0 0 0 0 5 0 0 0 0 6 0 0 9 0
+3 0 0 0 2 0 0 0 6 0 0 0 0 0 0 0 0 0 0 0 8 0 0 0
+0 0 6 0 0 0 0 7 0 0 0 0 0 0 8 0 0 0 0 0 6 0 0 0
+1 0 0 0 2 0 0 1 0 0 0 0 9 0 0 0 0 4 0 5 0 0 0
+0
+0
+0.2
+0.3
+0.4
+0.5
+0.6
+0.7
+0.8
+0.9
+1.0
+2
+2
+4
+4
+6
+6
+8
+8
+10
+10
+AE
+BM RBM
+Restricted Boltzman MachinesBoltzman Machines
+For more information visit: superdatascience.com
+Autoencoders
+ENCODE DECODE
+
+## Data Science & Machine Learning CheatSheets/Cheatsheet_4.pdf
+
+
+## Data Science & Machine Learning CheatSheets/Cheatsheet_5.pdf
+
+
+## Data Science & Machine Learning CheatSheets/Cheatsheet_6.pdf
+
+
+## Data Science & Machine Learning CheatSheets/Cheatsheet_7.pdf
+R vs Python
+NEED
+-
+TO
+-
+KNOW
+ DISTINCTIONS
+Indexation From 1 (R) vs 0 (Python)
+Unlike in *most* programming languages, indexation in R 
+starts from [1]. Python, on the other hand, starts indexation 
+at [0]. You really have to shift your mentality when you jump 
+between the two tools.
+Tabulation Matters In Python
+Python is created to be visually appealing even in terms of 
+reading the code. This is one of the *few* programming 
+languages where white spaces matter. Watch out where you 
+place indentations! This is not the case in R.
+© SuperDataScience. All Rights Reserved
+Negative Indexation [-1]
+In both languages you can pass a negative index [-n] to a 
+vector / list. However, the results will be drastically different. 
+E.g. in R [-4] excludes the 4th element from the subset, in 
+Python [-4] returns only the 4th element from the right. 
+Matrix Population Behaviour
+By default, in R the matrix() function populates matrices 
+column-by-column, whereas in Python np.reshape() does it 
+row-by-row. This behaviour stems from the original design 
+of the languages and can be adjusted via special parameters.
+Vectorized vs OOP
+The fundamental underlying principles of the two languages 
+are different: for R it’s vectorization and for Python it’s OOP . 
+Very important to keep this distinction in 
+
+## Data Science & Machine Learning CheatSheets/Cheatsheet_8.pdf
+𝜎 ҧ𝑥
+𝜇 ҧ𝑝∗∗
+𝜇 ҧ𝑝∗
+
+
+## Data Science & Machine Learning CheatSheets/Cheatsheet_9.pdf
+
+
+## Hands On Machine Learning with Scikit Learn Keras and TensorFlow/capitolo_10/ex_test.py
+Topic: ['preprocessing', 'regressione', 'classificazione', 'validazione', 'reti neurali', 'computer vision', 'sequenze']
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Jun 11 11:09:27 2025
+
+@author: trotta
+
+DEEP Learning ANN
+"""
+
+## Hands On Machine Learning with Scikit Learn Keras and TensorFlow/capitolo_11/ex_test.py
+Topic: ['reti neurali', 'computer vision', 'sequenze']
+# -*- coding: utf-8 -*-
+"""
+Created on Tue Jun 17 09:47:12 2025
+
+@author: trotta
+
+Addestramento di reti neurali profonde : 
+    In questo capito si spiega come possono esserci problemi durante l'addestramento e delle funzioni che possiamo inserire per evitare ciò.
+
+## Hands On Machine Learning with Scikit Learn Keras and TensorFlow/capitolo_11/exercise_8.py
+Topic: ['reti neurali', 'computer vision']
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Jun 18 17:01:57 2025
+
+@author: trotta
+8.	Esercitati ad addestrare una rete neurale profonda sul set di dati di immagini CIFAR10:
+    
+1.	Costruisci una DNN con 20 strati nascosti di 100 neuroni ciascuno (è troppo, ma è il punto di questo esercizio). Utilizzare l'inizializzazione He e la funzione di attivazione ELU.
+
+## Hands On Machine Learning with Scikit Learn Keras and TensorFlow/capitolo_12/exercise_12.py
+Topic: ['reti neurali']
+# -*- coding: utf-8 -*-
+"""
+Created on Tue Jun 24 16:38:45 2025
+
+@author: trotta
+
+12.	Implementa un livello personalizzato che esegua la normalizzazione dei livelli (useremo questo tipo di livello nel Capitolo 15):
+1.	Il  metodo build() dovrebbe definire due pesi addestrabili α e β, entrambi di forma input_shape[-1:] 
+
+## Hands On Machine Learning with Scikit Learn Keras and TensorFlow/capitolo_12/exercise_13.py
+Topic: ['reti neurali', 'computer vision']
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Jun 25 16:50:27 2025
+
+@author: trotta
+13.	Addestra un modello utilizzando un ciclo di addestramento personalizzato per affrontare il set di dati Fashion MNIST (vedi Capitolo 10).
+1.	Visualizza l'epoca, l'iterazione, la perdita media di addestramento e l'accuratezza media in ogni epoca (aggiornata a ogni iterazione), 
+    nonché la perdita di convalida e l'accuratezza alla fine di ogni epoca.
+
+## Hands On Machine Learning with Scikit Learn Keras and TensorFlow/capitolo_13/ex_test.py
+Topic: ['reti neurali']
+# -*- coding: utf-8 -*-
+"""
+Created on Fri Jun 27 16:03:21 2025
+
+@author: trotta
+"""
+# %% 
+"""
+
+## Hands On Machine Learning with Scikit Learn Keras and TensorFlow/capitolo_13/exercise_10.py
+Topic: ['classificazione']
+# -*- coding: utf-8 -*-
+"""
+Created on Fri Jul  4 12:11:51 2025
+
+@author: trotta
+
+10.	In questo esercizio scaricherai un set di dati, lo dividerai, creerai un tf.data.Dataset per caricarlo e preelaborarlo in modo efficiente, 
+quindi costruirai e addestrerai un modello di classificazione binaria contenente un  livello di incorporamento:
+
+## Hands On Machine Learning with Scikit Learn Keras and TensorFlow/capitolo_13/exercise_9.py
+Topic: ['reti neurali', 'computer vision']
+# -*- coding: utf-8 -*-
+"""
+Created on Fri Jul  4 12:11:50 2025
+
+@author: trotta
+
+9.	Caricare il set di dati Fashion MNIST (introdotto nel Capitolo 10), dividerlo in un set di addestramento, 
+    un set di convalida e un set di test, mescolare il set di addestramento e salvare ogni set di dati in più file TFRecord. 
+
+## Hands On Machine Learning with Scikit Learn Keras and TensorFlow/capitolo_14/ex_test.py
+Topic: ['reti neurali', 'computer vision']
+# -*- coding: utf-8 -*-
+"""
+Created on Tue Jul  8 16:29:31 2025
+
+@author: trotta
+"""
+# %%
+from tensorflow import keras
+
+## Hands On Machine Learning with Scikit Learn Keras and TensorFlow/capitolo_15/ex_test.py
+Topic: ['regressione', 'reti neurali', 'sequenze']
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Jul 16 14:40:47 2025
+
+@author: trotta
+
+RNN
+"""
+
+## Hands On Machine Learning with Scikit Learn Keras and TensorFlow/capitolo_15/exercise_9.py
+Topic: ['classificazione', 'reti neurali']
+# -*- coding: utf-8 -*-
+"""
+Created on Sat Jul 19 18:35:11 2025
+
+@author: trotta
+
+9.	Eseguire il training di un modello di classificazione per il set di dati SketchRNN, disponibile nei set di dati TensorFlow.
+
+
+## Hands On Machine Learning with Scikit Learn Keras and TensorFlow/capitolo_2/esercizi/progetto_machine_learning.py
+Topic: ['preprocessing', 'regressione', 'validazione']
+"""
+Created on Tue May  6 17:20:19 2025
+@author: trotta
+
+1.	Provare un regressore Support Vector Machine (sklearn.svm.SVR) 
+   con vari iperparametri, come kernel="linear" (con vari valori per l'iperparametro C) o kernel="rbf" (con vari valori per gli  iperparametri C e gamma). 
+   Per il momento, non preoccupatevi del significato di questi iperparametri. Come si comporta il miglior predittore SVR?
+   
+
+## Hands On Machine Learning with Scikit Learn Keras and TensorFlow/capitolo_2/ex_test.py
+Topic: []
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Apr 30 15:30:46 2025
+
+@author: trotta
+"""
+import matplotlib.pyplot as plt
+import pandas as pd
+
+## Hands On Machine Learning with Scikit Learn Keras and TensorFlow/capitolo_3/ex_test.py
+Topic: ['classificazione', 'validazione', 'computer vision']
+# -*- coding: utf-8 -*-
+"""
+Created on Wed May  7 17:42:33 2025
+
+@author: trotta
+"""
+
+# %%
+
+## Hands On Machine Learning with Scikit Learn Keras and TensorFlow/capitolo_3/exercise_1.py
+Topic: ['classificazione', 'validazione', 'computer vision']
+# -*- coding: utf-8 -*-
+"""
+Created on Tue May 13 16:43:04 2025
+
+@author: trotta
+
+1.	Provare a creare un classificatore per il set di dati MNIST che raggiunga un'accuratezza superiore al 97% nel set di test. 
+Suggerimento: il KNeighborsClassifier funziona abbastanza bene per questo compito; devi solo trovare buoni valori di iperparametro 
+
+## Hands On Machine Learning with Scikit Learn Keras and TensorFlow/capitolo_3/exercise_2.py
+Topic: ['classificazione', 'validazione', 'computer vision']
+# -*- coding: utf-8 -*-
+"""
+Created on Tue May 13 16:58:46 2025
+
+@author: trotta
+
+2.	Scrivi una funzione in grado di spostare un'immagine MNIST in qualsiasi direzione (sinistra, destra, su o giù) di un pixel.  
+Quindi, per ogni immagine nel set di training, creare quattro copie spostate (una per direzione) e aggiungerle al set di training. 
+
+## Hands On Machine Learning with Scikit Learn Keras and TensorFlow/capitolo_3/exercise_3.py
+Topic: []
+# -*- coding: utf-8 -*-
+"""
+Created on Wed May 14 17:42:01 2025
+
+@author: trotta
+
+3.	Affronta il set di dati del Titanic. Un ottimo punto di partenza è Kaggle.
+"""
+
+## Hands On Machine Learning with Scikit Learn Keras and TensorFlow/capitolo_3/exercise_4.py
+Topic: []
+# -*- coding: utf-8 -*-
+"""
+Created on Wed May 14 17:42:48 2025
+
+@author: trotta
+
+4.	Costruisci un classificatore di spam (un esercizio più impegnativo):
+    1.	Scarica esempi di spam e prosciutto dai set di dati pubblici di Apache SpamAssassin.
+
+## Hands On Machine Learning with Scikit Learn Keras and TensorFlow/capitolo_3/setup.py
+Topic: ['classificazione', 'reti neurali']
+# -*- coding: utf-8 -*-
+"""
+Created on Wed May  7 19:00:13 2025
+
+@author: trotta
+"""
+
+#===SETUP===
+
+## Hands On Machine Learning with Scikit Learn Keras and TensorFlow/capitolo_4/exercise_12.py
+Topic: ['regressione']
+# -*- coding: utf-8 -*-
+"""
+Created on Sat May 17 17:38:59 2025
+
+@author: trotta
+
+12.Implementare la discesa del gradiente batch con arresto anticipato per la regressione Softmax (senza utilizzare Scikit-Learn).
+
+
+## Hands On Machine Learning with Scikit Learn Keras and TensorFlow/capitolo_5/ex_test.py
+Topic: ['preprocessing', 'regressione', 'classificazione', 'sequenze']
+# -*- coding: utf-8 -*-
+"""
+Created on Mon May 19 14:52:47 2025
+
+@author: trotta
+
+"""
+# %%
+
+## Hands On Machine Learning with Scikit Learn Keras and TensorFlow/capitolo_5/exercise_10.py
+Topic: ['preprocessing', 'regressione', 'validazione']
+# -*- coding: utf-8 -*-
+"""
+Created on Tue May 20 14:33:52 2025
+
+@author: trotta
+
+10.	Addestrare un regressore SVM sul set di dati sulle abitazioni della California.
+
+
+## Hands On Machine Learning with Scikit Learn Keras and TensorFlow/capitolo_5/exercise_8.py
+Topic: ['preprocessing', 'classificazione']
+# -*- coding: utf-8 -*-
+"""
+Created on Tue May 20 14:33:01 2025
+
+@author: trotta
+
+8.Addestrare un LinearSVC su un set di dati linearmente separabile. 
+Eseguire quindi il training di un SVC e di un SGDClassifier sullo stesso set di dati. 
+
+## Hands On Machine Learning with Scikit Learn Keras and TensorFlow/capitolo_5/exercise_9.py
+Topic: ['preprocessing', 'computer vision']
+# -*- coding: utf-8 -*-
+"""
+Created on Tue May 20 14:33:33 2025
+
+@author: trotta
+
+9.	Eseguire il training di un classificatore SVM sul set di dati MNIST. 
+Poiché i classificatori SVM sono classificatori binari, 
+
+## Hands On Machine Learning with Scikit Learn Keras and TensorFlow/capitolo_6/exercise_7_8.py
+Topic: ['classificazione', 'validazione']
+# -*- coding: utf-8 -*-
+"""
+Created on Thu May 22 11:11:36 2025
+
+@author: trotta
+
+7 - Eseguire il training e ottimizzare un albero decisionale per il set di dati delle lune seguendo questa procedura:
+a. Usa make_moons(n_samples=10000, noise=0.4) per generare un dataset di lune.
+
+## Hands On Machine Learning with Scikit Learn Keras and TensorFlow/capitolo_7/ex_test.py
+Topic: ['regressione', 'classificazione', 'validazione', 'ensemble']
+# -*- coding: utf-8 -*-
+"""
+Created on Fri May 23 11:52:12 2025
+
+@author: trotta
+
+ESEMBLE E RANDOM FOREST
+"""
+
+## Hands On Machine Learning with Scikit Learn Keras and TensorFlow/capitolo_7/exercise_8_9.py
+Topic: ['regressione', 'classificazione', 'validazione', 'ensemble', 'computer vision']
+# -*- coding: utf-8 -*-
+"""
+Created on Mon May 26 19:09:45 2025
+
+@author: trotta
+
+8.	Caricare i dati MNIST (introdotti nel Capitolo 3) e dividerli in un set di addestramento, 
+un set di convalida e un set di test (ad esempio, utilizzare 50.000 istanze per l'addestramento, 10.000 per la convalida e 10.000 per il test). 
+
+## Hands On Machine Learning with Scikit Learn Keras and TensorFlow/capitolo_8/ex_test.py
+Topic: ['riduzione dimensionalità']
+# -*- coding: utf-8 -*-
+"""
+Created on Wed May 28 17:30:16 2025
+
+@author: trotta
+
+Riduzione delle dimensionalità 
+"""
+
+## Hands On Machine Learning with Scikit Learn Keras and TensorFlow/capitolo_8/exercise_10.py
+Topic: ['riduzione dimensionalità', 'computer vision', 'sequenze']
+# -*- coding: utf-8 -*-
+"""
+Created on Wed May 28 17:31:51 2025
+
+@author: trotta
+
+10.	
+Utilizza t-SNE per ridurre il set di dati MNIST a due dimensioni e traccia il risultato utilizzando Matplotlib. 
+
+## Hands On Machine Learning with Scikit Learn Keras and TensorFlow/capitolo_8/exercise_9.py
+Topic: ['classificazione', 'validazione', 'riduzione dimensionalità', 'ensemble', 'computer vision']
+# -*- coding: utf-8 -*-
+"""
+Created on Wed May 28 17:30:17 2025
+
+@author: trotta
+
+9.	
+Caricare il set di dati MNIST (introdotto nel Capitolo 3) e dividerlo in un set di addestramento e un set di test (prendere le prime 60.000 istanze per il training e le restanti 10.000 per il test).
+
+## Hands On Machine Learning with Scikit Learn Keras and TensorFlow/capitolo_9/ex_test.py
+Topic: ['clustering', 'sequenze']
+# -*- coding: utf-8 -*-
+"""
+Created on Tue Jun  3 17:05:27 2025
+
+@author: trotta
+
+Apprendimento non supervisionato
+"""
+
+## apogeo/manning-master/Chapter_03_Linear_Regression/Coding_linear_regression.ipynb
+Topic: ['regressione']
+# Chapter 3: Linear Regression for a housing dataset
+### Importing the necessary packages
+from matplotlib import pyplot as plt
+import numpy as np
+import random
+import utils
+### Defining and plotting our dataset
+features = np.array([1,2,3,5,6,7])
+
+## apogeo/manning-master/Chapter_03_Linear_Regression/House_price_predictions.ipynb
+Topic: ['regressione']
+# House predictions with linear regression
+import turicreate as tc
+import numpy as np
+import matplotlib.pyplot as plt
+import utils
+data = tc.SFrame('Hyderabad.csv')
+data
+### Exploring the relationship between price and area
+
+## apogeo/manning-master/Chapter_03_Linear_Regression/refactored/Coding_linear_regression.ipynb
+Topic: ['regressione']
+# Chapter 3: Linear Regression for a housing dataset
+### Importing the necessary packages
+from matplotlib import pyplot as plt
+import numpy
+import tqdm # progress bar
+### Plotting functions
+# We don't use plt.show() because there are times when combine these.
+
+
+## apogeo/manning-master/Chapter_03_Linear_Regression/refactored/House_price_predictions.ipynb
+Topic: ['regressione']
+# House Price Predictions with Linear Regression
+%run Coding_linear_regression.ipynb 
+# allows us to use the functions we wrote
+
+import pandas
+### Exploring the relationship between price and area
+data = pandas.read_csv('Hyderabad.csv')
+plot_scatter(
+
+## apogeo/manning-master/Chapter_03_Linear_Regression/refactored/House_price_predictions_toy.ipynb
+Topic: ['regressione']
+# House predictions with linear regression using a toy dataset
+%run Coding_linear_regression.ipynb 
+# allows us to use the functions we wrote
+
+import numpy
+import matplotlib.pyplot as plt
+### Defining and plotting our dataset
+
+
+## apogeo/manning-master/Chapter_03_Linear_Regression/utils.py
+Topic: []
+import numpy as np
+import matplotlib
+from matplotlib import pyplot
+
+def draw_line(slope, y_intercept, color='grey', linewidth=0.7, starting=0, ending=8):
+    x = np.linspace(starting, ending, 1000)
+    pyplot.plot(x, y_intercept + slope*x, linestyle='-', color=color, linewidth=linewidth)
+
+
+## apogeo/manning-master/Chapter_04_Testing_Overfitting_Underfitting/Polynomial_regression_regularization.ipynb
+Topic: ['regressione']
+# Chapter 4: Testing and regularization with Turi Create
+import pandas as pd
+import numpy as np
+import random
+import matplotlib.pyplot as plt
+random.seed(0)
+## Defining our dataset
+# Our original polynomial is -x^2+x+15
+
+## apogeo/manning-master/Chapter_04_Testing_Overfitting_Underfitting/test_personali/under_over.py
+Topic: ['regressione', 'classificazione', 'validazione']
+import numpy as np
+import pandas as pd
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LinearRegression, Ridge, Lasso, ElasticNet, LogisticRegression
+from sklearn.metrics import mean_squared_error, accuracy_score
+from sklearn.datasets import make_classification
+
+# Creiamo un dataset di esempio per la regressione
+
+## apogeo/manning-master/Chapter_05_Perceptron_Algorithm/Coding_perceptron_algorithm.ipynb
+Topic: ['classificazione', 'NLP classico']
+# Chapter 5: Sentiment analysis with the perceptron algorithm
+
+### Importing the necessary packages
+# Importing packages
+from matplotlib import pyplot as plt
+import numpy as np
+import random
+import utils
+
+## apogeo/manning-master/Chapter_05_Perceptron_Algorithm/refactoring/Coding_perceptron_algorithm.ipynb
+Topic: ['NLP classico']
+# Chapter 5: Sentiment analysis with the Perceptron algorithm
+## Importing packages
+from matplotlib import pyplot as plt
+import numpy
+import tqdm
+## Plotting functions
+
+
+
+## apogeo/manning-master/Chapter_05_Perceptron_Algorithm/refactoring/Sentiment_analysis_toy.ipynb
+Topic: ['regressione', 'NLP classico']
+# Sentiment analysis with the Perceptron algorithm & statsmodels
+%run Coding_perceptron_algorithm.ipynb # Import the code we wrote
+
+from matplotlib import pyplot as plt
+import numpy
+
+numpy.random.seed(0) # So we get the same results
+## Example 1
+
+## apogeo/manning-master/Chapter_05_Perceptron_Algorithm/utils.py
+Topic: []
+import numpy as np
+import matplotlib
+from matplotlib import pyplot
+
+# Some functions to plot our points and draw the lines
+def plot_points(features, labels):
+    X = np.array(features)
+    y = np.array(labels)
+
+## apogeo/manning-master/Chapter_06_Logistic_Regression/Coding_logistic_regression.ipynb
+Topic: ['regressione', 'classificazione', 'NLP classico']
+# Sentiment analysis with Logistic Regression
+
+### Some plotting functions
+# Importing packages
+from matplotlib import pyplot as plt
+import numpy as np
+import random
+import utils
+
+## apogeo/manning-master/Chapter_06_Logistic_Regression/Sentiment_analysis_IMDB.ipynb
+Topic: ['classificazione', 'NLP classico']
+# Classifying IMDB movie reviews
+import turicreate as tc
+import utils
+movies = tc.SFrame('./IMDB_Dataset.csv')
+movies
+movies['words'] = tc.text_analytics.count_words(movies['review'])
+movies
+model = tc.logistic_classifier.create(movies, features=['words'], target='sentiment')
+
+## apogeo/manning-master/Chapter_06_Logistic_Regression/utils.py
+Topic: []
+import numpy as np
+import matplotlib
+from matplotlib import pyplot
+
+# Some functions to plot our points and draw the lines
+def plot_points(features, labels):
+    X = np.array(features)
+    y = np.array(labels)
+
+## apogeo/manning-master/Chapter_08_Naive_Bayes/Coding_naive_Bayes.ipynb
+Topic: ['classificazione']
+# Coding a spam classifier with naive Bayes
+
+### 1. Imports and pre-processing data
+
+We load the data into a Pandas DataFrame, and then preprocess it by adding a string with the (non-repeated) lowercase words in the email.
+import numpy as np
+import pandas as pd
+emails = pd.read_csv('emails.csv')
+
+## apogeo/manning-master/Chapter_08_Naive_Bayes/refactored/Coding_naive_Bayes.ipynb
+Topic: ['classificazione']
+"""
+Naive Bayes multi-class classifier inplemented from scratch.
+Handles zero frequency corrections/smoothing.
+"""
+import collections
+import numpy
+### 1. Calculating prior probabilities
+Priors are the probabilities of seeing the classifications from just the labeled data
+
+## apogeo/manning-master/Chapter_08_Naive_Bayes/refactored/Spam_email_predictions.ipynb
+Topic: ['classificazione']
+# Predicting Ham vs Spam emails
+%run Coding_naive_bayes.ipynb # allows us to use the code we wrote
+import pandas
+import pathlib
+### 1. Imports and pre-processing data
+
+We load the data into a Pandas dataframe, then we preprocess it by adding a column with the (non-repeated) lowercase words in the email.
+# Environment variables
+
+## apogeo/manning-master/Chapter_09_Decision_Trees/App_recommendations.ipynb
+Topic: ['classificazione']
+# App dataset with decision trees
+import pandas as pd
+import numpy as np
+from matplotlib import pyplot as plt
+import utils
+from sklearn import tree
+
+from sklearn.tree import DecisionTreeClassifier
+
+## apogeo/manning-master/Chapter_09_Decision_Trees/Gini_entropy_calculations.ipynb
+Topic: []
+# Gini index calculation
+from __future__ import division
+import numpy as np
+elements = ['A', 'A', 'A', 'C', 'B', 'C']
+def counts(elements):
+    classes = {}
+    for element in elements:
+        if element in classes:
+
+## apogeo/manning-master/Chapter_09_Decision_Trees/Graphical_example.ipynb
+Topic: ['classificazione']
+# A graphical example
+import pandas as pd
+from sklearn.tree import DecisionTreeClassifier
+import utils
+dataset = pd.DataFrame({
+    'x_0':[7,3,2,1,2,4,1,8,6,7,8,9],
+    'x_1':[1,2,3,5,6,7,9,10,5,8,4,6],
+    'y': [0,0,0,0,0,0,1,1,1,1,1,1]})
+
+## apogeo/manning-master/Chapter_09_Decision_Trees/Regression_decision_tree.ipynb
+Topic: ['regressione']
+# Decision trees for regression
+import numpy as np
+import pandas as pd
+from sklearn.tree import DecisionTreeRegressor
+import utils
+import matplotlib.pyplot as plt
+features = [[10],[20],[30],[40],[50],[60],[70],[80]]
+labels = [7,5,7,1,2,1,5,4]
+
+## apogeo/manning-master/Chapter_09_Decision_Trees/University_Admissions.ipynb
+Topic: ['classificazione']
+import pandas as pd
+import numpy as np
+from sklearn.tree import DecisionTreeClassifier
+import utils
+np.random.seed(0)
+# The dataset
+data = pd.read_csv('Admission_Predict.csv', index_col=0)
+data
+
+## apogeo/manning-master/Chapter_09_Decision_Trees/utils.py
+Topic: []
+import numpy as np
+from matplotlib import pyplot
+
+# Some functions to plot our points and draw the models
+def plot_points(features, labels, size_of_points=100):
+    X = np.array(features)
+    y = np.array(labels)
+    spam = X[np.argwhere(y==1)]
+
+## apogeo/manning-master/Chapter_10_Neural_Networks/Graphical_example.ipynb
+Topic: ['reti neurali']
+# A graphical example
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+from tensorflow import keras
+import utils
+
+# Setting random seeds to get reproducible results
+
+## apogeo/manning-master/Chapter_10_Neural_Networks/House_price_predictions_neural_network.ipynb
+Topic: ['regressione', 'reti neurali']
+# Using a regression neural network to predict housing prices in Hyderabad
+import numpy as np
+import pandas as pd
+from tensorflow import keras
+
+# Setting random seeds to get reproducible results
+np.random.seed(0)
+import tensorflow as tf
+
+## apogeo/manning-master/Chapter_10_Neural_Networks/Image_recognition.ipynb
+Topic: ['reti neurali', 'computer vision']
+# Building an image recognition neural network
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+from tensorflow import keras
+
+# Setting random seeds to get reproducible results
+np.random.seed(0)
+
+## apogeo/manning-master/Chapter_10_Neural_Networks/Plotting_Boundaries.ipynb
+Topic: ['classificazione']
+# Plotting the boundary of a neural network
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+from utils import *
+alien_dataset = pd.DataFrame({
+    'aack':[1,2,0,0,1,1,2,2],
+    'beep':[0,0,1,2,1,2,1,2],
+
+## apogeo/manning-master/Chapter_10_Neural_Networks/refactored/Graphical_Example.ipynb
+Topic: ['reti neurali']
+# A graphical example
+
+We'll cover building a basic model and plotting the decision boundary used from previous chapters.
+# Imports
+
+import pandas
+import numpy
+import matplotlib.pyplot as plt
+
+## apogeo/manning-master/Chapter_10_Neural_Networks/refactored/Image_Recognition.ipynb
+Topic: ['validazione', 'reti neurali', 'computer vision']
+# Building an Image Recognition Neural Network
+
+The model we'll build will use the classic MNIST dataset with handwritten numbers. We'll also cover how to construct a more robust model, make predictions, and get the meta data to determine how well the model actually performs.
+# imports 
+
+import numpy
+import pandas
+import matplotlib.pyplot as plt
+
+## apogeo/manning-master/Chapter_10_Neural_Networks/refactored/Plotting_Boundaries.ipynb
+Topic: ['classificazione']
+# Plotting a Neural Network's Boundary 
+# imports
+import numpy
+import pandas
+import matplotlib.pyplot as plt
+import _plotting
+# Helpers
+def one_off_plot_decision_boundary_2D(function):
+
+## apogeo/manning-master/Chapter_10_Neural_Networks/refactored/Predict_Price_Housing_via_NN.ipynb
+Topic: ['regressione', 'reti neurali']
+# Using a Regression Neural Network to Predict Housing Prices in Hyderabad
+# imports
+import matplotlib.pyplot as plt
+import numpy
+import pandas
+import tensorflow
+import tensorflow.keras
+from tensorflow.keras.models import Sequential
+
+## apogeo/manning-master/Chapter_10_Neural_Networks/refactored/_plotting.py
+Topic: []
+"""
+Some functions to plot our points and draw the lines
+"""
+import numpy
+import matplotlib.pyplot as plt
+
+def plot_scatter(x_iterable, y_iterable, x_label = "", y_label = "",  legend = None, **kwargs):
+    x_array = numpy.array(x_iterable)
+
+## apogeo/manning-master/Chapter_10_Neural_Networks/utils.py
+Topic: []
+import pandas as pd
+import numpy as np
+from matplotlib import pyplot
+
+# Some functions to plot our points and draw the lines
+def plot_points(features, labels, point_size=25):
+    X = np.array(features)
+    y = np.array(labels)
+
+## apogeo/manning-master/Chapter_11_Support_Vector_Machines/Building the datasets.ipynb
+Topic: []
+import numpy as np
+import pandas as pd
+import sklearn
+
+import matplotlib.pyplot as plt
+
+# Some functions to plot our points and draw the models
+def plot_points(features, labels):
+
+## apogeo/manning-master/Chapter_11_Support_Vector_Machines/Calculating_similarities.ipynb
+Topic: ['classificazione']
+# Calculating the similarity matrix and using it to fit an SVM
+import numpy as np
+import pandas as pd
+import utils
+import turicreate as tc
+import matplotlib.pyplot as plt
+data = tc.SFrame({
+    'x1': [0,-1,0,0,1,-1,1],
+
+## apogeo/manning-master/Chapter_11_Support_Vector_Machines/SVM_graphical_example.ipynb
+Topic: []
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import utils
+from sklearn.svm import SVC
+# Building an SVM to separate a linear dataset
+# Loading the linear dataset
+
+
+## apogeo/manning-master/Chapter_11_Support_Vector_Machines/utils.py
+Topic: []
+import pandas as pd
+import numpy as np
+from matplotlib import pyplot
+
+# Some functions to plot our points and draw the lines
+def plot_points(features, labels):
+    X = np.array(features)
+    y = np.array(labels)
+
+## apogeo/manning-master/Chapter_12_Ensemble_Methods/Gradient_boosting_and_XGBoost.ipynb
+Topic: ['ensemble']
+import numpy as np
+import pandas as pd
+from sklearn.tree import DecisionTreeRegressor
+from sklearn.ensemble import GradientBoostingRegressor
+import utils
+import sklearn
+from sklearn import tree
+import matplotlib.pyplot as plt
+
+## apogeo/manning-master/Chapter_12_Ensemble_Methods/Random_forests_and_AdaBoost.ipynb
+Topic: ['classificazione', 'ensemble']
+# Spam dataset with ensemble methods
+import pandas as pd
+import numpy as np
+from matplotlib import pyplot as plt
+import utils
+
+from sklearn.tree import DecisionTreeClassifier
+from sklearn import tree
+
+## apogeo/manning-master/Chapter_12_Ensemble_Methods/utils.py
+Topic: []
+import numpy as np
+from matplotlib import pyplot
+
+# Some functions to plot our points and draw the lines
+def plot_points(features, labels, fix_margins=True):
+    X = np.array(features)
+    y = np.array(labels)
+    spam = X[np.argwhere(y==1)]
+
+## apogeo/manning-master/Chapter_13_End_to_end_example/End_to_end_example.ipynb
+Topic: ['preprocessing', 'regressione', 'classificazione', 'validazione', 'ensemble']
+# 13. Machine learning techniques
+import pandas
+import matplotlib.pyplot as plt
+import random as rd
+rd.seed(0)
+## 13.1 Loading and exploring the dataset
+
+First, we use pandas to load the dataset from a csv file.
+
+## apogeo/manning-master/Chapter_9_Decision_Trees/refactored/App_Recommendations.ipynb
+Topic: ['classificazione']
+import pandas
+import numpy
+from matplotlib import pyplot as plt
+import sklearn.tree
+
+numpy.random.seed(0)
+def process_app_one_hot(dataframe):
+    """
+
+## apogeo/manning-master/Chapter_9_Decision_Trees/refactored/Coding_Gini_Entropy_MSE.ipynb
+Topic: []
+# Gini Index / Entropy (Information Theory) / MSE Calculations
+import numpy
+# Gini / Entropy calculations =====================================================================
+def construct_dict_count(iter_items):
+    dict_counts = {}
+    for item in iter_items:
+        # get(key value, default value if not present)
+        dict_counts[item] = dict_counts.get(item, 0) + 1
+
+## apogeo/manning-master/Chapter_9_Decision_Trees/refactored/Graphing_Decision_Trees.ipynb
+Topic: ['classificazione']
+# Graphing Decision Trees and Decision Boundaries
+
+### We'll explore various ways to calculate decision tree splits. A decision tree will tell us how to navigate our features to arrive at a decision, whereas a decision boundary will show us how those features split.
+import _plotting
+
+from matplotlib import pyplot as plt
+import pandas
+import sklearn.tree
+
+## apogeo/manning-master/Chapter_9_Decision_Trees/refactored/Splitting_on_Scores.ipynb
+Topic: ['regressione']
+# Splitting on the Best Scores & Discrete Regression
+%run Coding_Gini_Entropy_MSE.ipynb
+import _plotting
+# Allows us to use the functions we wrote
+
+import matplotlib.pyplot as plt
+import numpy
+import pandas
+
+## apogeo/manning-master/Chapter_9_Decision_Trees/refactored/University_Admissions.ipynb
+Topic: ['classificazione']
+# Deciding University Admissions
+import _plotting
+
+import matplotlib.pyplot as plt
+import pandas
+import numpy
+import sklearn.tree
+numpy.random.seed(0)
+
+## apogeo/manning-master/Chapter_9_Decision_Trees/refactored/_plotting.py
+Topic: []
+import numpy
+from matplotlib import pyplot as plt
+
+def plot_scatter(x_iterable, y_iterable, x_label = "", y_label = "",  legend = None, **kwargs):
+    x_array = numpy.array(x_iterable)
+    y_array = numpy.array(y_iterable)
+    plt.xlabel(x_label)
+    plt.ylabel(y_label)
+
+## lesson-1-Preprocessing/esercizio_1/exercise_1.py
+Topic: ['preprocessing']
+import numpy as np
+import pandas as pd
+from sklearn.impute import SimpleImputer
+
+df = pd.read_csv('pima-indians-diabets.csv')
+
+# Conta i valori a null
+num_nan = df.isnull().sum()
+
+## lesson-1-Preprocessing/esercizio_2/exercise_2.py
+Topic: ['preprocessing', 'LLM e RAG']
+import numpy as np
+import pandas as pd
+from sklearn.compose import ColumnTransformer
+from sklearn.preprocessing import OneHotEncoder, LabelEncoder
+
+# Read csv
+df = pd.read_csv('titanic.csv')
+# Indentify columns category
+
+## lesson-1-Preprocessing/esercizio_3/exercise_3.py
+Topic: ['preprocessing', 'validazione']
+# Import necessary libraries
+import pandas as pd
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import StandardScaler
+
+# Load the Iris dataset
+df = pd.read_csv('iris.csv')
+
+
+## lesson-1-Preprocessing/esercizio_4/exercise_4.py
+Topic: ['preprocessing', 'validazione']
+# Import necessary libraries
+import pandas as pd
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import StandardScaler
+
+# Load the Wine Quality Red dataset
+df = pd.read_csv('winequality-red.csv', delimiter=';')
+
+
+## lesson-10-Model Selection/grid_search/grid-search.py
+Topic: ['preprocessing', 'classificazione', 'validazione']
+import pandas as pd
+from sklearn.metrics import confusion_matrix
+from sklearn.model_selection import train_test_split, cross_val_score, GridSearchCV
+from sklearn.preprocessing import StandardScaler
+from sklearn.svm import SVC
+
+dataframe = pd.read_csv('../Social_Network_Ads.csv')
+
+
+## lesson-10-Model Selection/k_fold/k-fold.py
+Topic: ['preprocessing', 'classificazione', 'validazione']
+import pandas as pd
+from sklearn.metrics import confusion_matrix, accuracy_score
+from sklearn.model_selection import train_test_split, cross_val_score
+from sklearn.preprocessing import StandardScaler
+from sklearn.svm import SVC
+
+# Leggo
+dataframe = pd.read_csv('../Social_Network_Ads.csv')
+
+## lesson-10-Model Selection/xgboots/xg-boost.py
+Topic: ['preprocessing', 'regressione', 'classificazione', 'validazione', 'ensemble']
+import pandas as pd
+from sklearn.model_selection import train_test_split, cross_val_score, GridSearchCV
+from xgboost import XGBClassifier
+from sklearn.metrics import accuracy_score, confusion_matrix
+from sklearn.preprocessing import LabelEncoder
+
+df = pd.read_csv('Data.csv')
+
+
+## lesson-2-Regression/decision_regression/tree_regression.py
+Topic: ['regressione', 'validazione']
+import matplotlib.pyplot as plt
+import numpy as np
+import pandas as pd
+from sklearn.tree import DecisionTreeRegressor
+
+# Leggiamo i dati
+df = pd.read_csv('Position_Salaries.csv')
+
+
+## lesson-2-Regression/linear_regression/linear_regression.py
+Topic: ['preprocessing', 'regressione', 'validazione']
+import matplotlib.pyplot as plt
+import pandas as pd
+from sklearn.linear_model import LinearRegression
+from sklearn.model_selection import train_test_split
+
+# Recupero il csv
+df = pd.read_csv('Salary_Data.csv')
+
+
+## lesson-2-Regression/multiple_linear_regression/multiple_regression.py
+Topic: ['preprocessing', 'regressione', 'validazione', 'LLM e RAG']
+import numpy as np
+import pandas as pd
+from sklearn.compose import ColumnTransformer
+from sklearn.linear_model import LinearRegression
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import OneHotEncoder
+
+# Recupero il dataframe
+
+## lesson-2-Regression/polynomial_regression/poly_regression.py
+Topic: ['regressione']
+import matplotlib.pyplot as plt
+import pandas as pd
+from sklearn.linear_model import LinearRegression
+from sklearn.preprocessing import PolynomialFeatures
+
+
+def pyplot_regressor(**kwargs):
+    X = kwargs.get('x')
+
+## lesson-2-Regression/random_regression/random_regression.py
+Topic: ['regressione', 'ensemble']
+import pandas as pd
+from sklearn.ensemble import RandomForestRegressor
+import matplotlib.pyplot as plt
+import numpy as np
+
+# Leggo il csv
+df = pd.read_csv('Position_Salaries.csv')
+
+
+## lesson-2-Regression/support_vector_regression_(SVR)/vector_regression.py
+Topic: ['preprocessing', 'regressione']
+import matplotlib.pyplot as plt
+import numpy as np
+import pandas as pd
+from sklearn.preprocessing import StandardScaler
+from sklearn.svm import SVR
+
+"""
+SVR cerca di trovare una funzione che approssima i dati riducendo al minimo gli errori, ma con una tolleranza (𝜖) 
+
+## lesson-2-Regression/test_corso/decision_regression.py
+Topic: ['regressione', 'validazione']
+import pandas as pd
+from sklearn.tree import DecisionTreeRegressor
+from sklearn.metrics import r2_score
+from sklearn.model_selection import train_test_split
+
+# Leggo il csv
+df = pd.read_csv('Data.csv')
+
+
+## lesson-2-Regression/test_corso/polynomial_regression.py
+Topic: ['regressione', 'validazione']
+import pandas as pd
+from sklearn.preprocessing import PolynomialFeatures
+from sklearn.linear_model import LinearRegression
+from sklearn.metrics import r2_score
+from sklearn.model_selection import train_test_split
+
+# Leggo il csv
+df = pd.read_csv('Data.csv')
+
+## lesson-2-Regression/test_corso/random_forest_regression.py
+Topic: ['validazione', 'ensemble']
+import pandas as pd
+from sklearn.ensemble import RandomForestRegressor
+from sklearn.metrics import r2_score
+from sklearn.model_selection import train_test_split
+
+# Leggo il csv
+df = pd.read_csv('Data.csv')
+
+
+## lesson-2-Regression/test_corso/regression_multi_linear.py
+Topic: ['regressione', 'validazione']
+import pandas as pd
+from sklearn.linear_model import LinearRegression
+from sklearn.metrics import r2_score
+from sklearn.model_selection import train_test_split
+
+# Leggo il csv
+df = pd.read_csv('Data.csv')
+
+
+## lesson-2-Regression/test_corso/support_vector_regression.py
+Topic: ['preprocessing', 'regressione', 'validazione']
+import pandas as pd
+from sklearn.preprocessing import StandardScaler
+from sklearn.metrics import r2_score
+from sklearn.svm import SVR
+from sklearn.model_selection import train_test_split
+
+# Leggo il csv
+df = pd.read_csv('Data.csv')
+
+## lesson-2-Regression/test_personali/consumi_energetici/check_best_model_eng.py
+Topic: ['preprocessing', 'regressione', 'validazione', 'ensemble']
+import joblib
+import pandas as pd
+from sklearn.ensemble import RandomForestRegressor, GradientBoostingRegressor
+from sklearn.linear_model import LinearRegression, Ridge, Lasso
+from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
+from sklearn.model_selection import train_test_split, GridSearchCV
+from sklearn.neighbors import KNeighborsRegressor
+from sklearn.pipeline import Pipeline
+
+## lesson-2-Regression/test_personali/consumi_energetici/preprocessing_eng.py
+Topic: []
+import pandas as pd
+
+# Leggo
+dataset = pd.read_csv('tema_dataset_2.csv')
+
+# Controllo se ci sono duplicati
+if dataset.duplicated().sum() > 0:
+    dataset.drop_duplicates()
+
+## lesson-2-Regression/test_personali/consumi_energetici/process_eng.py
+Topic: []
+import joblib
+import numpy as np
+import pandas as pd
+
+# Carico il modello prima salvato
+model_pipeline = joblib.load('best_model_eng.pkl')
+
+# Recupero lo scaler
+
+## lesson-2-Regression/test_personali/prezzi_case/check_best_model_home.py
+Topic: ['preprocessing', 'regressione', 'validazione', 'ensemble']
+import joblib
+import pandas as pd
+from sklearn.ensemble import RandomForestRegressor, GradientBoostingRegressor
+from sklearn.linear_model import LinearRegression, Ridge, Lasso
+from sklearn.metrics import mean_squared_error, r2_score, mean_absolute_error
+from sklearn.model_selection import train_test_split, GridSearchCV
+from sklearn.neighbors import KNeighborsRegressor
+from sklearn.pipeline import Pipeline
+
+## lesson-2-Regression/test_personali/prezzi_case/preprocessing_home.py
+Topic: ['preprocessing']
+import pandas as pd
+from sklearn.preprocessing import LabelEncoder
+
+# Leggo il dataset
+dataset = pd.read_csv('tema_dataset_1.csv')
+if dataset.duplicated().sum() > 0:
+    dataset.drop_duplicates()
+
+
+## lesson-2-Regression/test_personali/prezzi_case/process_home.py
+Topic: ['validazione']
+import joblib
+import pandas as pd
+from matplotlib import pyplot as plt
+from sklearn.metrics import mean_squared_error, r2_score
+from sklearn.model_selection import train_test_split
+
+model = joblib.load('best_model.pkl')
+
+
+## lesson-2-Regression/test_personali/produzione/best_model_prod.py
+Topic: ['preprocessing', 'regressione', 'validazione', 'ensemble']
+import joblib
+import pandas as pd
+from sklearn.ensemble import GradientBoostingRegressor, RandomForestRegressor
+from sklearn.linear_model import LinearRegression, Lasso, Ridge
+from sklearn.metrics import mean_squared_error, r2_score, mean_absolute_error
+from sklearn.model_selection import train_test_split, GridSearchCV
+from sklearn.neighbors import KNeighborsRegressor
+from sklearn.pipeline import Pipeline
+
+## lesson-2-Regression/test_personali/produzione/preprocessing_prod.py
+Topic: []
+import pandas as pd
+
+dataset = pd.read_csv('tema_dataset_4.csv')
+dataset.drop_duplicates()
+dataset.to_csv('produzione.csv', index=False)
+
+## lesson-2-Regression/test_personali/produzione/process_prod.py
+Topic: []
+import joblib
+import numpy as np
+import pandas as pd
+
+best_model = joblib.load('best_model_prod.pkl')
+sc = best_model.named_steps['scaler']
+model = best_model.named_steps['model']
+
+
+## lesson-2-Regression/test_personali/vendite/preprocessing_vendite.py
+Topic: ['preprocessing']
+import pandas as pd
+from sklearn.preprocessing import LabelEncoder
+
+dataset = pd.read_csv('tema_dataset_3.csv')
+if dataset.duplicated().sum() > 0:
+    dataset.drop_duplicates()
+
+le = LabelEncoder()
+
+## lesson-2-Regression/test_personali/vendite/process_vendite.py
+Topic: []
+import joblib
+import numpy as np
+import pandas as pd
+
+best_model = joblib.load('best_model_vendite.pkl')
+scaler = best_model.named_steps['scaler']
+model = best_model.named_steps['regressor']
+
+
+## lesson-2-Regression/test_personali/vendite/search_best_model_vendite.py
+Topic: ['preprocessing', 'regressione', 'classificazione', 'validazione', 'ensemble']
+import joblib
+import numpy as np
+import pandas as pd
+from sklearn.metrics import r2_score, mean_absolute_error, mean_squared_error, mean_absolute_percentage_error
+from sklearn.model_selection import train_test_split
+from sklearn.ensemble import RandomForestRegressor, GradientBoostingRegressor
+from sklearn.linear_model import LinearRegression, Ridge, Lasso
+from sklearn.model_selection import GridSearchCV
+
+## lesson-2-Regression/test_personali/vendite/utils.py
+Topic: ['preprocessing', 'regressione', 'classificazione', 'validazione', 'ensemble']
+from sklearn.ensemble import RandomForestRegressor, GradientBoostingRegressor
+from sklearn.linear_model import LinearRegression, Ridge, Lasso
+from sklearn.model_selection import GridSearchCV
+from sklearn.neighbors import KNeighborsRegressor
+from sklearn.pipeline import Pipeline
+from sklearn.preprocessing import StandardScaler
+from sklearn.svm import SVR
+from sklearn.tree import DecisionTreeRegressor
+
+## lesson-2-Regression/test_personali/vendite_auto/best_model_auto.py
+Topic: ['preprocessing', 'regressione', 'validazione', 'ensemble']
+import joblib
+import pandas as pd
+from sklearn.ensemble import GradientBoostingRegressor, RandomForestRegressor
+from sklearn.linear_model import LinearRegression, Lasso, Ridge
+from sklearn.metrics import mean_squared_error, r2_score, mean_absolute_error
+from sklearn.model_selection import train_test_split, GridSearchCV
+from sklearn.neighbors import KNeighborsRegressor
+from sklearn.pipeline import Pipeline
+
+## lesson-2-Regression/test_personali/vendite_auto/preprocessing_auto.py
+Topic: []
+import pandas as pd
+
+dataset = pd.read_csv('tema_dataset_5.csv')
+dataset.drop_duplicates()
+dataset = pd.get_dummies(data=dataset, columns=['Marca'], dtype=int)
+dataset.to_csv('vendite_auto.csv', index=False)
+
+## lesson-2-Regression/test_personali/vendite_auto/process_auto.py
+Topic: []
+import joblib
+import numpy as np
+import pandas as pd
+
+best_pipeline = joblib.load('best_model_auto.pkl')
+sc = best_pipeline.named_steps['scaler']
+model = best_pipeline.named_steps['model']
+
+
+## lesson-3-Classification/decision-tree/decision_tree_classification.py
+Topic: ['preprocessing', 'classificazione', 'validazione']
+import pandas as pd
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import StandardScaler
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.metrics import confusion_matrix, accuracy_score
+
+# Leggo i dataframe
+df = pd.read_csv('../Social_Network_Ads.csv')
+
+## lesson-3-Classification/kernel-svm/kernel_svm.py
+Topic: ['preprocessing', 'classificazione', 'validazione']
+import pandas as pd
+from sklearn.metrics import confusion_matrix, accuracy_score
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import StandardScaler
+from sklearn.svm import SVC
+
+# Leggo
+df = pd.read_csv('../Social_Network_Ads.csv')
+
+## lesson-3-Classification/logistic-regression/logistic_regression.py
+Topic: ['preprocessing', 'regressione', 'classificazione', 'validazione']
+import pandas as pd
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import StandardScaler
+from sklearn.linear_model import LogisticRegression
+import numpy as np
+from sklearn.metrics import confusion_matrix, accuracy_score
+
+# Leggo il csv
+
+## lesson-3-Classification/naive_bayes/naive_bayse.py
+Topic: ['preprocessing', 'classificazione', 'validazione']
+import pandas as pd
+from sklearn.metrics import confusion_matrix, accuracy_score
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import StandardScaler
+from sklearn.naive_bayes import GaussianNB
+
+# Leggo
+df = pd.read_csv('../Social_Network_Ads.csv')
+
+## lesson-3-Classification/neighbors/k_nearest_neighbors.py
+Topic: ['preprocessing', 'classificazione', 'validazione']
+import pandas as pd
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import StandardScaler
+from sklearn.neighbors import KNeighborsClassifier
+import numpy as np
+from sklearn.metrics import confusion_matrix, accuracy_score
+
+# Leggo il csv
+
+## lesson-3-Classification/random-forest/random_forest.py
+Topic: ['preprocessing', 'classificazione', 'validazione', 'ensemble']
+import pandas as pd
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import StandardScaler
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.metrics import confusion_matrix, accuracy_score
+
+# Leggo i dataframe
+df = pd.read_csv('../Social_Network_Ads.csv')
+
+## lesson-3-Classification/test_personali/email/best_params_model_email.py
+Topic: ['preprocessing', 'regressione', 'classificazione', 'validazione', 'ensemble']
+import joblib
+import pandas as pd
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.linear_model import LogisticRegression
+from sklearn.metrics import accuracy_score, precision_score, f1_score, confusion_matrix, classification_report, \
+    recall_score
+from sklearn.model_selection import train_test_split, GridSearchCV
+from sklearn.naive_bayes import GaussianNB, MultinomialNB
+
+## lesson-3-Classification/test_personali/email/preprocessing_email.py
+Topic: ['preprocessing', 'classificazione']
+import pandas as pd
+from sklearn.preprocessing import LabelEncoder
+
+dataset = pd.read_csv('classificazione_dataset_2.csv')
+dataset.drop_duplicates()
+le = LabelEncoder()
+dataset['Spam'] = le.fit_transform(dataset['Spam'])
+dataset.to_csv('email.csv', index=False)
+
+## lesson-3-Classification/test_personali/email/process_email.py
+Topic: ['classificazione']
+import joblib
+import numpy as np
+import pandas as pd
+
+best_pipeline = joblib.load('best_model_email.pkl')
+sc = best_pipeline.named_steps['scaler']
+model = best_pipeline.named_steps['classifier']
+
+
+## lesson-3-Classification/test_personali/film/best_pipeline.py
+Topic: ['preprocessing', 'regressione', 'classificazione', 'validazione', 'ensemble']
+import joblib
+import pandas as pd
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.linear_model import LogisticRegression
+from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, confusion_matrix, \
+    classification_report
+from sklearn.model_selection import train_test_split, GridSearchCV
+from sklearn.naive_bayes import GaussianNB, MultinomialNB
+
+## lesson-3-Classification/test_personali/film/preprocessing_film.py
+Topic: ['preprocessing', 'classificazione']
+import pandas as pd
+from sklearn.preprocessing import LabelEncoder
+
+dataset = pd.read_csv('classificazione_dataset_4.csv')
+dataset.drop_duplicates(inplace=True)
+le = LabelEncoder()
+dataset['Genere'] = le.fit_transform(dataset['Genere'])
+dataset['Esito'] = le.fit_transform(dataset['Esito'])
+
+## lesson-3-Classification/test_personali/film/processing.py
+Topic: ['classificazione']
+import joblib
+import numpy as np
+import pandas as pd
+
+best_pipeline = joblib.load('best_model_film.pkl')
+sc = best_pipeline.named_steps['scaler']
+model = best_pipeline.named_steps['classifier']
+
+
+## lesson-3-Classification/test_personali/macchina/best_pipeline.py
+Topic: ['preprocessing', 'regressione', 'classificazione', 'validazione', 'ensemble']
+import joblib
+import pandas as pd
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.linear_model import LogisticRegression
+from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, confusion_matrix, \
+    classification_report
+from sklearn.model_selection import GridSearchCV, train_test_split
+from sklearn.naive_bayes import GaussianNB, MultinomialNB
+
+## lesson-3-Classification/test_personali/macchina/preprocessing_machine.py
+Topic: ['preprocessing', 'classificazione']
+import pandas as pd
+from sklearn.preprocessing import LabelEncoder
+
+dataset = pd.read_csv('classificazione_dataset_5.csv')
+dataset.drop_duplicates(inplace=True)
+le = LabelEncoder()
+dataset['Tipo di Veicolo'] = le.fit_transform(dataset['Tipo di Veicolo'])
+dataset.to_csv('macchine.csv', index=False)
+
+## lesson-3-Classification/test_personali/macchina/processing.py
+Topic: ['classificazione']
+import joblib
+import numpy as np
+import pandas as pd
+
+best_pipeline = joblib.load('best_model_macchina.pkl')
+sc = best_pipeline.named_steps['scaler']
+model = best_pipeline.named_steps['classifier']
+
+
+## lesson-3-Classification/test_personali/medical/best_params_model_medical.py
+Topic: ['preprocessing', 'regressione', 'classificazione', 'validazione', 'ensemble']
+import joblib
+import pandas as pd
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.linear_model import LogisticRegression
+from sklearn.metrics import confusion_matrix, classification_report, f1_score, recall_score, precision_score, \
+    accuracy_score
+from sklearn.model_selection import train_test_split, GridSearchCV
+from sklearn.naive_bayes import GaussianNB, MultinomialNB
+
+## lesson-3-Classification/test_personali/medical/preprocessing_medical.py
+Topic: ['preprocessing', 'classificazione']
+import pandas as pd
+from sklearn.preprocessing import LabelEncoder
+
+dataset = pd.read_csv('classificazione_dataset_3.csv')
+dataset.drop_duplicates(inplace=True)
+le = LabelEncoder()
+dataset['Stato di Salute'] = le.fit_transform(dataset['Stato di Salute'])
+dataset.to_csv('medical.csv', index=False)
+
+## lesson-3-Classification/test_personali/medical/process_medical.py
+Topic: ['classificazione']
+import joblib
+import numpy as np
+import pandas as pd
+
+best_pipeline = joblib.load('best_model_medical.pkl')
+sc = best_pipeline.named_steps['scaler']
+model = best_pipeline.named_steps['classifier']
+
+
+## lesson-3-Classification/test_personali/type_frutta/best_model_fruit.py
+Topic: ['preprocessing', 'regressione', 'classificazione', 'validazione', 'ensemble']
+import joblib
+import pandas as pd
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.linear_model import LogisticRegression
+from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, confusion_matrix, classification_report
+from sklearn.model_selection import train_test_split, GridSearchCV
+from sklearn.naive_bayes import MultinomialNB, GaussianNB
+from sklearn.neighbors import KNeighborsClassifier
+
+## lesson-3-Classification/test_personali/type_frutta/preprocessing_fruit.py
+Topic: ['preprocessing', 'classificazione']
+import pandas as pd
+from sklearn.preprocessing import LabelEncoder
+
+dataset = pd.read_csv('classificazione_dataset_1.csv')
+dataset.drop_duplicates(inplace=True)
+le = LabelEncoder()
+dataset['Colore'] = le.fit_transform(dataset['Colore'])
+dataset['Forma'] = le.fit_transform(dataset['Forma'])
+
+## lesson-3-Classification/test_personali/type_frutta/process_fruit.py
+Topic: ['classificazione']
+import joblib
+import numpy as np
+import pandas as pd
+
+best_pipeline = joblib.load('best_model_fruit.pkl')
+sc = best_pipeline.named_steps['scaler']
+classifier = best_pipeline.named_steps['classifier']
+
+
+## lesson-3-Classification/vector_machine/support_vector_machine.py
+Topic: ['preprocessing', 'classificazione', 'validazione']
+import pandas as pd
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import StandardScaler
+from sklearn.svm import SVC
+import numpy as np
+from sklearn.metrics import confusion_matrix, accuracy_score
+
+# Leggo il csv
+
+## lesson-4-Clustering/hierarchical/hierarchical_clustering.py
+Topic: ['clustering', 'sequenze']
+import matplotlib.pyplot as plt
+import pandas as pd
+import scipy.cluster.hierarchy as sch  # ->Libreria usata per disegnare il dendrogramma
+from sklearn.cluster import AgglomerativeClustering
+
+# Leggo
+df = pd.read_csv('../Mall_Customers.csv')
+
+
+## lesson-4-Clustering/k-means/k_means.py
+Topic: ['clustering', 'sequenze']
+import matplotlib.pyplot as plt
+import pandas as pd
+from sklearn.cluster import KMeans
+
+# Leggo
+df = pd.read_csv('../Mall_Customers.csv')
+
+# A differenza degli altri test, la y(valori dipendenti) non ci sono
+
+## lesson-5-Association Rule Learning/apriori/apriori.py
+Topic: []
+import pandas as pd
+from apyori import apriori
+
+# Leggo
+dataset = pd.read_csv('../Market_Basket_Optimisation.csv', header=None)
+
+# Aggiungo in un array tutte le colonne e righe
+transactions = []
+
+## lesson-5-Association Rule Learning/eclat/eclat.py
+Topic: []
+import pandas as pd
+from apyori import apriori
+
+# Leggo
+dataset = pd.read_csv('../Market_Basket_Optimisation.csv', header=None)
+
+# Aggiungo in un array tutte le colonne e righe
+transactions = []
+
+## lesson-6-Reinforcement Learning/thompson-sampling/thompson_sampling.py
+Topic: ['reinforcement learning']
+import random
+
+import matplotlib.pyplot as plt
+import pandas as pd
+
+# Leggo
+dataframe = pd.read_csv('../Ads_CTR_Optimisation.csv')
+
+
+## lesson-6-Reinforcement Learning/upper-confidence/test-personali/upper_confidence_test.py
+Topic: ['reinforcement learning']
+import math
+import matplotlib.pyplot as plt
+import pandas as pd
+
+# Leggo
+dataframe = pd.read_csv('Promotions_Offers_Simulation.csv')
+
+# Creo la struttura di reinforcement
+
+## lesson-6-Reinforcement Learning/upper-confidence/upper_confidence.py
+Topic: ['reinforcement learning']
+import math
+
+import matplotlib.pyplot as plt
+import pandas as pd
+
+# Leggo
+dataset = pd.read_csv('../Ads_CTR_Optimisation.csv')
+
+
+## lesson-7-Natural Language Processing/NLP.py
+Topic: ['classificazione', 'validazione', 'NLP classico']
+import re
+
+import nltk
+import numpy as np
+import pandas as pd
+from nltk.corpus import stopwords
+from nltk.stem.porter import PorterStemmer
+from sklearn.feature_extraction.text import CountVectorizer
+
+## lesson-8-Deep Learning/1 - ANN/ann.py
+Topic: ['preprocessing', 'regressione', 'classificazione', 'validazione', 'reti neurali', 'sequenze', 'LLM e RAG']
+import numpy as np
+import pandas as pd
+import tensorflow as tf
+from sklearn.compose import ColumnTransformer
+from sklearn.metrics import confusion_matrix, accuracy_score
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import LabelEncoder, OneHotEncoder, StandardScaler
+
+
+## lesson-8-Deep Learning/2 - CNN/cnn.py
+Topic: ['classificazione', 'reti neurali', 'computer vision']
+import tensorflow as tf
+from keras.src.legacy.preprocessing.image import ImageDataGenerator
+from keras.preprocessing import image
+import numpy as np
+
+# Preprocessing training set
+train_datagen = ImageDataGenerator(
+    rescale=1. / 255,  # Normalizza i pixel dell'immagine tra 0 e 1
+
+## lesson-8-Deep Learning/3 - RNN/rnn.py
+Topic: ['reti neurali', 'sequenze']
+import math
+
+import matplotlib.pyplot as plt
+import numpy as np
+import pandas as pd
+from keras import Sequential
+from keras.src.layers import LSTM, Dropout, Dense
+from sklearn.metrics import mean_squared_error
+
+## lesson-8-Deep Learning/4 - SOM/som.py
+Topic: []
+import numpy as np
+import pandas as pd
+from matplotlib.pyplot import bone, pcolor, colorbar, plot, show
+from minisom import MiniSom
+from sklearn.preprocessing import MinMaxScaler
+
+# Import
+dataset = pd.read_csv('Credit_Card_Applications.csv')
+
+## lesson-9-Dimensionality Reduction/kernel-pca/kernel_pca.py
+Topic: ['preprocessing', 'regressione', 'classificazione', 'validazione', 'riduzione dimensionalità']
+import numpy as np
+import pandas as pd
+from matplotlib import pyplot as plt
+from sklearn.decomposition import KernelPCA
+from sklearn.linear_model import LogisticRegression
+from sklearn.metrics import confusion_matrix, accuracy_score
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import StandardScaler
+
+## lesson-9-Dimensionality Reduction/lda/linear_discriminant_analysis.py
+Topic: ['preprocessing', 'regressione', 'classificazione', 'validazione', 'riduzione dimensionalità', 'sequenze']
+import pandas as pd
+from sklearn.linear_model import LogisticRegression
+from sklearn.metrics import confusion_matrix, accuracy_score
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import StandardScaler
+from sklearn.discriminant_analysis import LinearDiscriminantAnalysis as LDA
+
+# Leggo
+
+## lesson-9-Dimensionality Reduction/pca/principal_component_analysis.py
+Topic: ['preprocessing', 'regressione', 'classificazione', 'validazione', 'riduzione dimensionalità']
+import pandas as pd
+from sklearn.decomposition import PCA
+from sklearn.linear_model import LogisticRegression
+from sklearn.metrics import confusion_matrix, accuracy_score
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import StandardScaler
+
+# Leggo
+
+## mix-exercise/02_end_to_end_machine_learning_project/02_end_to_end_machine_learning_project.py
+Topic: ['preprocessing', 'regressione', 'validazione']
+# -*- coding: utf-8 -*-
+"""
+Created on Thu Feb 12 18:13:03 2026
+
+@author: trotta
+1.	Provare un regressore Support Vector Machine (sklearn.svm.SVR) 
+   con vari iperparametri, come kernel="linear" (con vari valori per l'iperparametro C) o kernel="rbf" (con vari valori per gli  iperparametri C e gamma). 
+   Per il momento, non preoccupatevi del significato di questi iperparametri. Come si comporta il miglior predittore SVR?
+
+## mix-exercise/02_end_to_end_machine_learning_project/credit_card_fraud.py
+Topic: ['preprocessing', 'regressione', 'classificazione', 'validazione', 'riduzione dimensionalità', 'ensemble']
+"""
+Il dataset contiene le transazioni effettuate con carta di credito nel settembre 2013 da titolari di carte europei. 
+Questo dataset presenta transazioni avvenute in due giorni, in cui si sono verificate 492 frodi su 284.807 transazioni. 
+Il dataset è fortemente sbilanciato: la classe positiva (frodi) rappresenta lo 0,172% di tutte le transazioni.
+Contiene solo variabili di input numeriche, che sono il risultato di una trasformazione PCA. 
+Purtroppo, per motivi di riservatezza, non possiamo fornire le caratteristiche originali né ulteriori informazioni di base sui dati. 
+
+Le caratteristiche V1, V2, … V28 sono le componenti principali ottenute con PCA; 
+
+## mix-exercise/02_end_to_end_machine_learning_project/house_prices.py
+Topic: ['preprocessing', 'validazione']
+import pandas as pd
+from pathlib import Path
+import numpy as np
+
+BASE_DIR = Path(__file__).resolve().parent
+train_set = pd.read_csv(BASE_DIR / "dataset/house_prices/train.csv")
+test_set = pd.read_csv(BASE_DIR / "dataset/house_prices/test.csv").sort_values(by="Id",ascending=True)
+sample_submission_set = pd.read_csv(BASE_DIR / "dataset/house_prices/sample_submission.csv").sort_values(by="Id",ascending=True)
+
+## mix-exercise/02_end_to_end_machine_learning_project/medical_cost.py
+Topic: ['preprocessing', 'validazione', 'ensemble']
+import pandas as pd
+from pathlib import Path
+
+BASE_DIR = Path(__file__).resolve().parent
+dataset = pd.read_csv(BASE_DIR / "dataset/insurance_medical.csv")
+# %%
+dataset.info()
+# %%
+
+## mix-exercise/02_end_to_end_machine_learning_project/telco_churn.py
+Topic: ['preprocessing', 'classificazione', 'validazione', 'ensemble']
+from pathlib import Path
+
+import pandas as pd
+
+BASE_DIR = Path(__file__).resolve().parent
+dataset = pd.read_csv(BASE_DIR / "dataset/telco-churn.csv")
+# %%
+dataset.info()
+
+## mix-exercise/03_classification/03_classification.py
+Topic: []
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Feb 18 07:21:10 2026
+
+@author: trotta
+"""
+
+## mix-exercise/03_classification/adop_buddy.py
+Topic: ['preprocessing', 'classificazione', 'validazione', 'ensemble']
+import pandas as pd
+from pathlib import Path
+
+try:
+    BASE_DIR = Path(__file__).resolve().parent
+    train_set = pd.read_csv(BASE_DIR / "dataset/adop_buddy/train.csv")
+    test_set = pd.read_csv(BASE_DIR / "dataset/adop_buddy/test.csv")
+except:
+
+## mix-exercise/03_classification/bank.py
+Topic: ['preprocessing', 'regressione', 'classificazione', 'validazione', 'ensemble']
+import pandas as pd
+from pathlib import Path
+
+BASE_DIR = Path(__file__).resolve().parent
+dataset = pd.read_csv(BASE_DIR / "dataset/bank.csv")
+dataset=dataset.drop_duplicates()
+# %%
+dataset.info()
+
+## mix-exercise/03_classification/email.py
+Topic: ['preprocessing', 'regressione', 'classificazione', 'validazione', 'NLP classico']
+import pandas as pd
+from pathlib import Path
+
+BASE_DIR = Path(__file__).resolve().parent
+dataset = pd.read_csv(BASE_DIR / "dataset/emails.csv")
+# %%
+dataset.info()
+# %%
+
+## mix-exercise/03_classification/emotions.py
+Topic: ['regressione', 'classificazione', 'NLP classico']
+import pandas as pd
+from pathlib import Path
+
+try:
+    BASE_DIR = Path(__file__).resolve().parent
+    train = pd.read_csv(BASE_DIR / "dataset/emotions/data/train.tsv", sep="\t", header=None, names=["text", "labels", "id"])
+    dev = pd.read_csv(BASE_DIR / "dataset/emotions/data/dev.tsv", sep="\t", header=None, names=["text", "labels", "id"])
+    test = pd.read_csv(BASE_DIR / "dataset/emotions/data/test.tsv", sep="\t", header=None, names=["text", "labels", "id"])
+
+## mix-exercise/03_classification/ex_1.py
+Topic: ['classificazione', 'validazione', 'computer vision']
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Feb 18 07:23:33 2026
+
+@author: trotta
+
+1.	Provare a creare un classificatore per il set di dati MNIST che raggiunga un'accuratezza superiore al 97% nel set di test. 
+Suggerimento: il KNeighborsClassifier funziona abbastanza bene per questo compito; devi solo trovare buoni valori di iperparametro 
+
+## mix-exercise/03_classification/ex_2.py
+Topic: ['computer vision']
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Feb 18 08:05:07 2026
+
+@author: trotta
+
+2.	Scrivi una funzione in grado di spostare un'immagine MNIST in qualsiasi direzione (sinistra, destra, su o giù) di un pixel.  
+Quindi, per ogni immagine nel set di training, creare quattro copie spostate (una per direzione) e aggiungerle al set di training. 
+
+## mix-exercise/03_classification/ex_3.py
+Topic: ['preprocessing', 'classificazione', 'validazione', 'ensemble']
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Feb 18 08:06:08 2026
+
+@author: trotta
+
+3.	Affronta il set di dati del Titanic. Un ottimo punto di partenza è Kaggle.
+"""
+
+## mix-exercise/03_classification/ex_4.py
+Topic: []
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Feb 18 08:06:17 2026
+
+@author: trotta
+
+4.	Costruisci un classificatore di spam (un esercizio più impegnativo):
+    1.	Scarica esempi di spam e prosciutto dai set di dati pubblici di Apache SpamAssassin.
+
+## mix-exercise/03_classification/heart_disease.py
+Topic: ['preprocessing', 'regressione', 'classificazione', 'validazione', 'ensemble']
+from pathlib import Path
+
+import pandas as pd
+
+BASE_DIR = Path(__file__).resolve().parent
+dataset = pd.read_csv(BASE_DIR / "dataset/heart.csv")
+# %%
+dataset.info()
+
+## mix-exercise/03_classification/otto_group.py
+Topic: ['preprocessing', 'regressione', 'classificazione', 'validazione', 'ensemble']
+import pandas as pd
+from pathlib import Path
+
+
+BASE_DIR = Path(__file__).resolve().parent
+base_path="otto_group_product"
+train = pd.read_csv(BASE_DIR / f"dataset/{base_path}/train.csv")
+sampleSubmission = pd.read_csv(BASE_DIR / f"dataset/{base_path}/sampleSubmission.csv")
+
+## mix-exercise/03_classification/some_credit.py
+Topic: ['preprocessing', 'regressione', 'classificazione', 'validazione', 'ensemble']
+import pandas as pd
+from pathlib import Path
+
+BASE_DIR = Path(__file__).resolve().parent
+train_set = pd.read_csv(BASE_DIR / "dataset/some_credit/cs-training.csv")
+test_set = pd.read_csv(BASE_DIR / "dataset/some_credit/cs-test.csv")
+# %%
+train_set = train_set.drop_duplicates()
+
+## mix-exercise/03_classification/toxic_comment.py
+Topic: ['preprocessing', 'regressione', 'classificazione', 'validazione', 'NLP classico']
+"""
+Questo è un problema di multilabel perchè per una feature di testo bisogna capire se il testo ha più target , cioè se è tossico, osceno ecc ecc
+"""
+import pandas as pd
+from pathlib import Path
+
+BASE_DIR = Path(__file__).resolve().parent
+train_set = pd.read_csv(BASE_DIR / "dataset/toxic-comment/train.csv")
+
+## mix-exercise/04_training_linear_model/adult.py
+Topic: ['preprocessing', 'validazione']
+from ucimlrepo import fetch_ucirepo 
+  
+# fetch dataset 
+adult = fetch_ucirepo(id=2) 
+  
+# data (as pandas dataframes) 
+X = adult.data.features 
+y = adult.data.targets 
+
+## mix-exercise/04_training_linear_model/bike_sharing.py
+Topic: ['preprocessing', 'regressione', 'validazione']
+import pandas as pd
+from pathlib import Path
+
+
+BASE_DIR = Path(__file__).resolve().parent
+day = pd.read_csv(BASE_DIR / "dataset/bike_sharing/day.csv")
+hour = pd.read_csv(BASE_DIR / "dataset/bike_sharing/hour.csv")
+# %% Ordiniamoli per serie temporale
+
+## mix-exercise/04_training_linear_model/wine_quality.py.py
+Topic: ['preprocessing', 'regressione', 'validazione']
+# pip install ucimlrepo
+from ucimlrepo import fetch_ucirepo 
+  
+# fetch dataset 
+wine_quality = fetch_ucirepo(id=186) 
+  
+# data (as pandas dataframes) 
+X = wine_quality.data.features 
+
+## mix-exercise/tennis_analize/tennis_oracle_analize.py
+Topic: []
+import pandas as pd
+from pathlib import Path
+
+BASE_DIR = Path(__file__).resolve().parent
+atp_matches_1968 = pd.read_csv(BASE_DIR / "tennis_atp-master/atp_matches_1968.csv")
+atp_matches_2024 = pd.read_csv(BASE_DIR / "tennis_atp-master/atp_matches_2024.csv")
+atp_matches_qual_chall_2024=pd.read_csv(BASE_DIR / "tennis_atp-master/atp_matches_qual_chall_2024.csv")
+# %%

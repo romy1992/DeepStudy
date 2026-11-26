@@ -1,0 +1,77 @@
+[
+  {
+    "name": "Appunti Studi IA",
+    "chars_extracted": 1723511,
+    "topics_keyword_counts": {
+      "pipeline": 73,
+      "validazione": 170,
+      "regolarizzazione": 122,
+      "ottimizzazione": 47,
+      "convoluzioni": 8,
+      "sequenze": 22,
+      "deploy": 10,
+      "monitoraggio": 17
+    },
+    "limite": "Conteggi di termini, non prova di completezza o correttezza; formule, immagini e layout non verificati."
+  },
+  {
+    "name": "Moroney",
+    "chars_extracted": 619227,
+    "topics_keyword_counts": {
+      "pipeline": 7,
+      "validazione": 125,
+      "regolarizzazione": 24,
+      "ottimizzazione": 19,
+      "convoluzioni": 96,
+      "sequenze": 128,
+      "deploy": 38,
+      "monitoraggio": 5
+    },
+    "limite": "Conteggi di termini, non prova di completezza o correttezza; formule, immagini e layout non verificati."
+  },
+  {
+    "name": "Chollet",
+    "chars_extracted": 697862,
+    "topics_keyword_counts": {
+      "pipeline": 8,
+      "validazione": 395,
+      "regolarizzazione": 40,
+      "ottimizzazione": 39,
+      "convoluzioni": 214,
+      "sequenze": 200,
+      "deploy": 6,
+      "monitoraggio": 30
+    },
+    "limite": "Conteggi di termini, non prova di completezza o correttezza; formule, immagini e layout non verificati."
+  },
+  {
+    "name": "Géron seconda edizione",
+    "chars_extracted": 1750325,
+    "topics_keyword_counts": {
+      "pipeline": 99,
+      "validazione": 59,
+      "regolarizzazione": 126,
+      "ottimizzazione": 110,
+      "convoluzioni": 249,
+      "sequenze": 153,
+      "deploy": 42,
+      "monitoraggio": 28
+    },
+    "limite": "Conteggi di termini, non prova di completezza o correttezza; formule, immagini e layout non verificati."
+  },
+  {
+    "name": "Goodfellow Bengio Courville",
+    "chars_extracted": 1506279,
+    "topics_keyword_counts": {
+      "pipeline": 2,
+      "validazione": 55,
+      "regolarizzazione": 176,
+      "ottimizzazione": 382,
+      "convoluzioni": 421,
+      "sequenze": 247,
+      "deploy": 12,
+      "monitoraggio": 13
+    },
+    "limite": "Conteggi di termini, non prova di completezza o correttezza; formule, immagini e layout non verificati."
+  }
+]
