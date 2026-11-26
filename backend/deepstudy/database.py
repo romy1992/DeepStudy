@@ -5,8 +5,15 @@ import sqlite3
 from pathlib import Path
 from datetime import datetime, timezone
 
-SCHEMA_VERSION = 3
-DEFAULT_SETTINGS = {"display_name": "", "theme": "system", "timezone": "Europe/Rome", "ai_mode": "off"}
+SCHEMA_VERSION = 4
+DEFAULT_SETTINGS = {
+    "display_name": "",
+    "theme": "system",
+    "timezone": "Europe/Rome",
+    "ai_mode": "off",
+    "ai_daily_budget_cents": 0,
+    "weekly_minutes": None,
+}
 
 # M1 owns the foundation tables. M2 adds import jobs without rewriting those contracts.
 MIGRATIONS = {
@@ -69,6 +76,99 @@ MIGRATIONS = {
         "CREATE INDEX material_versions_sha ON material_versions(sha256)",
         "CREATE INDEX import_items_job_state ON import_job_items(job_id, state)",
     ],
+    4: [
+        """CREATE TABLE study_sessions (
+            id TEXT PRIMARY KEY,
+            objective_id TEXT NOT NULL REFERENCES objectives(id),
+            mode TEXT NOT NULL CHECK(mode IN ('lettura','esercizio','quiz')),
+            state TEXT NOT NULL CHECK(state IN ('active','interrupted','completed')),
+            citation TEXT NOT NULL,
+            started_at TEXT NOT NULL,
+            updated_at TEXT NOT NULL
+        )""",
+        """CREATE TABLE question_meta (
+            question_version_id TEXT PRIMARY KEY REFERENCES question_versions(id),
+            bank TEXT NOT NULL CHECK(bank IN ('study','mock','flashcard')),
+            family TEXT NOT NULL,
+            kind TEXT NOT NULL CHECK(kind IN ('single','multi','flashcard')),
+            origin TEXT NOT NULL CHECK(origin IN ('authored','ai_draft'))
+        )""",
+        """CREATE TABLE practice_marks (
+            id TEXT PRIMARY KEY,
+            objective_id TEXT NOT NULL REFERENCES objectives(id),
+            note TEXT NOT NULL,
+            created_at TEXT NOT NULL
+        )""",
+        "CREATE TRIGGER practice_marks_no_update BEFORE UPDATE ON practice_marks BEGIN SELECT RAISE(ABORT,'immutable record'); END",
+        "CREATE TRIGGER practice_marks_no_delete BEFORE DELETE ON practice_marks BEGIN SELECT RAISE(ABORT,'immutable record'); END",
+        """CREATE TABLE tutor_turns (
+            id TEXT PRIMARY KEY,
+            policy TEXT NOT NULL,
+            question TEXT NOT NULL,
+            answer TEXT NOT NULL,
+            abstained INTEGER NOT NULL CHECK(abstained IN (0,1)),
+            citations TEXT NOT NULL,
+            created_at TEXT NOT NULL
+        )""",
+        """CREATE TABLE ai_reservations (
+            job_id TEXT PRIMARY KEY,
+            day TEXT NOT NULL,
+            cents INTEGER NOT NULL CHECK(cents >= 0),
+            status TEXT NOT NULL CHECK(status IN ('reserved','released','spent')),
+            created_at TEXT NOT NULL
+        )""",
+        """CREATE TABLE blueprint_questions (
+            blueprint_id TEXT NOT NULL REFERENCES exam_blueprints(id),
+            position INTEGER NOT NULL,
+            question_version_id TEXT NOT NULL REFERENCES question_versions(id),
+            PRIMARY KEY (blueprint_id, position)
+        )""",
+        """CREATE TABLE mock_sessions (
+            id TEXT PRIMARY KEY,
+            blueprint_id TEXT NOT NULL REFERENCES exam_blueprints(id),
+            state TEXT NOT NULL CHECK(state IN ('open','closed')),
+            started_at TEXT NOT NULL,
+            closed_at TEXT,
+            report TEXT
+        )""",
+        """CREATE TABLE mock_items (
+            mock_id TEXT NOT NULL REFERENCES mock_sessions(id),
+            position INTEGER NOT NULL,
+            question_version_id TEXT NOT NULL REFERENCES question_versions(id),
+            PRIMARY KEY (mock_id, position)
+        )""",
+        """CREATE TABLE mock_answers (
+            mock_id TEXT NOT NULL REFERENCES mock_sessions(id),
+            question_version_id TEXT NOT NULL,
+            attempt_id TEXT NOT NULL REFERENCES attempts(id),
+            PRIMARY KEY (mock_id, question_version_id)
+        )""",
+        """CREATE TABLE tombstones (
+            entity_id TEXT PRIMARY KEY,
+            entity_kind TEXT NOT NULL,
+            at TEXT NOT NULL
+        )""",
+        """CREATE TABLE local_device (
+            id INTEGER PRIMARY KEY CHECK(id = 1),
+            device_id TEXT NOT NULL
+        )""",
+        """CREATE TABLE sync_log (
+            seq INTEGER PRIMARY KEY AUTOINCREMENT,
+            event_id TEXT NOT NULL UNIQUE REFERENCES sync_events(id)
+        )""",
+        """CREATE TABLE lab_runs (
+            id TEXT PRIMARY KEY,
+            state TEXT NOT NULL,
+            timeout_s REAL NOT NULL,
+            exit_code INTEGER,
+            stdout TEXT NOT NULL,
+            stderr TEXT NOT NULL,
+            source_sha256 TEXT NOT NULL,
+            created_at TEXT NOT NULL
+        )""",
+        "CREATE INDEX attempts_question ON attempts(question_version_id)",
+        "CREATE INDEX study_sessions_objective ON study_sessions(objective_id, state)",
+    ],
 }
 
 
@@ -125,7 +225,8 @@ def migrate(path: Path, target: int = SCHEMA_VERSION):
 def read_settings(path: Path):
     with connect(path) as db:
         row = db.execute("SELECT value,revision FROM settings WHERE id=1").fetchone()
-        return {**json.loads(row["value"]), "revision": row["revision"]}
+        stored = json.loads(row["value"])
+        return {**DEFAULT_SETTINGS, **stored, "revision": row["revision"]}
 
 
 def save_settings(path: Path, value: dict, expected_revision: int):

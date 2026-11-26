@@ -25,11 +25,20 @@ Per le verifiche, esegui `./.venv/Scripts/python.exe -m pytest -q` e
 `node scripts/smoke.mjs` (richiede Edge). Per i prerequisiti nativi consulta
 la [guida Tauri](https://v2.tauri.app/start/prerequisites/).
 
+## Percorso
+
+La panoramica propone un passo: studio, ripasso o simulazione locale.
+Aprire una pagina non sblocca il modulo successivo. Il tutor cita i brani
+già sul PC oppure si astiene; non c’è un modello generativo e nessun testo
+esce dal computer. La simulazione usa domande diverse dallo studio e mostra
+il rapporto solo alla chiusura. Il laboratorio esegue codice solo su richiesta,
+in isolamento, e non assegna un voto. Lo scambio fra dispositivi è un pacchetto
+locale, non un cloud. Prove e limiti sono nel registro milestone.
+
 ## Catalogo
 
 Apri Biblioteca e indica il percorso assoluto di una cartella su questo PC.
-La lettura è statica: script, celle e modelli non vengono eseguiti. Prove e limiti
-sono nel registro milestone.
+La lettura è statica: script, celle e modelli non vengono eseguiti.
 
 Stato corrente e aggiornamenti separati dagli originali:
 

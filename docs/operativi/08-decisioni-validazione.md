@@ -40,3 +40,4 @@ Nessuna spesa o invio di materiali a provider AI è autorizzato da questo regist
 
 - 2026-11-26: completata M1 su Windows 11 x64. Sessione locale temporanea con cookie HttpOnly e token monouso, profili Windows separati dagli originali e ripristino su profilo vuoto con limite ZIP di 64 MiB. Esiti in 06-milestone.md. M0 resta parziale.
 - 2026-11-26: avviata M2 sul catalogo locale. Schema SQLite 3, con ripristino dei backup M1 di schema 2. Importazione read-only verificata su fixture Linux; OCR non eseguito perché il motore è assente; corpus studyIA e Drive non importati. Originali v0.1 non modificati. L01–L04 restano aperte. Esiti in 06-milestone.md.
+- 2026-11-26: richiesta «continua con tutti gli M». Implementati i meccanismi M3–M9 in locale. Quota oraria non fissata. Nessun provider AI, nessuna spesa e nessun invio. Nessuna certificazione scelta. Sync remoto e chiavi non configurati. Rubrica P05 non applicata. L01–L04 restano aperte. Esiti in 06-milestone.md.
