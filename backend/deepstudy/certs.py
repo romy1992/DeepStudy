@@ -5,7 +5,7 @@ import json
 import uuid
 from pathlib import Path
 
-from .curriculum import LOCAL_BLUEPRINT, ensure_mock_bank
+from .curriculum import CERTIFICATION, LOCAL_BLUEPRINT, ensure_mock_bank
 from .database import connect
 from .errors import StudyError
 from .quiz import record_attempt, score_answer, utcnow
@@ -17,9 +17,11 @@ def list_blueprints(db_path: Path) -> dict:
             "SELECT id, provider, code, version, checked_at, source, status FROM exam_blueprints ORDER BY checked_at, id"
         ).fetchall()
     return {
-        "certification_chosen": False,
+        "certification_chosen": CERTIFICATION["chosen"],
+        "track": CERTIFICATION["track"],
+        "official_matrix": CERTIFICATION["official_matrix"],
         "items": [dict(row) for row in rows],
-        "note": "L03 è aperta: questi blueprint sono bozze locali, non esami ufficiali.",
+        "note": CERTIFICATION["note"],
     }
 
 
@@ -41,14 +43,14 @@ def create_blueprint(db_path: Path, version: str, source: str, question_ids: lis
         db.execute(
             """INSERT INTO exam_blueprints(id, provider, code, version, checked_at, source, status)
                VALUES(?,?,?,?,?,?,?)""",
-            (blueprint_id, "locale", "NESSUNA", version, utcnow()[:10], source, "bozza"),
+            (blueprint_id, "locale", "ML-DL", version, utcnow()[:10], source, "bozza"),
         )
         for position, question_id in enumerate(question_ids):
             db.execute(
                 "INSERT INTO blueprint_questions(blueprint_id, position, question_version_id) VALUES(?,?,?)",
                 (blueprint_id, position, question_id),
             )
-    return {"id": blueprint_id, "provider": "locale", "code": "NESSUNA", "version": version, "status": "bozza"}
+    return {"id": blueprint_id, "provider": "locale", "code": "ML-DL", "version": version, "status": "bozza"}
 
 
 def _open_payload(db, mock_id: str) -> dict:
@@ -171,8 +173,9 @@ def close_mock(db_path: Path, mock_id: str) -> dict:
             "total": len(items),
             "domains": list(domains.values()),
             "pass_probability": None,
-            "note": "Punteggio di questa simulazione. Non è una probabilità di promozione e non usa un esame ufficiale.",
-            "certification_chosen": False,
+            "note": "Punteggio di questa simulazione sul percorso ML e DL. Non è una probabilità di promozione e non chiude la matrice di un esame.",
+            "certification_chosen": True,
+            "track": CERTIFICATION["track"],
         }
         closed = utcnow()
         db.execute(
@@ -185,4 +188,4 @@ def close_mock(db_path: Path, mock_id: str) -> dict:
 def seed_local_blueprint(db_path: Path) -> dict:
     with connect(db_path) as db:
         ensure_mock_bank(db)
-    return {"id": LOCAL_BLUEPRINT["id"], "certification_chosen": False}
+    return {"id": LOCAL_BLUEPRINT["id"], "certification_chosen": True, "track": CERTIFICATION["track"], "official_matrix": False}

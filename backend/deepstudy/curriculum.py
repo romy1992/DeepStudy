@@ -1,10 +1,11 @@
-"""Percorso v0.1. Le ore sono stime del documento, non una quota personale."""
+"""Percorso v0.1. La quota settimanale scelta è 8–10 ore; il piano usa 9 ore."""
 from __future__ import annotations
 
 CURRICULUM_VERSION = "v0.1"
+WEEKLY_MINUTES = 540
 HOURS_NOTE = (
-    "Le ore indicate sono stime del documento v0.1, non una quota settimanale personale. "
-    "La quota non è stata fissata: il passo successivo segue prerequisiti, errori e ripassi."
+    "Quota scelta: 8–10 ore a settimana. Il piano ne usa 9, cioè 540 minuti. "
+    "Le ore dei singoli moduli restano stime del documento v0.1."
 )
 
 UNITS = (
@@ -324,13 +325,19 @@ MOCK_QUESTIONS = (
 )
 
 LOCAL_BLUEPRINT = {
-    "id": "bp-locale-nessuna",
+    "id": "bp-ml-dl",
     "provider": "locale",
-    "code": "NESSUNA",
-    "version": "2026-11-26",
-    "checked_at": "2026-11-26",
-    "source": "Nessuna certificazione scelta (L03 aperta). Domande originali di prova, non un esame e non un dump.",
+    "code": "ML-DL",
+    "version": "2026-11-27",
+    "checked_at": "2026-11-27",
+    "source": "Percorso scelto: certificazioni di Machine Learning e Deep Learning. La matrice ufficiale per singolo esame non è chiusa. Domande originali, non un dump.",
     "status": "bozza",
+}
+CERTIFICATION = {
+    "chosen": True,
+    "track": "Machine Learning e Deep Learning",
+    "official_matrix": False,
+    "note": "Il campo è ML e DL. Databricks ML Associate e AWS MLA-C02 restano i candidati del pacchetto; non è stato scelto un solo esame e la matrice per obiettivo non è chiusa.",
 }
 
 

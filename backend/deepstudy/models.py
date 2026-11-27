@@ -116,6 +116,12 @@ class SyncExchangeRequest(BaseModel):
     events: list[dict] = Field(default_factory=list, max_length=500)
 
 
+class ReferenceRequest(BaseModel):
+    model_config = ConfigDict(extra="forbid", strict=True)
+    title: str = Field(min_length=3, max_length=120)
+    text: str = Field(min_length=20, max_length=4000)
+
+
 class LabRequest(BaseModel):
     model_config = ConfigDict(extra="forbid", strict=True)
     source: str = Field(min_length=1, max_length=8000)

@@ -5,14 +5,14 @@ import sqlite3
 from pathlib import Path
 from datetime import datetime, timezone
 
-SCHEMA_VERSION = 4
+SCHEMA_VERSION = 5
 DEFAULT_SETTINGS = {
     "display_name": "",
     "theme": "system",
     "timezone": "Europe/Rome",
     "ai_mode": "off",
     "ai_daily_budget_cents": 0,
-    "weekly_minutes": None,
+    "weekly_minutes": 540,
 }
 
 # M1 owns the foundation tables. M2 adds import jobs without rewriting those contracts.
@@ -169,6 +169,14 @@ MIGRATIONS = {
         "CREATE INDEX attempts_question ON attempts(question_version_id)",
         "CREATE INDEX study_sessions_objective ON study_sessions(objective_id, state)",
     ],
+    5: [
+        """CREATE TABLE added_references (
+            id TEXT PRIMARY KEY,
+            title TEXT NOT NULL,
+            text TEXT NOT NULL,
+            created_at TEXT NOT NULL
+        )""",
+    ],
 }
 
 
@@ -226,7 +234,10 @@ def read_settings(path: Path):
     with connect(path) as db:
         row = db.execute("SELECT value,revision FROM settings WHERE id=1").fetchone()
         stored = json.loads(row["value"])
-        return {**DEFAULT_SETTINGS, **stored, "revision": row["revision"]}
+        merged = {**DEFAULT_SETTINGS, **stored, "revision": row["revision"]}
+        if merged.get("weekly_minutes") is None:
+            merged["weekly_minutes"] = DEFAULT_SETTINGS["weekly_minutes"]
+        return merged
 
 
 def save_settings(path: Path, value: dict, expected_revision: int):

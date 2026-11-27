@@ -20,13 +20,13 @@ from .exchange import exchange, remote_blocked
 from .labs import run_lab, sandbox_available
 from .models import (
     AttemptRequest, BlueprintRequest, EvidenceRequest, ImportRequest, LabRequest, MockAnswerRequest,
-    MockStartRequest, NoteRequest, PracticeRequest, QuestionRequest, Settings, StudySessionRequest,
+    MockStartRequest,     NoteRequest, PracticeRequest, QuestionRequest, ReferenceRequest, Settings, StudySessionRequest,
     SyncExchangeRequest, TutorRequest,
 )
 from .quiz import create_question, flashcards, promote_question, record_attempt, reviews_due
 from .release import LIMITATIONS
 from .study import add_evidence, add_practice, curriculum_view, dashboard, get_note, get_session, interrupt_session, resume_session, save_note, start_session, tombstone_note
-from .tutor import answer as tutor_answer
+from .tutor import add_reference, answer as tutor_answer, list_references
 
 
 def create_app(profile: Path, origin: str, bootstrap_token: str, static_dir: Path | None = None):
@@ -103,7 +103,9 @@ def create_app(profile: Path, origin: str, bootstrap_token: str, static_dir: Pat
             settings = read_settings(db)
             return {"milestone": "M9", "schema_version": SCHEMA_VERSION, "mode": "local", "ai_enabled": False,
                     "ai_mode": settings["ai_mode"], "ai_daily_budget_cents": settings["ai_daily_budget_cents"],
-                    "tutor_local": True, "sync_remote": False, "certification_chosen": False,
+                    "tutor_local": True, "sync_remote": False, "certification_chosen": True,
+                    "certification_track": "Machine Learning e Deep Learning", "official_matrix": False,
+                    "weekly_minutes": settings["weekly_minutes"],
                     "lab_sandbox": sandbox_available(), "profile": profile.name, "can_restore": is_empty_profile(profile),
                     "import_formats": sorted(ALLOWLIST), "ocr_engine": engine_name(), "limitations": LIMITATIONS}
 
@@ -225,6 +227,14 @@ def create_app(profile: Path, origin: str, bootstrap_token: str, static_dir: Pat
     @app.get("/api/flashcards")
     def cards():
         return flashcards(db)
+
+    @app.get("/api/references")
+    def references():
+        return list_references(db)
+
+    @app.post("/api/references")
+    def references_add(body: ReferenceRequest, request: Request):
+        return call(request, lambda: add_reference(db, body.title, body.text))
 
     @app.post("/api/tutor/messages")
     def tutor(body: TutorRequest, request: Request):

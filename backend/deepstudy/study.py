@@ -5,8 +5,8 @@ import json
 import uuid
 from pathlib import Path
 
-from .curriculum import CURRICULUM_VERSION, HOURS_NOTE, UNITS, ensure_curriculum, ensure_study_questions, unit
-from .database import connect
+from .curriculum import CERTIFICATION, CURRICULUM_VERSION, HOURS_NOTE, UNITS, WEEKLY_MINUTES, ensure_curriculum, ensure_study_questions, unit
+from .database import connect, read_settings
 from .errors import StudyError
 from .exchange import device_id, record_event
 from .quiz import correct_objectives, mastery_rows, rebuild_reviews
@@ -311,7 +311,7 @@ def dashboard(db_path: Path, *, now: str | None = None) -> dict:
             "kind": "simulazione",
             "objective_id": "c12",
             "title": "Consolidamento e simulazioni",
-            "reason": "I moduli di base hanno un tentativo corretto. La certificazione ufficiale non è stata scelta.",
+            "reason": "I moduli di base hanno un tentativo corretto. Il campo è ML e DL; la matrice del singolo esame non è chiusa.",
         }
     gaps = [
         {"id": item["id"], "title": item["title"], "reason": "Nessun tentativo corretto su un quesito di studio."}
@@ -327,9 +327,19 @@ def dashboard(db_path: Path, *, now: str | None = None) -> dict:
             "note": "Le letture restano separate dai tentativi, dalla padronanza e dalla copertura d'esame.",
         },
         "mastery": [levels.get(item["id"], {"id": item["id"], "title": item["title"], "level": "non_iniziato", "reason": "Nessuna lettura e nessun tentativo."}) for item in UNITS],
-        "certification_chosen": False,
+        "certification_chosen": CERTIFICATION["chosen"],
+        "certification_track": CERTIFICATION["track"],
+        "official_matrix": CERTIFICATION["official_matrix"],
         "hours_note": HOURS_NOTE,
+        "weekly_minutes": _weekly_minutes(db_path),
     }
+
+
+def _weekly_minutes(db_path: Path) -> int:
+    value = read_settings(db_path).get("weekly_minutes")
+    if isinstance(value, int) and value > 0:
+        return value
+    return WEEKLY_MINUTES
 
 
 def partial_reason(reason: str) -> str:

@@ -7,6 +7,7 @@ import uuid
 from datetime import datetime, timezone
 from pathlib import Path
 
+from .curriculum import UNITS
 from .database import connect
 from .errors import StudyError
 
@@ -82,10 +83,15 @@ def answer_cloud(db_path: Path, question: str, estimate: int, cap: int, *, hook=
     raise AssertionError("Il provider cloud non restituisce una risposta.")
 
 
+def _candidate(text: str, **fields) -> dict:
+    return {"text": text, **fields}
+
+
 def _retrieve(db, question: str) -> dict | None:
     wanted = _tokens(question)
     if not wanted:
         return None
+    candidates = []
     rows = db.execute(
         """SELECT c.locator, c.text, c.version_id, v.sha256, v.material_id, m.locator AS material_locator
            FROM chunks c
@@ -93,19 +99,53 @@ def _retrieve(db, question: str) -> dict | None:
            JOIN materials m ON m.id=v.material_id
            WHERE v.extraction_state='ready' AND c.quality='extracted'"""
     ).fetchall()
+    for row in rows:
+        candidates.append(_candidate(
+            row["text"], origin="file", version_id=row["version_id"], locator=row["locator"],
+            material_id=row["material_id"], material_locator=row["material_locator"], sha256=row["sha256"], title=row["material_locator"],
+        ))
+    for row in db.execute("SELECT id, title, text FROM added_references ORDER BY created_at"):
+        candidates.append(_candidate(
+            row["text"], origin="aggiunta", version_id=None, locator=f"reference:{row['id']}",
+            material_id=None, material_locator=None, sha256=None, title=row["title"],
+        ))
+    for unit in UNITS:
+        candidates.append(_candidate(
+            unit["explanation"], origin="percorso", version_id=None, locator=f"curriculum:{unit['id']}",
+            material_id=None, material_locator=None, sha256=None, title=unit["title"],
+        ))
     best = None
     best_score = 0
-    for row in rows:
-        if INJECTION.search(row["text"]):
+    for item in candidates:
+        if INJECTION.search(item["text"]):
             continue
-        score = sum(1 for token in wanted if token in row["text"].lower())
+        score = sum(1 for token in wanted if token in item["text"].lower())
         if score > best_score:
-            best = row
+            best = item
             best_score = score
     needed = 1 if len(wanted) == 1 else 2
     if not best or best_score < needed:
         return None
     return best
+
+
+def add_reference(db_path: Path, title: str, text: str) -> dict:
+    if INJECTION.search(text) or INJECTION.search(title):
+        raise StudyError(422, "reference_rejected", "Il testo sembra un'istruzione per il tutor. Aggiungi un contenuto, non un comando.")
+    reference_id = uuid.uuid4().hex
+    created = utcnow()
+    with connect(db_path) as db:
+        db.execute(
+            "INSERT INTO added_references(id, title, text, created_at) VALUES(?,?,?,?)",
+            (reference_id, title.strip(), text.strip(), created),
+        )
+    return {"id": reference_id, "title": title.strip(), "created_at": created, "origin": "aggiunta"}
+
+
+def list_references(db_path: Path) -> dict:
+    with connect(db_path) as db:
+        rows = db.execute("SELECT id, title, created_at FROM added_references ORDER BY created_at").fetchall()
+    return {"items": [dict(row) for row in rows]}
 
 
 def answer_local(db_path: Path, question: str, session_id: str | None) -> dict:
@@ -117,11 +157,14 @@ def answer_local(db_path: Path, question: str, session_id: str | None) -> dict:
             abstained = 1
         else:
             excerpt = found["text"][:500]
+            source = {"file": "un tuo file", "aggiunta": "un testo che hai aggiunto", "percorso": "il percorso ML e DL"}[found["origin"]]
             text = (
                 "Nessun modello generativo è installato. Questa è una citazione, non un testo generato. "
-                f"Secondo {found['locator']}: «{excerpt}»"
+                f"Secondo {source}, {found['locator']}: «{excerpt}»"
             )
             citations = [{
+                "origin": found["origin"],
+                "title": found["title"],
                 "version_id": found["version_id"],
                 "locator": found["locator"],
                 "material_id": found["material_id"],

@@ -77,7 +77,7 @@ Limiti aperti: file oltre 32 MiB e cartelle oltre 20.000 file sono rifiutati; l'
 
 ## Task M3–M9
 
-Schema SQLite 4. Le tabelle immutabili di M1 non sono state riscritte. Un backup di schema 2 si ripristina ancora e arriva allo schema corrente. La quota oraria personale non è fissata: le ore del curriculum restano stime del documento v0.1. La rubrica 80/100 non è applicata.
+Schema SQLite 5. Le tabelle immutabili di M1 non sono state riscritte. Un backup di schema 2 si ripristina ancora e arriva allo schema corrente. La quota scelta il 27 novembre 2026 è 8–10 ore a settimana, con piano a 9 ore. Il campo delle certificazioni è Machine Learning e Deep Learning; la matrice del singolo esame non è chiusa. Il tutor cita file, testi aggiunti e il percorso. La rubrica 80/100 non è applicata.
 
 | ID | Risultato | Prova | Stato |
 |---|---|---|---|
